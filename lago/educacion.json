@@ -1,0 +1,600 @@
+{
+ "cifras": {
+  "estatales": {
+   "fuente": "ba_establecimientos_educativos",
+   "unidad": "establecimientos de gestión estatal",
+   "valor": 1773,
+   "vigencia": "2026-10"
+  },
+  "registros": {
+   "fuente": "ba_establecimientos_educativos",
+   "unidad": "establecimientos educativos (oferta por nivel)",
+   "valor": 2767,
+   "vigencia": "2026-10"
+  }
+ },
+ "desgloses": {
+  "por_barrio": {
+   "filas": [
+    [
+     "PALERMO",
+     170
+    ],
+    [
+     "BALVANERA",
+     151
+    ],
+    [
+     "CABALLITO",
+     146
+    ],
+    [
+     "FLORES",
+     132
+    ],
+    [
+     "VILLA LUGANO",
+     130
+    ],
+    [
+     "ALMAGRO",
+     123
+    ],
+    [
+     "RECOLETA",
+     114
+    ],
+    [
+     "BARRACAS",
+     104
+    ],
+    [
+     "BELGRANO",
+     104
+    ],
+    [
+     "VILLA URQUIZA",
+     78
+    ],
+    [
+     "VILLA DEVOTO",
+     77
+    ],
+    [
+     "MATADEROS",
+     75
+    ],
+    [
+     "VILLA SOLDATI",
+     70
+    ],
+    [
+     "SAN NICOLAS",
+     66
+    ],
+    [
+     "PARQUE PATRICIOS",
+     65
+    ],
+    [
+     "VILLA CRESPO",
+     64
+    ],
+    [
+     "NUEVA POMPEYA",
+     62
+    ],
+    [
+     "RETIRO",
+     56
+    ],
+    [
+     "SAN CRISTOBAL",
+     56
+    ],
+    [
+     "NUÑEZ",
+     51
+    ],
+    [
+     "LINIERS",
+     50
+    ],
+    [
+     "SAAVEDRA",
+     50
+    ],
+    [
+     "FLORESTA",
+     48
+    ],
+    [
+     "LA BOCA",
+     48
+    ],
+    [
+     "MONSERRAT",
+     48
+    ],
+    [
+     "PARQUE CHACABUCO",
+     46
+    ],
+    [
+     "VILLA DEL PARQUE",
+     45
+    ],
+    [
+     "SAN TELMO",
+     42
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     41
+    ],
+    [
+     "COLEGIALES",
+     40
+    ],
+    [
+     "CONSTITUCION",
+     40
+    ],
+    [
+     "MONTE CASTRO",
+     38
+    ],
+    [
+     "VELEZ SARSFIELD",
+     36
+    ],
+    [
+     "CHACARITA",
+     33
+    ],
+    [
+     "BOEDO",
+     32
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     32
+    ],
+    [
+     "VILLA PUEYRREDON",
+     29
+    ],
+    [
+     "PATERNAL",
+     26
+    ],
+    [
+     "VILLA LURO",
+     24
+    ],
+    [
+     "AGRONOMIA",
+     22
+    ],
+    [
+     "VILLA SANTA RITA",
+     20
+    ],
+    [
+     "VILLA RIACHUELO",
+     18
+    ],
+    [
+     "VILLA ORTUZAR",
+     14
+    ],
+    [
+     "VILLA REAL",
+     14
+    ],
+    [
+     "VERSALLES",
+     11
+    ],
+    [
+     "COGHLAN",
+     10
+    ],
+    [
+     "PARQUE CHAS",
+     9
+    ],
+    [
+     "PUERTO MADERO",
+     7
+    ]
+   ],
+   "fuente": "ba_establecimientos_educativos",
+   "unidad": "establecimientos educativos",
+   "vigencia": "2026-10"
+  },
+  "por_gestion": {
+   "filas": [
+    [
+     "Estatal",
+     1773
+    ],
+    [
+     "Privada",
+     988
+    ],
+    [
+     "sin dato",
+     6
+    ]
+   ],
+   "fuente": "ba_establecimientos_educativos",
+   "unidad": "establecimientos educativos",
+   "vigencia": "2026-10"
+  },
+  "por_nivel": {
+   "filas": [
+    [
+     "Nivel primario común",
+     485
+    ],
+    [
+     "Servicios complementarios/alternativos",
+     319
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes",
+     289
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal",
+     193
+    ],
+    [
+     "Nivel secundario común",
+     191
+    ],
+    [
+     "Nivel superior no universitario común",
+     186
+    ],
+    [
+     "Nivel secundario de jóvenes y adultos",
+     161
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel secundario común",
+     160
+    ],
+    [
+     "Formación profesional / Capacitación laboral para jóvenes y adultos",
+     151
+    ],
+    [
+     "Formación profesional / Capacitación laboral para jóvenes y adultos | Nivel primario de jóvenes y adultos",
+     86
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común",
+     69
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel secundario común",
+     69
+    ],
+    [
+     "Nivel primario de jóvenes y adultos",
+     67
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común",
+     50
+    ],
+    [
+     "Cursos y talleres de la submodalidad artística",
+     40
+    ],
+    [
+     "Nivel inicial común - Jardín maternal",
+     21
+    ],
+    [
+     "Nivel primario común | Nivel secundario común",
+     19
+    ],
+    [
+     "Integración de modalidad especial | Nivel primario especial",
+     16
+    ],
+    [
+     "Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     14
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel secundario común | Nivel superior no universitario común",
+     13
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel secundario común | Nivel superior no universitario común",
+     11
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes | Nivel primario especial",
+     10
+    ],
+    [
+     "Nivel primario especial",
+     9
+    ],
+    [
+     "Cursos de Capacitación de nivel superior | Nivel superior no universitario común",
+     7
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Integración de modalidad especial | Nivel inicial especial - Jardín de infantes | Nivel inicial especial - Jardín maternal | Nivel primario especial",
+     7
+    ],
+    [
+     "Formación profesional / Capacitación laboral para jóvenes y adultos | Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     7
+    ],
+    [
+     "sin dato",
+     6
+    ],
+    [
+     "Cursos de Capacitación de nivel superior | Formación profesional / Capacitación laboral para jóvenes y adultos",
+     5
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Integración de modalidad especial | Nivel primario especial",
+     5
+    ],
+    [
+     "Formación profesional / Capacitación laboral para jóvenes y adultos | Nivel superior no universitario común",
+     5
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial especial - Jardín de infantes | Nivel primario especial",
+     5
+    ],
+    [
+     "Nivel primario de jóvenes y adultos | Nivel secundario de jóvenes y adultos",
+     5
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Integración de modalidad especial",
+     4
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes",
+     4
+    ],
+    [
+     "Nivel secundario común | Nivel superior no universitario común",
+     4
+    ],
+    [
+     "Cursos y talleres de la escuela especial",
+     3
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes | Nivel primario especial | Nivel secundario especial",
+     3
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial especial - Jardín de infantes | Nivel inicial especial - Jardín maternal | Nivel primario especial",
+     3
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     3
+    ],
+    [
+     "Ciclos de enseñanza artística | Cursos y talleres de la submodalidad artística | Nivel secundario común | Nivel superior no universitario común",
+     2
+    ],
+    [
+     "Ciclos de enseñanza artística | Cursos y talleres de la submodalidad artística | Nivel superior no universitario común | Trayecto Artístico Profesional",
+     2
+    ],
+    [
+     "Ciclos de enseñanza artística | Nivel secundario común | Nivel superior no universitario común",
+     2
+    ],
+    [
+     "Ciclos de enseñanza artística | Nivel superior no universitario común | Trayecto Artístico Profesional",
+     2
+    ],
+    [
+     "Cursos de Capacitación de nivel superior",
+     2
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Integración de modalidad especial | Nivel inicial especial - Jardín maternal | Nivel primario especial",
+     2
+    ],
+    [
+     "Cursos y talleres de la submodalidad artística | Nivel inicial común - Jardín de infantes",
+     2
+    ],
+    [
+     "Cursos y talleres de la submodalidad artística | Nivel superior no universitario común | Trayecto Artístico Profesional",
+     2
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial especial - Jardín maternal | Nivel primario especial",
+     2
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel primario de jóvenes y adultos | Nivel secundario común",
+     2
+    ],
+    [
+     "Nivel inicial de la submodalidad domiciliaria/hospitalaria | Nivel inicial especial de la submodalidad domiciliaria/hospitalaria | Nivel primario de la submodalidad domiciliaria/hospitalaria | Nivel primario especial de la submodalidad domiciliaria/hospi",
+     2
+    ],
+    [
+     "Nivel inicial de la submodalidad domiciliaria/hospitalaria | Nivel primario de la submodalidad domiciliaria/hospitalaria | Nivel secundario de la submodalidad domiciliaria/hospitalaria | Servicios complementarios/alternativos",
+     2
+    ],
+    [
+     "Nivel primario común | Nivel secundario común | Nivel superior no universitario común",
+     2
+    ],
+    [
+     "Nivel secundario común | Nivel secundario de jóvenes y adultos | Nivel superior no universitario común",
+     2
+    ],
+    [
+     "Nivel secundario de jóvenes y adultos | Nivel superior no universitario común",
+     2
+    ],
+    [
+     "Ciclos de enseñanza artística | Cursos de Capacitación de nivel superior | Cursos y talleres de la submodalidad artística | Nivel secundario común | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Ciclos de enseñanza artística | Cursos y talleres de la submodalidad artística | Formación profesional / Capacitación laboral para jóvenes y adultos | Nivel secundario común | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Ciclos de enseñanza artística | Nivel secundario común",
+     1
+    ],
+    [
+     "Ciclos de enseñanza artística | Nivel secundario común | Nivel secundario de jóvenes y adultos | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Ciclos de enseñanza artística | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Educación integral para adolescentes y jóvenes | Integración de modalidad especial | Nivel primario especial",
+     1
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Educación integral para adolescentes y jóvenes | Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel inicial especial - Jardín de infantes | Nivel primario común | Ni",
+     1
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Educación integral para adolescentes y jóvenes | Nivel primario especial",
+     1
+    ],
+    [
+     "Cursos y talleres de la escuela especial | Nivel primario especial",
+     1
+    ],
+    [
+     "Cursos y talleres de la submodalidad artística | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes | Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel primario especial | Nivel secundario común | Nivel secundario especial | Nivel superi",
+     1
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes | Nivel primario especial | Nivel secundario de jóvenes y adultos | Nivel secundario especial",
+     1
+    ],
+    [
+     "Educación integral para adolescentes y jóvenes | Nivel secundario especial",
+     1
+    ],
+    [
+     "Formación profesional / Capacitación laboral para jóvenes y adultos | Nivel secundario común",
+     1
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial de la submodalidad domiciliaria/hospitalaria | Nivel inicial especial de la submodalidad domiciliaria/hospitalaria | Nivel primario de la submodalidad domiciliaria/hospitalaria | Nivel primario especial",
+     1
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial especial - Jardín de infantes",
+     1
+    ],
+    [
+     "Integración de modalidad especial | Nivel inicial especial - Jardín maternal",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel primario de jóvenes y adultos",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel primario común | Nivel primario de jóvenes y adultos | Nivel secundario común",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel secundario común",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel inicial común - Jardín maternal | Servicios complementarios/alternativos",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel primario de jóvenes y adultos",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel primario de jóvenes y adultos | Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     1
+    ],
+    [
+     "Nivel inicial común - Jardín de infantes | Nivel primario común | Nivel secundario común | Nivel secundario de jóvenes y adultos",
+     1
+    ],
+    [
+     "Nivel inicial especial - Jardín de infantes | Nivel primario especial",
+     1
+    ],
+    [
+     "Nivel inicial especial - Jardín de infantes | Nivel primario especial | Nivel secundario especial",
+     1
+    ],
+    [
+     "Nivel primario común | Nivel superior no universitario común",
+     1
+    ],
+    [
+     "Nivel primario especial | Nivel secundario especial",
+     1
+    ],
+    [
+     "Nivel superior no universitario común | Trayecto Artístico Profesional",
+     1
+    ],
+    [
+     "ivel secundario adultos de la submodalidad domiciliaria/hospitalaria | Nivel inicial de la submodalidad domiciliaria/hospitalaria | Nivel inicial especial de la submodalidad domiciliaria/hospitalaria | Nivel primario de la submodalidad domiciliaria/hospi",
+     1
+    ]
+   ],
+   "fuente": "ba_establecimientos_educativos",
+   "unidad": "establecimientos educativos",
+   "vigencia": "2026-10"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_establecimientos_educativos",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Establecimientos Educativos",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/establecimientos-educativos"
+  }
+ ],
+ "nota": "Una fila es una oferta (nivel/modalidad) de un establecimiento: un mismo edificio puede contar varias veces. No hay matrícula (alumnos) en este conjunto.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "educacion"
+}

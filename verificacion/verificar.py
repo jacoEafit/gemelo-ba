@@ -96,7 +96,8 @@ DOMINIO = {("atlas_zonas", "registros"): (15, 15), ("atlas_distritos", "registro
            ("geoinfraestructura", "lineas"): (6, 6), ("geoinfraestructura", "estaciones_distintas"): (80, 120),
            ("geoinfraestructura", "estaciones_linea"): (80, 120),  # 48 era el nº de filas de viajes_anual, no estaciones
            ("demografia", "poblacion_comunas"): (2.8e6, 3.4e6), ("demografia", "poblacion_barrios"): (2.8e6, 3.4e6),
-           ("seguridad", "meses_con_datos_2024"): (12, 12), ("calidad_aire", "estaciones_ambientales"): (3, 10)}
+           ("seguridad", "meses_con_datos_2024"): (12, 12), ("calidad_aire", "estaciones_ambientales"): (3, 10),
+           ("salud", "registros"): (30, 45), ("espacios_verdes", "superficie_m2"): (10e6, 25e6)}
 for (tema, clave), (lo, hi) in DOMINIO.items():
     ruta = f"lago/{tema}.json"
     if glob.glob(ruta):
@@ -108,10 +109,20 @@ def tot(tema, k):
     p = f"lago/{tema}.json"
     return sum(v for _, v in json.load(open(p, encoding="utf-8"))["desgloses"][k]["filas"]) if glob.glob(p) else None
 for tema, k, c in [("cultura", "por_barrio", "registros"), ("edificios", "por_barrio", "registros"),
-                   ("seguridad", "por_barrio_2024", "delitos_2024")]:
+                   ("seguridad", "por_barrio_2024", "delitos_2024"), ("espacios_verdes", "por_barrio", "registros"),
+                   ("educacion", "por_barrio", "registros"), ("salud", "por_barrio", "registros")]:
     if glob.glob(f"lago/{tema}.json"):
         esperado = json.load(open(f"lago/{tema}.json", encoding="utf-8"))["cifras"][c]["valor"]
         check(f"coherencia {tema}.{k} suma {c}", tot(tema, k) == esperado, (tot(tema, k), esperado))
+
+# Barrios: los desgloses por barrio de servicios usan los 48 nombres; la superficie verde suma el total (±48 m² de redondeo)
+for tema in ("espacios_verdes", "educacion"):
+    if glob.glob(f"lago/{tema}.json"):
+        n = len(json.load(open(f"lago/{tema}.json", encoding="utf-8"))["desgloses"]["por_barrio"]["filas"])
+        check(f"dominio {tema}.por_barrio: 48 barrios", n == 48, n)
+if glob.glob("lago/espacios_verdes.json"):
+    v = json.load(open("lago/espacios_verdes.json", encoding="utf-8"))["cifras"]["superficie_m2"]["valor"]
+    check("coherencia espacios_verdes.m2_por_barrio suma superficie_m2", abs(tot("espacios_verdes", "m2_por_barrio") - v) <= 48)
 
 # Presupuesto: cada desglose del devengado suma el total de su año; la ejecución es un porcentaje
 if glob.glob("lago/municipio.json"):

@@ -1,0 +1,190 @@
+{
+ "cifras": {
+  "registros": {
+   "fuente": "ba_hospitales",
+   "unidad": "hospitales públicos",
+   "valor": 36,
+   "vigencia": "2026-10"
+  }
+ },
+ "desgloses": {
+  "por_barrio": {
+   "filas": [
+    [
+     "BARRACAS",
+     6
+    ],
+    [
+     "PARQUE PATRICIOS",
+     5
+    ],
+    [
+     "CABALLITO",
+     4
+    ],
+    [
+     "RECOLETA",
+     3
+    ],
+    [
+     "FLORES",
+     2
+    ],
+    [
+     "LA BOCA",
+     2
+    ],
+    [
+     "MONTE CASTRO",
+     2
+    ],
+    [
+     "ALMAGRO",
+     1
+    ],
+    [
+     "BALVANERA",
+     1
+    ],
+    [
+     "BELGRANO",
+     1
+    ],
+    [
+     "COGHLAN",
+     1
+    ],
+    [
+     "LINIERS",
+     1
+    ],
+    [
+     "PALERMO",
+     1
+    ],
+    [
+     "PARQUE CHAS",
+     1
+    ],
+    [
+     "PATERNAL",
+     1
+    ],
+    [
+     "SAN CRISTOBAL",
+     1
+    ],
+    [
+     "VILLA DEVOTO",
+     1
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     1
+    ],
+    [
+     "VILLA SOLDATI",
+     1
+    ]
+   ],
+   "fuente": "ba_hospitales",
+   "unidad": "hospitales",
+   "vigencia": "2026-10"
+  },
+  "por_especialidad": {
+   "filas": [
+    [
+     "Basicas - Criticas - Otras",
+     13
+    ],
+    [
+     "Salud Mental",
+     5
+    ],
+    [
+     "Odontologia",
+     3
+    ],
+    [
+     "Pediatria",
+     3
+    ],
+    [
+     "Med. Fisica - Rehabilitacion",
+     2
+    ],
+    [
+     "Oftalmologia",
+     2
+    ],
+    [
+     "Enf. Apar. Digestivo",
+     1
+    ],
+    [
+     "Infectologia",
+     1
+    ],
+    [
+     "Materno-Infantil",
+     1
+    ],
+    [
+     "Neumonologia",
+     1
+    ],
+    [
+     "Oncologia",
+     1
+    ],
+    [
+     "Quemados",
+     1
+    ],
+    [
+     "Zoonosis",
+     1
+    ],
+    [
+     "sin dato",
+     1
+    ]
+   ],
+   "fuente": "ba_hospitales",
+   "unidad": "hospitales",
+   "vigencia": "2026-10"
+  },
+  "por_tipo": {
+   "filas": [
+    [
+     "Hospital Especializado",
+     19
+    ],
+    [
+     "Hospital General de Agudos",
+     14
+    ],
+    [
+     "Hospital de Niños",
+     3
+    ]
+   ],
+   "fuente": "ba_hospitales",
+   "unidad": "hospitales",
+   "vigencia": "2026-10"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_hospitales",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Hospitales",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/hospitales"
+  }
+ ],
+ "nota": "Solo hospitales del sistema público de la Ciudad; no incluye CESAC, clínicas privadas ni nacionales fuera de este listado. Sin camas ni atenciones.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "salud"
+}

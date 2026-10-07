@@ -1,0 +1,484 @@
+{
+ "cifras": {
+  "registros": {
+   "fuente": "ba_espacios_verdes",
+   "unidad": "espacios verdes públicos",
+   "valor": 2176,
+   "vigencia": "2026-07"
+  },
+  "superficie_m2": {
+   "fuente": "ba_espacios_verdes",
+   "unidad": "m² de espacio verde público",
+   "valor": 15838266,
+   "vigencia": "2026-07"
+  }
+ },
+ "desgloses": {
+  "m2_por_barrio": {
+   "filas": [
+    [
+     "PUERTO MADERO",
+     2813125
+    ],
+    [
+     "VILLA SOLDATI",
+     2432874
+    ],
+    [
+     "PALERMO",
+     2212216
+    ],
+    [
+     "VILLA LUGANO",
+     1312956
+    ],
+    [
+     "BELGRANO",
+     1107977
+    ],
+    [
+     "VILLA REAL",
+     1075920
+    ],
+    [
+     "SAAVEDRA",
+     869051
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     496796
+    ],
+    [
+     "NUÑEZ",
+     379048
+    ],
+    [
+     "RECOLETA",
+     337579
+    ],
+    [
+     "BARRACAS",
+     268559
+    ],
+    [
+     "PARQUE PATRICIOS",
+     242460
+    ],
+    [
+     "FLORES",
+     222119
+    ],
+    [
+     "MATADEROS",
+     182415
+    ],
+    [
+     "CABALLITO",
+     173571
+    ],
+    [
+     "RETIRO",
+     154405
+    ],
+    [
+     "PARQUE CHACABUCO",
+     131279
+    ],
+    [
+     "VILLA PUEYRREDON",
+     120713
+    ],
+    [
+     "NUEVA POMPEYA",
+     105789
+    ],
+    [
+     "CHACARITA",
+     100869
+    ],
+    [
+     "LA BOCA",
+     99115
+    ],
+    [
+     "PATERNAL",
+     85122
+    ],
+    [
+     "VILLA DEVOTO",
+     81252
+    ],
+    [
+     "MONSERRAT",
+     79390
+    ],
+    [
+     "SAN NICOLAS",
+     72655
+    ],
+    [
+     "CONSTITUCION",
+     70564
+    ],
+    [
+     "SAN TELMO",
+     70243
+    ],
+    [
+     "VILLA RIACHUELO",
+     69549
+    ],
+    [
+     "COLEGIALES",
+     59306
+    ],
+    [
+     "LINIERS",
+     55264
+    ],
+    [
+     "VILLA URQUIZA",
+     51275
+    ],
+    [
+     "VERSALLES",
+     38210
+    ],
+    [
+     "VILLA LURO",
+     37433
+    ],
+    [
+     "BALVANERA",
+     30901
+    ],
+    [
+     "VELEZ SARSFIELD",
+     28562
+    ],
+    [
+     "MONTE CASTRO",
+     26020
+    ],
+    [
+     "FLORESTA",
+     23431
+    ],
+    [
+     "COGHLAN",
+     17629
+    ],
+    [
+     "VILLA DEL PARQUE",
+     16171
+    ],
+    [
+     "SAN CRISTOBAL",
+     15198
+    ],
+    [
+     "VILLA ORTUZAR",
+     13437
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     13266
+    ],
+    [
+     "BOEDO",
+     12810
+    ],
+    [
+     "VILLA CRESPO",
+     11868
+    ],
+    [
+     "ALMAGRO",
+     10077
+    ],
+    [
+     "PARQUE CHAS",
+     5276
+    ],
+    [
+     "AGRONOMIA",
+     2921
+    ],
+    [
+     "VILLA SANTA RITA",
+     1601
+    ]
+   ],
+   "fuente": "ba_espacios_verdes",
+   "unidad": "m² de espacio verde público",
+   "vigencia": "2026-07"
+  },
+  "m2_por_clasificacion": {
+   "filas": [
+    [
+     "PARQUE",
+     6023248
+    ],
+    [
+     "PARQUE SEMIPÚBLICO",
+     3419870
+    ],
+    [
+     "PLAZA",
+     2734030
+    ],
+    [
+     "PLAZOLETA",
+     2116951
+    ],
+    [
+     "CANTERO CENTRAL",
+     1103372
+    ],
+    [
+     "JARDÍN",
+     283971
+    ],
+    [
+     "BARRIO/COMPLEJO",
+     91930
+    ],
+    [
+     "JARDÍN BOTÁNICO",
+     49871
+    ],
+    [
+     "PATIO RECREATIVO",
+     12118
+    ],
+    [
+     "PATIO",
+     1352
+    ],
+    [
+     "PATIO DE JUEGOS INCLUSIVO",
+     913
+    ],
+    [
+     "PASEO",
+     639
+    ]
+   ],
+   "fuente": "ba_espacios_verdes",
+   "unidad": "m² de espacio verde público",
+   "vigencia": "2026-07"
+  },
+  "por_barrio": {
+   "filas": [
+    [
+     "VILLA LUGANO",
+     227
+    ],
+    [
+     "PALERMO",
+     165
+    ],
+    [
+     "VILLA SOLDATI",
+     148
+    ],
+    [
+     "RETIRO",
+     135
+    ],
+    [
+     "PUERTO MADERO",
+     112
+    ],
+    [
+     "SAAVEDRA",
+     107
+    ],
+    [
+     "BARRACAS",
+     99
+    ],
+    [
+     "FLORES",
+     95
+    ],
+    [
+     "MATADEROS",
+     74
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     70
+    ],
+    [
+     "RECOLETA",
+     67
+    ],
+    [
+     "BELGRANO",
+     66
+    ],
+    [
+     "VILLA DEVOTO",
+     65
+    ],
+    [
+     "NUEVA POMPEYA",
+     59
+    ],
+    [
+     "SAN NICOLAS",
+     58
+    ],
+    [
+     "VILLA URQUIZA",
+     57
+    ],
+    [
+     "MONSERRAT",
+     43
+    ],
+    [
+     "LA BOCA",
+     41
+    ],
+    [
+     "CHACARITA",
+     38
+    ],
+    [
+     "CABALLITO",
+     35
+    ],
+    [
+     "LINIERS",
+     31
+    ],
+    [
+     "VILLA LURO",
+     30
+    ],
+    [
+     "PARQUE PATRICIOS",
+     25
+    ],
+    [
+     "SAN TELMO",
+     25
+    ],
+    [
+     "VILLA RIACHUELO",
+     25
+    ],
+    [
+     "NUÑEZ",
+     21
+    ],
+    [
+     "COLEGIALES",
+     20
+    ],
+    [
+     "VELEZ SARSFIELD",
+     19
+    ],
+    [
+     "VILLA DEL PARQUE",
+     19
+    ],
+    [
+     "PATERNAL",
+     17
+    ],
+    [
+     "VILLA CRESPO",
+     16
+    ],
+    [
+     "SAN CRISTOBAL",
+     15
+    ],
+    [
+     "CONSTITUCION",
+     14
+    ],
+    [
+     "PARQUE CHACABUCO",
+     13
+    ],
+    [
+     "VERSALLES",
+     13
+    ],
+    [
+     "BOEDO",
+     12
+    ],
+    [
+     "COGHLAN",
+     12
+    ],
+    [
+     "FLORESTA",
+     12
+    ],
+    [
+     "ALMAGRO",
+     11
+    ],
+    [
+     "VILLA ORTUZAR",
+     11
+    ],
+    [
+     "VILLA PUEYRREDON",
+     10
+    ],
+    [
+     "BALVANERA",
+     9
+    ],
+    [
+     "PARQUE CHAS",
+     7
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     7
+    ],
+    [
+     "VILLA REAL",
+     6
+    ],
+    [
+     "VILLA SANTA RITA",
+     6
+    ],
+    [
+     "AGRONOMIA",
+     5
+    ],
+    [
+     "MONTE CASTRO",
+     4
+    ]
+   ],
+   "fuente": "ba_espacios_verdes",
+   "unidad": "espacios verdes públicos",
+   "vigencia": "2026-07"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_espacios_verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Espacios Verdes",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-verdes"
+  }
+ ],
+ "nota": "Superficie = campo «area» del crudo (m², calculada sobre el polígono). Incluye canteros y plazoletas: no todo es verde utilizable. Puerto Madero lidera por la Reserva Ecológica. Para m² por habitante dividir por la población del barrio (Censo 2010).",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "espacios_verdes"
+}
