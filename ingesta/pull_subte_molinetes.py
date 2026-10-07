@@ -2,7 +2,7 @@
 """Viajes en subte por molinetes (SBASE). El crudo trae un registro por molinete cada 15 minutos (~1,2 GB sin
 comprimir): se lee el zip en streaming y solo se guardan agregados por línea, mes y estación."""
 import collections, json, pathlib, re, sys, zipfile
-from comun import bajar, escribir, escribir_json, fuente_ckan, paquete, ultimo_raw
+from comun import bajar, barrio_de_punto, escribir, escribir_json, fuente_ckan, paquete, ultimo_raw
 
 F, SLUG, ANIO = "ba_subte_molinetes", "subte-viajes-molinetes", 2025
 pkg, dia = paquete(F, SLUG)
@@ -77,24 +77,6 @@ def canon(s):
 ALIAS = {"flores": "san jose flores", "humberto i": "humberto 1", "patricios": "parque patricios",
          "mariano moreno": "moreno", "carlos pellegrini": "pellegrini", "independencia h": "independencia"}  # «Independencia.H» queda imputada a la E
 geo = json.loads(pathlib.Path("lago/geo/subte_estaciones.geojson").read_text(encoding="utf-8"))
-barrios = json.loads(pathlib.Path("lago/geo/barrios.geojson").read_text(encoding="utf-8"))
-
-
-def dentro(x, y, anillo):
-    r = False
-    for (x1, y1), (x2, y2) in zip(anillo, anillo[1:] + anillo[:1]):
-        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
-            r = not r
-    return r
-
-
-def barrio_de(x, y):
-    for b in barrios["features"]:
-        g = b["geometry"]
-        for pol in (g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]):
-            if dentro(x, y, pol[0]) and not any(dentro(x, y, h) for h in pol[1:]):
-                return b["properties"]["nombre"].upper()
-    return None
 
 
 claves = collections.defaultdict(set)  # (línea, clave) y clave sola -> estación geo
@@ -127,7 +109,7 @@ for (l, e), v in estacion.items():
         por_geo[g] += v
     else:
         sin_geo[f"{l} · {e}"] += v
-barrio_est = {g: barrio_de(*punto[g]) for g in punto}
+barrio_est = {g: barrio_de_punto(*punto[g]) for g in punto}
 por_barrio = collections.Counter()
 for g, v in por_geo.items():
     por_barrio[barrio_est[g] or "sin dato"] += v

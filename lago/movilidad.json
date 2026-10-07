@@ -1,0 +1,450 @@
+{
+ "cifras": {
+  "estaciones_ecobici": {
+   "fuente": "ba_ecobici_estaciones",
+   "unidad": "estaciones de bicicletas públicas",
+   "valor": 407,
+   "vigencia": "2026-10"
+  },
+  "lineas_colectivo": {
+   "fuente": "ba_colectivos_paradas",
+   "unidad": "líneas de colectivo distintas con parada",
+   "valor": 132,
+   "vigencia": "2026-09"
+  },
+  "paradas_colectivo": {
+   "fuente": "ba_colectivos_paradas",
+   "unidad": "paradas de colectivo",
+   "valor": 7027,
+   "vigencia": "2026-09"
+  }
+ },
+ "desgloses": {
+  "ecobici_por_barrio": {
+   "filas": [
+    [
+     "PALERMO",
+     48
+    ],
+    [
+     "BELGRANO",
+     24
+    ],
+    [
+     "RECOLETA",
+     20
+    ],
+    [
+     "CABALLITO",
+     19
+    ],
+    [
+     "BALVANERA",
+     15
+    ],
+    [
+     "SAN NICOLAS",
+     14
+    ],
+    [
+     "SAAVEDRA",
+     13
+    ],
+    [
+     "VILLA CRESPO",
+     13
+    ],
+    [
+     "FLORES",
+     12
+    ],
+    [
+     "ALMAGRO",
+     11
+    ],
+    [
+     "NUÑEZ",
+     11
+    ],
+    [
+     "RETIRO",
+     11
+    ],
+    [
+     "VILLA URQUIZA",
+     11
+    ],
+    [
+     "MONSERRAT",
+     10
+    ],
+    [
+     "PUERTO MADERO",
+     10
+    ],
+    [
+     "COLEGIALES",
+     9
+    ],
+    [
+     "VILLA DEVOTO",
+     9
+    ],
+    [
+     "VILLA PUEYRREDON",
+     9
+    ],
+    [
+     "BARRACAS",
+     8
+    ],
+    [
+     "PARQUE PATRICIOS",
+     8
+    ],
+    [
+     "VILLA DEL PARQUE",
+     8
+    ],
+    [
+     "COGHLAN",
+     6
+    ],
+    [
+     "CONSTITUCION",
+     6
+    ],
+    [
+     "LINIERS",
+     6
+    ],
+    [
+     "PARQUE CHACABUCO",
+     6
+    ],
+    [
+     "BOEDO",
+     5
+    ],
+    [
+     "CHACARITA",
+     5
+    ],
+    [
+     "NUEVA POMPEYA",
+     5
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     5
+    ],
+    [
+     "PATERNAL",
+     5
+    ],
+    [
+     "SAN TELMO",
+     5
+    ],
+    [
+     "VILLA ORTUZAR",
+     5
+    ],
+    [
+     "VILLA SANTA RITA",
+     5
+    ],
+    [
+     "LA BOCA",
+     4
+    ],
+    [
+     "MATADEROS",
+     4
+    ],
+    [
+     "MONTE CASTRO",
+     4
+    ],
+    [
+     "SAN CRISTOBAL",
+     4
+    ],
+    [
+     "VELEZ SARSFIELD",
+     4
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     4
+    ],
+    [
+     "VILLA LURO",
+     4
+    ],
+    [
+     "AGRONOMIA",
+     3
+    ],
+    [
+     "FLORESTA",
+     3
+    ],
+    [
+     "PARQUE CHAS",
+     3
+    ],
+    [
+     "VILLA LUGANO",
+     3
+    ],
+    [
+     "VILLA SOLDATI",
+     3
+    ],
+    [
+     "VERSALLES",
+     2
+    ],
+    [
+     "VILLA REAL",
+     2
+    ],
+    [
+     "sin dato",
+     2
+    ],
+    [
+     "VILLA RIACHUELO",
+     1
+    ]
+   ],
+   "fuente": "ba_ecobici_estaciones",
+   "unidad": "estaciones de bicicletas públicas",
+   "vigencia": "2026-10"
+  },
+  "paradas_por_barrio": {
+   "filas": [
+    [
+     "PALERMO",
+     482
+    ],
+    [
+     "BALVANERA",
+     327
+    ],
+    [
+     "BARRACAS",
+     308
+    ],
+    [
+     "VILLA LUGANO",
+     303
+    ],
+    [
+     "CABALLITO",
+     290
+    ],
+    [
+     "FLORES",
+     289
+    ],
+    [
+     "RECOLETA",
+     283
+    ],
+    [
+     "RETIRO",
+     265
+    ],
+    [
+     "BELGRANO",
+     225
+    ],
+    [
+     "NUEVA POMPEYA",
+     219
+    ],
+    [
+     "CONSTITUCION",
+     210
+    ],
+    [
+     "ALMAGRO",
+     207
+    ],
+    [
+     "MATADEROS",
+     205
+    ],
+    [
+     "SAN NICOLAS",
+     183
+    ],
+    [
+     "MONSERRAT",
+     179
+    ],
+    [
+     "SAAVEDRA",
+     177
+    ],
+    [
+     "VILLA CRESPO",
+     169
+    ],
+    [
+     "VILLA DEVOTO",
+     166
+    ],
+    [
+     "CHACARITA",
+     158
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     151
+    ],
+    [
+     "VILLA URQUIZA",
+     147
+    ],
+    [
+     "PARQUE PATRICIOS",
+     144
+    ],
+    [
+     "LA BOCA",
+     142
+    ],
+    [
+     "LINIERS",
+     130
+    ],
+    [
+     "PARQUE CHACABUCO",
+     121
+    ],
+    [
+     "BOEDO",
+     114
+    ],
+    [
+     "SAN CRISTOBAL",
+     101
+    ],
+    [
+     "VILLA DEL PARQUE",
+     96
+    ],
+    [
+     "VILLA PUEYRREDON",
+     94
+    ],
+    [
+     "VELEZ SARSFIELD",
+     88
+    ],
+    [
+     "FLORESTA",
+     84
+    ],
+    [
+     "SAN TELMO",
+     78
+    ],
+    [
+     "COLEGIALES",
+     77
+    ],
+    [
+     "NUÑEZ",
+     75
+    ],
+    [
+     "VILLA ORTUZAR",
+     70
+    ],
+    [
+     "VILLA SOLDATI",
+     70
+    ],
+    [
+     "VILLA LURO",
+     68
+    ],
+    [
+     "MONTE CASTRO",
+     63
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     60
+    ],
+    [
+     "VILLA SANTA RITA",
+     60
+    ],
+    [
+     "VILLA RIACHUELO",
+     54
+    ],
+    [
+     "PATERNAL",
+     48
+    ],
+    [
+     "VILLA REAL",
+     44
+    ],
+    [
+     "COGHLAN",
+     41
+    ],
+    [
+     "PUERTO MADERO",
+     41
+    ],
+    [
+     "AGRONOMIA",
+     39
+    ],
+    [
+     "VERSALLES",
+     39
+    ],
+    [
+     "PARQUE CHAS",
+     36
+    ],
+    [
+     "sin dato",
+     7
+    ]
+   ],
+   "fuente": "ba_colectivos_paradas",
+   "unidad": "paradas de colectivo",
+   "vigencia": "2026-09"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_ecobici_estaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Estaciones Bicicletas Públicas.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/estaciones-bicicletas-publicas"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_colectivos_paradas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Colectivos: paradas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/colectivos-paradas"
+  }
+ ],
+ "nota": "Infraestructura, no uso: no hay viajes en EcoBici ni pasajeros de colectivo en estos conjuntos. Una parada lista hasta 6 líneas (L1-L6). Barrio por punto en polígono (lago/geo/barrios.geojson); «sin dato» = cae fuera de los polígonos simplificados (borde o costa).",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "movilidad"
+}

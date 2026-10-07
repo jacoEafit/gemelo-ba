@@ -6,6 +6,12 @@
    "valor": 14414804160946,
    "vigencia": "2025"
   },
+  "devengado_2025_a_precios_2026-08": {
+   "fuente": "ba_presupuesto_historico",
+   "unidad": "pesos de 2026-08 (devengado 2025 × IPCBA 2026-08 / IPCBA promedio 2025)",
+   "valor": 19737444133889,
+   "vigencia": "2025"
+  },
   "devengado_2026": {
    "fuente": "ba_presupuesto",
    "unidad": "pesos corrientes devengados (acumulado al T2)",
@@ -295,9 +301,16 @@
    "licencia": "CC-BY-2.5-AR",
    "nombre": "Presupuesto Ejecutado",
    "url": "https://data.buenosaires.gob.ar/km/dataset/presupuesto-ejecutado"
+  },
+  {
+   "estado": "vivo",
+   "id": "ipcba",
+   "licencia": "CC-BY-4.0",
+   "nombre": "Índice de Precios al Consumidor de la Ciudad de Buenos Aires (IPCBA), Estadística Ciudad; republicado por la Subsecretaría de Programación Macroeconómica",
+   "url": "https://www.estadisticaciudad.gob.ar/eyc/?cat=93"
   }
  ],
- "nota": "Pesos corrientes, sin ajustar por inflación: 2025 y 2026 no son comparables en términos reales. El trimestre es acumulado desde enero (2026 T2 = enero a 2026-06). «Ubicación» es la geográfica del gasto: incluye comunas, distritos escolares y zona externa. Se concentra en las comunas 4 y 1 porque ahí se imputa gasto central de la administración: no es gasto «en» esos barrios ni sirve para comparar comunas.",
+ "nota": "Pesos corrientes salvo la cifra «a_precios_»: 2025 y 2026 no son comparables sin deflactar. El ajuste usa el IPCBA promedio del año como aproximación (el gasto no se reparte parejo en el año). El trimestre es acumulado desde enero (2026 T2 = enero a 2026-06). «Ubicación» es la geográfica del gasto: incluye comunas, distritos escolares y zona externa. Se concentra en las comunas 4 y 1 porque ahí se imputa gasto central de la administración: no es gasto «en» esos barrios ni sirve para comparar comunas.",
  "probado": "2026-10-06",
  "series": {},
  "tema": "municipio"

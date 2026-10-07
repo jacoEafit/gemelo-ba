@@ -136,3 +136,27 @@ def paquete(fuente, slug):
         bajar(fuente, f"{API}/package_show?id={slug}", "package.json")
     ruta, dia = ultimo_raw(fuente, "package.json")
     return json.loads(crudo(ruta).decode("utf-8"))["result"], dia
+
+
+def _dentro(x, y, anillo):
+    r = False
+    for (x1, y1), (x2, y2) in zip(anillo, anillo[1:] + anillo[:1]):
+        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+            r = not r
+    return r
+
+
+_BARRIOS = None
+
+
+def barrio_de_punto(x, y):
+    """Barrio (MAYÚSCULAS) que contiene el punto WGS84 (lon, lat), según lago/geo/barrios.geojson; None si cae fuera."""
+    global _BARRIOS
+    if _BARRIOS is None:
+        _BARRIOS = json.loads(pathlib.Path("lago/geo/barrios.geojson").read_text(encoding="utf-8"))["features"]
+    for b in _BARRIOS:
+        g = b["geometry"]
+        for pol in (g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]):
+            if _dentro(x, y, pol[0]) and not any(_dentro(x, y, h) for h in pol[1:]):
+                return b["properties"]["nombre"].upper()
+    return None

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Presupuesto de la Ciudad: ejecución del año en curso (último trimestre publicado, acumulado) y del último año
 cerrado (4.º trimestre del conjunto histórico). Montos en pesos corrientes; nunca se suma texto."""
-import re, sys
+import json, pathlib, re, sys
 from comun import bajar, escribir_json, fuente_ckan, leer_csv, paquete, ultimo_raw
 
 ACTUAL, HIST = ("ba_presupuesto", "presupuesto-ejecutado-2026"), ("ba_presupuesto_historico", "presupuesto-ejecutado")
@@ -70,11 +70,24 @@ cifras[f"devengado_{cerrado}"] = {"valor": tot_h["devengado"], "unidad": "pesos 
                                   "vigencia": str(cerrado), "fuente": HIST[0]}
 desgloses[f"devengado_por_finalidad_{cerrado}"] = por_h("Desc_Fin")
 
+# Pesos constantes: el devengado del año cerrado llevado a precios del último IPCBA (lago/economia.json, corre antes)
+eco = json.loads(pathlib.Path("lago/economia.json").read_text(encoding="utf-8"))
+ipc = dict(eco["series"]["ipcba"]["puntos"])
+ult = max(ipc)
+meses = [v for p, v in ipc.items() if p.startswith(str(cerrado))]
+if len(meses) == 12:
+    cifras[f"devengado_{cerrado}_a_precios_{ult}"] = {
+        "valor": round(tot_h["devengado"] * ipc[ult] / (sum(meses) / 12)),
+        "unidad": f"pesos de {ult} (devengado {cerrado} × IPCBA {ult} / IPCBA promedio {cerrado})",
+        "vigencia": str(cerrado), "fuente": HIST[0]}
+
 escribir_json("lago/municipio.json", {
     "tema": "municipio", "probado": max(dia_a, dia_h),
-    "fuentes": [fuente_ckan(ACTUAL[0], pkg_a, ACTUAL[1]), fuente_ckan(HIST[0], pkg_h, HIST[1])],
+    "fuentes": [fuente_ckan(ACTUAL[0], pkg_a, ACTUAL[1]), fuente_ckan(HIST[0], pkg_h, HIST[1])]
+               + [f for f in eco["fuentes"] if f["id"] == "ipcba"],
     "cifras": cifras, "series": {}, "desgloses": desgloses,
-    "nota": f"Pesos corrientes, sin ajustar por inflación: {cerrado} y {anio} no son comparables en términos reales. "
+    "nota": f"Pesos corrientes salvo la cifra «a_precios_»: {cerrado} y {anio} no son comparables sin deflactar. El ajuste usa el "
+            "IPCBA promedio del año como aproximación (el gasto no se reparte parejo en el año). "
             f"El trimestre es acumulado desde enero ({anio} T{trim} = enero a {vig}). «Ubicación» es la geográfica del "
             "gasto: incluye comunas, distritos escolares y zona externa. Se concentra en las comunas 4 y 1 porque ahí se "
             "imputa gasto central de la administración: no es gasto «en» esos barrios ni sirve para comparar comunas.",

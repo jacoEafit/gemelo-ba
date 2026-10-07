@@ -1,0 +1,148 @@
+{
+ "cifras": {
+  "puntos_verdes": {
+   "fuente": "ba_puntos_verdes",
+   "unidad": "puntos verdes",
+   "valor": 17,
+   "vigencia": "2026-10"
+  },
+  "raee_kg_2025": {
+   "fuente": "ba_puntos_verdes",
+   "unidad": "kg de RAEE recibidos en el año",
+   "valor": 57040,
+   "vigencia": "2025"
+  }
+ },
+ "desgloses": {
+  "por_barrio": {
+   "filas": [
+    [
+     "CABALLITO",
+     2
+    ],
+    [
+     "RECOLETA",
+     2
+    ],
+    [
+     "ALMAGRO",
+     1
+    ],
+    [
+     "BARRACAS",
+     1
+    ],
+    [
+     "BELGRANO",
+     1
+    ],
+    [
+     "BOEDO",
+     1
+    ],
+    [
+     "FLORES",
+     1
+    ],
+    [
+     "FLORESTA",
+     1
+    ],
+    [
+     "LINIERS",
+     1
+    ],
+    [
+     "MONTE CASTRO",
+     1
+    ],
+    [
+     "SAAVEDRA",
+     1
+    ],
+    [
+     "SAN TELMO",
+     1
+    ],
+    [
+     "VILLA CRESPO",
+     1
+    ],
+    [
+     "VILLA LUGANO",
+     1
+    ],
+    [
+     "VILLA URQUIZA",
+     1
+    ]
+   ],
+   "fuente": "ba_puntos_verdes",
+   "unidad": "puntos verdes",
+   "vigencia": "2026-10"
+  },
+  "por_tipo": {
+   "filas": [
+    [
+     "Con Atención",
+     17
+    ]
+   ],
+   "fuente": "ba_puntos_verdes",
+   "unidad": "puntos verdes",
+   "vigencia": "2026-10"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_puntos_verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Gestión de Residuos en Puntos Verdes",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/puntos-verdes"
+  }
+ ],
+ "nota": "El listado trae 17 puntos verdes (todos «Con Atención»): no incluye necesariamente los puntos sin atención ni campanas. RAEE incluye puntos verdes fijos y móviles; 2026 puede estar incompleto; 8 filas sin kilos legibles (incluye 7 erratas o ambiguos como ['120.,97', '151<.27']). El crudo mezcla coma decimal y coma de miles: se normaliza por patrón. Solo lo que pasa por puntos verdes: no es el total de residuos de la Ciudad.",
+ "probado": "2026-10-06",
+ "series": {
+  "raee_kg_anual": {
+   "fuente": "ba_puntos_verdes",
+   "puntos": [
+    [
+     "2019",
+     98622
+    ],
+    [
+     "2020",
+     18689
+    ],
+    [
+     "2021",
+     28248
+    ],
+    [
+     "2022",
+     40655
+    ],
+    [
+     "2023",
+     54077
+    ],
+    [
+     "2024",
+     45812
+    ],
+    [
+     "2025",
+     57040
+    ],
+    [
+     "2026",
+     4120
+    ]
+   ],
+   "unidad": "kg de RAEE recibidos"
+  }
+ },
+ "tema": "residuos"
+}
