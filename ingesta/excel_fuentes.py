@@ -11,10 +11,12 @@ PENDIENTES = {  # campos que existen o se necesitan y aún NO están en el lago
     "ba_demografia": "Edad y sexo por barrio, hogares, esperanza de vida (recursos del paquete sin curar); barrios aún Censo 2010",
     "dgeyc_censo2022": "Solo población por comuna. Faltan viviendas, hogares y servicios por comuna (informe 1877 los trae en gráficos) y radios censales",
     "ba_espacios_culturales": "Capacidad total y cantidad de salas por barrio (campos existen, no agregados); coordenadas no guardadas",
-    "ba_obras_registradas": "Tipo de obra (acronimo/descripcion) por barrio; no hay superficie ni altura: no sirve para volúmenes 3D",
+    "ba_obras_registradas": "Tipo de obra (acronimo/descripcion) por barrio; son permisos: las alturas vienen de ba_tejido_urbano",
     "ba_presupuesto": "Solo el último trimestre publicado (acumulado); falta ajuste por inflación y desglose por objeto del gasto",
     "ba_presupuesto_historico": "Solo el último año cerrado; 2013-2024 sin cargar (serie histórica en pesos corrientes)",
     "eoh_caba": "Tarifa media, estadía media y ocupación por categoría; se publica con ~1 año de rezago",
+    "ba_tejido_urbano": "Superficie de cada volumen (para m³ construidos) y geometrías 3D (~1 GB: GeoParquet/PMTiles, ver contrato); datos hasta 2021",
+    "ba_parcelas": "Solo se usa smp → barrio; geometría de parcelas (329 MB) no cargada",
     "ba_subte_molinetes": "Franja horaria (cada 15 min) y años anteriores sin cargar; se guarda solo el agregado por estación y mes",
     "ba_subte_estaciones": "Accesibilidad; campo línea (A, B, C…) en subte_lineas.geojson. Viajes por estación: ver ba_subte_molinetes",
     "wikimedia_pageviews": "Otros artículos/idiomas; mide interés, no opinión ni sentimiento",
@@ -25,10 +27,6 @@ PENDIENTES = {  # campos que existen o se necesitan y aún NO están en el lago
     "ba_tmi": "Lecturas meteorológicas de las torres (temperatura, humedad); aquí solo inventario de 16 torres",
 }
 SIN_FUENTE = [  # temas del gemelo sin fuente curada: (tema, nombre, url, licencia, estado, qué falta)
-    ("(edificios 3D)", "Tejido Urbano (BA Data, Secretaría de Desarrollo Urbano)", "https://data.buenosaires.gob.ar/km/dataset/tejido-urbano",
-     "CC-BY-2.5-AR", "identificado",
-     "Alturas (m) y pisos por volumen edificado, datos hasta 2021. GeoJSON 1,09 GB y CSV 122 MB: no cabe en GeoJSON "
-     "simplificado, pasa a GeoParquet/PMTiles (ver contrato). Por barrio requiere cruzar con Parcelas (329 MB) por smp"),
     ("(demografía 2022 por barrio)", "Información Censal por Radio (BA Data)", "https://data.buenosaires.gob.ar/km/dataset/informacion-censal-por-radio",
      "CC-BY-2.5-AR", "insuficiente",
      "Solo radios de 2001 y 2010: no da población 2022 por barrio. Los radios 2022 no están en BA Data"),

@@ -123,6 +123,19 @@ if glob.glob("lago/municipio.json"):
         if k.startswith("ejecucion_"):
             check(f"dominio municipio.{k}: entre 0 y 100", 0 <= c["valor"] <= 100, c["valor"])
 
+# Tejido urbano: alturas físicamente posibles, cruce con barrios casi total, 48 barrios que suman lo cruzado
+if glob.glob("lago/edificios.json"):
+    e = json.load(open("lago/edificios.json", encoding="utf-8"))
+    c = {k: v["valor"] for k, v in e["cifras"].items()}
+    if "altura_maxima" in c:
+        check("dominio edificios.altura_maxima: hasta 250 m", 0 < c["altura_maxima"] <= 250, c["altura_maxima"])
+        check("dominio edificios: ≥95 % de parcelas con barrio", c["parcelas_cruzadas_con_barrio"] >= 0.95 * c["parcelas_edificadas"])
+        check("dominio edificios: 48 barrios con alturas", len(e["desgloses"]["parcelas_edificadas_por_barrio"]["filas"]) == 48)
+        check("coherencia edificios.parcelas_edificadas_por_barrio suma parcelas_cruzadas_con_barrio",
+              tot("edificios", "parcelas_edificadas_por_barrio") == c["parcelas_cruzadas_con_barrio"])
+        check("coherencia edificios.parcelas_por_rango_altura suma parcelas_edificadas",
+              tot("edificios", "parcelas_por_rango_altura") == c["parcelas_edificadas"])
+
 # Molinetes: 12 meses; la suma por estación = suma de las series; el total de subte excluye el Premetro
 if glob.glob("lago/subte_molinetes.json"):
     sm = json.load(open("lago/subte_molinetes.json", encoding="utf-8"))

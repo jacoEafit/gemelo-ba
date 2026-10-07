@@ -13,14 +13,693 @@
   "comuna"
  ],
  "cifras": {
+  "altura_maxima": {
+   "fuente": "ba_tejido_urbano",
+   "unidad": "m (volumen más alto del tejido)",
+   "valor": 221.4,
+   "vigencia": "2021"
+  },
+  "altura_mediana_parcela": {
+   "fuente": "ba_tejido_urbano",
+   "unidad": "m (mediana de la altura máxima por parcela)",
+   "valor": 5.6,
+   "vigencia": "2021"
+  },
+  "parcelas_cruzadas_con_barrio": {
+   "fuente": "ba_parcelas",
+   "unidad": "parcelas edificadas con barrio (por parcela o por manzana)",
+   "valor": 308340,
+   "vigencia": "2021"
+  },
+  "parcelas_edificadas": {
+   "fuente": "ba_tejido_urbano",
+   "unidad": "parcelas edificadas",
+   "valor": 309164,
+   "vigencia": "2021"
+  },
   "registros": {
    "fuente": "ba_obras_registradas",
    "unidad": "obras registradas",
    "valor": 87784,
    "vigencia": "2026-09"
+  },
+  "volumenes_descartados": {
+   "fuente": "ba_tejido_urbano",
+   "unidad": "volúmenes con altura 0 o mayor a 250 m (errores)",
+   "valor": 2,
+   "vigencia": "2021"
+  },
+  "volumenes_edificados": {
+   "fuente": "ba_tejido_urbano",
+   "unidad": "volúmenes edificados (filas del tejido)",
+   "valor": 1386616,
+   "vigencia": "2021"
   }
  },
  "desgloses": {
+  "altura_mediana_por_barrio": {
+   "filas": [
+    [
+     "RETIRO",
+     30.8
+    ],
+    [
+     "PUERTO MADERO",
+     30.4
+    ],
+    [
+     "RECOLETA",
+     28.0
+    ],
+    [
+     "SAN NICOLAS",
+     25.2
+    ],
+    [
+     "MONSERRAT",
+     14.0
+    ],
+    [
+     "BALVANERA",
+     11.2
+    ],
+    [
+     "PALERMO",
+     11.2
+    ],
+    [
+     "ALMAGRO",
+     8.4
+    ],
+    [
+     "BELGRANO",
+     8.4
+    ],
+    [
+     "CABALLITO",
+     8.4
+    ],
+    [
+     "COLEGIALES",
+     8.4
+    ],
+    [
+     "CONSTITUCION",
+     8.4
+    ],
+    [
+     "NUÑEZ",
+     8.4
+    ],
+    [
+     "SAN CRISTOBAL",
+     8.4
+    ],
+    [
+     "SAN TELMO",
+     8.4
+    ],
+    [
+     "VILLA CRESPO",
+     8.4
+    ],
+    [
+     "AGRONOMIA",
+     5.6
+    ],
+    [
+     "BARRACAS",
+     5.6
+    ],
+    [
+     "BOEDO",
+     5.6
+    ],
+    [
+     "CHACARITA",
+     5.6
+    ],
+    [
+     "COGHLAN",
+     5.6
+    ],
+    [
+     "FLORES",
+     5.6
+    ],
+    [
+     "FLORESTA",
+     5.6
+    ],
+    [
+     "LA BOCA",
+     5.6
+    ],
+    [
+     "LINIERS",
+     5.6
+    ],
+    [
+     "MATADEROS",
+     5.6
+    ],
+    [
+     "MONTE CASTRO",
+     5.6
+    ],
+    [
+     "NUEVA POMPEYA",
+     5.6
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     5.6
+    ],
+    [
+     "PARQUE CHACABUCO",
+     5.6
+    ],
+    [
+     "PARQUE CHAS",
+     5.6
+    ],
+    [
+     "PARQUE PATRICIOS",
+     5.6
+    ],
+    [
+     "PATERNAL",
+     5.6
+    ],
+    [
+     "SAAVEDRA",
+     5.6
+    ],
+    [
+     "VELEZ SARSFIELD",
+     5.6
+    ],
+    [
+     "VERSALLES",
+     5.6
+    ],
+    [
+     "VILLA DEL PARQUE",
+     5.6
+    ],
+    [
+     "VILLA DEVOTO",
+     5.6
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     5.6
+    ],
+    [
+     "VILLA LUGANO",
+     5.6
+    ],
+    [
+     "VILLA LURO",
+     5.6
+    ],
+    [
+     "VILLA ORTUZAR",
+     5.6
+    ],
+    [
+     "VILLA PUEYRREDON",
+     5.6
+    ],
+    [
+     "VILLA REAL",
+     5.6
+    ],
+    [
+     "VILLA RIACHUELO",
+     5.6
+    ],
+    [
+     "VILLA SANTA RITA",
+     5.6
+    ],
+    [
+     "VILLA SOLDATI",
+     5.6
+    ],
+    [
+     "VILLA URQUIZA",
+     5.6
+    ]
+   ],
+   "fuente": "ba_tejido_urbano",
+   "unidad": "m (mediana de la altura máxima por parcela)",
+   "vigencia": "2021"
+  },
+  "parcelas_edificadas_por_barrio": {
+   "filas": [
+    [
+     "FLORES",
+     15081
+    ],
+    [
+     "MATADEROS",
+     15047
+    ],
+    [
+     "PALERMO",
+     14581
+    ],
+    [
+     "VILLA DEVOTO",
+     13832
+    ],
+    [
+     "CABALLITO",
+     13257
+    ],
+    [
+     "VILLA URQUIZA",
+     12896
+    ],
+    [
+     "LINIERS",
+     9727
+    ],
+    [
+     "VILLA LUGANO",
+     9490
+    ],
+    [
+     "PARQUE CHACABUCO",
+     8945
+    ],
+    [
+     "NUEVA POMPEYA",
+     8731
+    ],
+    [
+     "SAAVEDRA",
+     8659
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     8333
+    ],
+    [
+     "BELGRANO",
+     8279
+    ],
+    [
+     "VILLA DEL PARQUE",
+     8235
+    ],
+    [
+     "ALMAGRO",
+     8172
+    ],
+    [
+     "VILLA CRESPO",
+     8072
+    ],
+    [
+     "BALVANERA",
+     7367
+    ],
+    [
+     "VILLA PUEYRREDON",
+     7289
+    ],
+    [
+     "MONTE CASTRO",
+     6964
+    ],
+    [
+     "BARRACAS",
+     6860
+    ],
+    [
+     "RECOLETA",
+     6339
+    ],
+    [
+     "BOEDO",
+     6042
+    ],
+    [
+     "VELEZ SARSFIELD",
+     5952
+    ],
+    [
+     "VILLA SANTA RITA",
+     5912
+    ],
+    [
+     "FLORESTA",
+     5857
+    ],
+    [
+     "VILLA LURO",
+     5829
+    ],
+    [
+     "NUÑEZ",
+     5437
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     5020
+    ],
+    [
+     "PARQUE PATRICIOS",
+     4907
+    ],
+    [
+     "COLEGIALES",
+     4364
+    ],
+    [
+     "SAN CRISTOBAL",
+     4148
+    ],
+    [
+     "PARQUE CHAS",
+     3927
+    ],
+    [
+     "VILLA ORTUZAR",
+     3811
+    ],
+    [
+     "CHACARITA",
+     3706
+    ],
+    [
+     "VILLA SOLDATI",
+     3665
+    ],
+    [
+     "PATERNAL",
+     3466
+    ],
+    [
+     "LA BOCA",
+     3264
+    ],
+    [
+     "VILLA REAL",
+     3262
+    ],
+    [
+     "VERSALLES",
+     3220
+    ],
+    [
+     "CONSTITUCION",
+     3133
+    ],
+    [
+     "VILLA RIACHUELO",
+     3094
+    ],
+    [
+     "COGHLAN",
+     2872
+    ],
+    [
+     "SAN NICOLAS",
+     2796
+    ],
+    [
+     "MONSERRAT",
+     2724
+    ],
+    [
+     "AGRONOMIA",
+     2679
+    ],
+    [
+     "SAN TELMO",
+     1596
+    ],
+    [
+     "RETIRO",
+     1437
+    ],
+    [
+     "PUERTO MADERO",
+     64
+    ]
+   ],
+   "fuente": "ba_parcelas",
+   "unidad": "parcelas edificadas",
+   "vigencia": "2021"
+  },
+  "parcelas_por_rango_altura": {
+   "filas": [
+    [
+     "hasta 9 m (≈1-3 pisos)",
+     241175
+    ],
+    [
+     "9 a 15 m (≈4-5 pisos)",
+     27410
+    ],
+    [
+     "15 a 30 m (≈6-10 pisos)",
+     22721
+    ],
+    [
+     "30 a 60 m (≈11-20 pisos)",
+     17318
+    ],
+    [
+     "más de 60 m (>20 pisos)",
+     540
+    ]
+   ],
+   "fuente": "ba_tejido_urbano",
+   "unidad": "parcelas edificadas",
+   "vigencia": "2021"
+  },
+  "parcelas_por_via_de_cruce": {
+   "filas": [
+    [
+     "parcela",
+     301020
+    ],
+    [
+     "manzana",
+     7320
+    ],
+    [
+     "sin cruce",
+     824
+    ]
+   ],
+   "fuente": "ba_parcelas",
+   "unidad": "parcelas edificadas",
+   "vigencia": "2021"
+  },
+  "pct_parcelas_mas_30m_por_barrio": {
+   "filas": [
+    [
+     "PUERTO MADERO",
+     51.6
+    ],
+    [
+     "RETIRO",
+     51.5
+    ],
+    [
+     "RECOLETA",
+     43.7
+    ],
+    [
+     "SAN NICOLAS",
+     37.6
+    ],
+    [
+     "PALERMO",
+     20.1
+    ],
+    [
+     "MONSERRAT",
+     19.2
+    ],
+    [
+     "BALVANERA",
+     16.1
+    ],
+    [
+     "ALMAGRO",
+     13.4
+    ],
+    [
+     "BELGRANO",
+     13.0
+    ],
+    [
+     "CABALLITO",
+     9.9
+    ],
+    [
+     "SAN TELMO",
+     9.6
+    ],
+    [
+     "COLEGIALES",
+     7.0
+    ],
+    [
+     "NUÑEZ",
+     7.0
+    ],
+    [
+     "CONSTITUCION",
+     6.1
+    ],
+    [
+     "SAN CRISTOBAL",
+     5.9
+    ],
+    [
+     "VILLA CRESPO",
+     5.5
+    ],
+    [
+     "VILLA URQUIZA",
+     4.4
+    ],
+    [
+     "FLORES",
+     4.1
+    ],
+    [
+     "BOEDO",
+     3.3
+    ],
+    [
+     "LA BOCA",
+     3.3
+    ],
+    [
+     "BARRACAS",
+     2.9
+    ],
+    [
+     "CHACARITA",
+     2.8
+    ],
+    [
+     "PARQUE CHACABUCO",
+     2.7
+    ],
+    [
+     "COGHLAN",
+     2.2
+    ],
+    [
+     "VILLA DEL PARQUE",
+     2.0
+    ],
+    [
+     "PARQUE PATRICIOS",
+     1.7
+    ],
+    [
+     "FLORESTA",
+     1.4
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     1.4
+    ],
+    [
+     "SAAVEDRA",
+     1.3
+    ],
+    [
+     "VILLA ORTUZAR",
+     1.3
+    ],
+    [
+     "VILLA SANTA RITA",
+     1.1
+    ],
+    [
+     "VILLA LURO",
+     1.0
+    ],
+    [
+     "AGRONOMIA",
+     0.9
+    ],
+    [
+     "VILLA PUEYRREDON",
+     0.9
+    ],
+    [
+     "PATERNAL",
+     0.8
+    ],
+    [
+     "VELEZ SARSFIELD",
+     0.8
+    ],
+    [
+     "MONTE CASTRO",
+     0.7
+    ],
+    [
+     "PARQUE CHAS",
+     0.6
+    ],
+    [
+     "LINIERS",
+     0.5
+    ],
+    [
+     "VILLA DEVOTO",
+     0.5
+    ],
+    [
+     "VILLA SOLDATI",
+     0.5
+    ],
+    [
+     "VERSALLES",
+     0.4
+    ],
+    [
+     "VILLA LUGANO",
+     0.4
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     0.3
+    ],
+    [
+     "MATADEROS",
+     0.2
+    ],
+    [
+     "NUEVA POMPEYA",
+     0.2
+    ],
+    [
+     "VILLA REAL",
+     0.2
+    ],
+    [
+     "VILLA RIACHUELO",
+     0.1
+    ]
+   ],
+   "fuente": "ba_tejido_urbano",
+   "unidad": "% de parcelas edificadas con más de 30 m",
+   "vigencia": "2021"
+  },
   "por_anio": {
    "filas": [
     [
@@ -254,6 +933,17 @@
    "fuente": "ba_obras_registradas",
    "unidad": "obras registradas",
    "vigencia": "2026-09"
+  },
+  "volumenes_por_tipo": {
+   "filas": [
+    [
+     "Edificio",
+     1386614
+    ]
+   ],
+   "fuente": "ba_tejido_urbano",
+   "unidad": "volúmenes edificados",
+   "vigencia": "2021"
   }
  },
  "fuentes": [
@@ -263,9 +953,23 @@
    "licencia": "CC-BY-2.5-AR",
    "nombre": "Obras Registradas",
    "url": "https://data.buenosaires.gob.ar/km/dataset/obras-registradas"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_tejido_urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Tejido Urbano",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/tejido-urbano"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_parcelas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Parcelas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/parcelas"
   }
  ],
- "nota": "vigencia = mes de la última modificación del conjunto en el portal",
+ "nota": "Obras registradas: vigencia = mes de la última modificación del conjunto; son permisos, no volúmenes. Tejido urbano: alturas por fotogrametría (Secretaría de Planeamiento) con datos hasta 2021; muchas alturas son pisos × 2,8 m. La altura de una parcela es la de su volumen más alto. El barrio sale de Parcelas (catastro actual); si la parcela de 2021 ya no existe, se usa el de su manzana. Sin superficie no hay volumen construido (m³). Las geometrías 3D (~1 GB) no están en el lago: ver contrato (GeoParquet/PMTiles).",
  "probado": "2026-10-06",
  "recurso": {
   "formato": "CSV",

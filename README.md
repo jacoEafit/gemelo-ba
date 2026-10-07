@@ -5,5 +5,6 @@ Lago de datos de Buenos Aires.
 - Un `ingesta/pull_<tema>.py` por tema. Añade `--curar` para no descargar.
 - `ingesta/excel_fuentes.py` regenera `fuentes_gemelo_buenos_aires.xlsx` desde el lago (requiere `openpyxl`).
 - Contrato en `contrato/CONTRATO.md`; historial de decisiones en `registro/conversacion.md`.
-- Pendientes: sensores en vivo (credenciales), edificios 3D (tejido urbano identificado, ver contrato: GeoParquet),
+- Pendientes: sensores en vivo (credenciales), geometrías 3D de edificios (alturas por barrio ya en `edificios`;
+  la capa de ~1 GB va a GeoParquet/PMTiles, ver contrato),
   población 2022 por barrio (no hay radios 2022 en datos abiertos), reclamos (descartado por peso).

@@ -71,6 +71,20 @@
   },
   {
    "estado": "vivo",
+   "id": "ba_tejido_urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Tejido Urbano",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/tejido-urbano"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_parcelas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Parcelas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/parcelas"
+  },
+  {
+   "estado": "vivo",
    "id": "ba_espacios_culturales",
    "licencia": "CC-BY-2.5-AR",
    "nombre": "Espacios culturales.",
