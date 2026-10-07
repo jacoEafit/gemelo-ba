@@ -43,7 +43,11 @@ def romper_coordenada_fuera(lago):
     (lago / "geo/subte_estaciones.geojson").write_text(json.dumps(g, ensure_ascii=False), encoding="utf-8")
 
 
-CASOS = [romper_cifra_sin_fuente, romper_correo_y_celular, romper_suma_por_barrio, romper_dominio,
+def romper_ingesta_a_medias(lago):
+    (lago / "seguridad.json").unlink()  # una descarga falló: el tema no se generó
+
+
+CASOS = [romper_ingesta_a_medias, romper_cifra_sin_fuente, romper_correo_y_celular, romper_suma_por_barrio, romper_dominio,
          romper_fecha_con_hora, romper_coordenada_fuera]
 
 

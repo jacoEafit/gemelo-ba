@@ -48,6 +48,15 @@ def desglose_ok(d, ids):
 
 rutas = sorted(glob.glob("lago/*.json"))
 check("hay al menos un archivo en el lago", bool(rutas))
+# El lago completo: si una ingesta falló a medias, faltan archivos o cifras y no se publica
+TEMAS = {"atlas_distritos", "atlas_zonas", "calidad_aire", "catalogo", "clima", "correlaciones", "cultura", "demografia",
+         "economia", "edificios", "educacion", "escucha", "espacios_verdes", "geoinfraestructura", "movilidad", "municipio",
+         "residuos", "salud", "seguridad", "sensores", "subte_molinetes", "turismo"}
+CAPAS = {"barrios", "comunas", "subte_estaciones", "subte_lineas", "subte_pasajeros"}
+hay = {__import__("os").path.basename(r)[:-5] for r in rutas}
+capas = {__import__("os").path.basename(r)[:-8] for r in glob.glob("lago/geo/*.geojson")}
+check("están los 22 temas del lago", TEMAS <= hay, sorted(TEMAS - hay))
+check("están las 5 capas geo", CAPAS <= capas, sorted(CAPAS - capas))
 for ruta in rutas:
     lago = json.load(open(ruta, encoding="utf-8"))
     fuentes = lago.get("fuentes", [])
@@ -149,6 +158,7 @@ if glob.glob("lago/municipio.json"):
 if glob.glob("lago/edificios.json"):
     e = json.load(open("lago/edificios.json", encoding="utf-8"))
     c = {k: v["valor"] for k, v in e["cifras"].items()}
+    check("edificios trae las alturas del tejido (la ingesta no quedó a medias)", "altura_maxima" in c, sorted(c))
     if "altura_maxima" in c:
         check("dominio edificios.altura_maxima: hasta 250 m", 0 < c["altura_maxima"] <= 250, c["altura_maxima"])
         check("dominio edificios: ≥95 % de parcelas con barrio", c["parcelas_cruzadas_con_barrio"] >= 0.95 * c["parcelas_edificadas"])
