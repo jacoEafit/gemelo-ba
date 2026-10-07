@@ -11,7 +11,7 @@ import openpyxl
 from openpyxl.worksheet.datavalidation import DataValidation
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-PLANTILLA = RAIZ / "entrega" / "plantilla_Diccionario_de_datos_TallerDatos.xlsx"
+PLANTILLA = RAIZ / "entrega" / "plantillas" / "Diccionario_de_datos_TallerDatos.xlsx"
 SALIDA = RAIZ / "entrega" / "Diccionario_de_datos_Buenos_Aires.xlsx"
 FILAS = 200  # última fila útil (la plantilla trae hasta la 44)
 PRIMERA = 5  # la fila 4 es el ejemplo gris de Medellín: se deja

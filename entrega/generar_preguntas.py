@@ -6,7 +6,7 @@ import json, pathlib, re, shutil, tempfile, zipfile
 from xml.sax.saxutils import escape
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-PLANTILLA = RAIZ / "entrega" / "plantilla_Preguntas_por_que_estos_datos.docx"
+PLANTILLA = RAIZ / "entrega" / "plantillas" / "Preguntas_por_que_estos_datos.docx"
 SALIDA = RAIZ / "entrega" / "Preguntas_por_que_estos_datos_Buenos_Aires.docx"
 lago = {p.stem: json.loads(p.read_text(encoding="utf-8")) for p in (RAIZ / "lago").glob("*.json")}
 
