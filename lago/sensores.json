@@ -137,7 +137,7 @@
    "url": "https://data.buenosaires.gob.ar/km/dataset/informacion-meteorologica"
   }
  ],
- "nota": "Inventario estático de dispositivos. Las lecturas en vivo (API de transporte, etc.) requieren credenciales y siguen pendientes. Las estaciones de calidad del aire están en el tema calidad_aire.",
+ "nota": "Inventario estático de dispositivos. Las lecturas en vivo (API de Transporte) están suspendidas por el portal y siguen pendientes. Las estaciones de calidad del aire están en el tema calidad_aire.",
  "probado": "2026-10-06",
  "series": {},
  "tema": "sensores"

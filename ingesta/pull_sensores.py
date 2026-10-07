@@ -21,7 +21,7 @@ for F, slug, nombre, unidad in DEF:
     desgloses[f"{F}_por_comuna"] = desglose(f, "comuna", unidad, F, vig)
 escribir_json("lago/sensores.json", {
     "tema": "sensores", "probado": max(dias), "fuentes": fuentes, "cifras": cifras, "series": {}, "desgloses": desgloses,
-    "nota": "Inventario estático de dispositivos. Las lecturas en vivo (API de transporte, etc.) requieren credenciales y "
+    "nota": "Inventario estático de dispositivos. Las lecturas en vivo (API de Transporte) están suspendidas por el portal y "
             "siguen pendientes. Las estaciones de calidad del aire están en el tema calidad_aire.",
 })
 print("sensores:", {k: v["valor"] for k, v in cifras.items()})

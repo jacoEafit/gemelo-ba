@@ -33,7 +33,7 @@ PENDIENTES = {  # campos que existen o se necesitan y aún NO están en el lago
     "ba_delitos": "Tasa por 1.000 hab, franja horaria, subtipo, uso de arma; años 2016-2023 sin cargar",
     "ba_alojamientos": "Plazas/habitaciones (no están en este dataset); la demanda viene de la EOH (eoh_caba)",
     "ba_calidad_aire": "Estación Palermo sin lecturas válidas en 2025; año 2026; PM2.5 no se mide; índice de calidad",
-    "ba_sensores_transito": "Lecturas en vivo (API de transporte con credenciales); aquí solo inventario de 52 sensores",
+    "ba_sensores_transito": "Lecturas en vivo (API de Transporte, suspendida por el portal); aquí solo inventario de 52 sensores",
     "ba_tmi": "Lecturas meteorológicas de las torres (temperatura, humedad); aquí solo inventario de 16 torres",
 }
 SIN_FUENTE = [  # temas del gemelo sin fuente curada: (tema, nombre, url, licencia, estado, qué falta)
@@ -41,7 +41,7 @@ SIN_FUENTE = [  # temas del gemelo sin fuente curada: (tema, nombre, url, licenc
      "CC-BY-2.5-AR", "insuficiente",
      "Solo radios de 2001 y 2010: no da población 2022 por barrio. Los radios 2022 no están en BA Data"),
     ("(reclamos)", "BA Data reclamos 147", "", "", "descartado", "Descartado por descarga pesada; faltan todos los campos"),
-    ("(sensores en tiempo real)", "API de transporte/sensores", "", "", "pendiente", "Requiere credenciales; faltan lecturas, frecuencia y licencia"),
+    ("(sensores en tiempo real)", "API de transporte/sensores", "", "", "pendiente", "El portal suspendió las API y GTFS (aviso del 2026-10-06); faltan lecturas"),
 ]
 fuentes, usos = {}, {}
 for ruta in sorted(glob.glob("lago/*.json")):
