@@ -1,7 +1,34 @@
-import collections, csv, datetime, hashlib, io, json, pathlib, time, urllib.request
+import collections, csv, datetime, gzip, hashlib, io, json, pathlib, time, urllib.request
 
 UA = {"User-Agent": "gemelo-ba/1.0 (proyecto universitario)"}
 RAW = pathlib.Path("lago/raw")
+YA_COMPRIMIDOS = (".zip", ".pdf", ".gz")  # el resto se guarda en raw como <nombre>.gz (gzip determinista, mtime=0)
+
+
+def comprimido(ruta):
+    ruta = pathlib.Path(ruta)
+    return ruta.with_name(ruta.name + ".gz")
+
+
+def existe(ruta):
+    """El crudo existe tal cual o comprimido."""
+    return pathlib.Path(ruta).exists() or comprimido(ruta).exists()
+
+
+def crudo(ruta):
+    """Bytes originales de un crudo: lee <ruta> o, si no está, descomprime <ruta>.gz."""
+    ruta = pathlib.Path(ruta)
+    return ruta.read_bytes() if ruta.exists() else gzip.decompress(comprimido(ruta).read_bytes())
+
+
+def guardar_crudo(destino, datos: bytes):
+    """Guarda el crudo (comprimido si conviene) y el sha256 de los bytes ORIGINALES, para trazabilidad."""
+    destino = pathlib.Path(destino)
+    if destino.suffix.lower() in YA_COMPRIMIDOS:
+        escribir(destino, datos)
+    else:
+        escribir(comprimido(destino), gzip.compress(datos, compresslevel=9, mtime=0))
+    escribir(destino.with_name(destino.name + ".sha256"), hashlib.sha256(datos).hexdigest().encode())
 
 
 def escribir(ruta, datos: bytes):
@@ -20,7 +47,7 @@ def bajar(fuente, url, nombre="respuesta.json"):
     """Guarda la respuesta cruda en lago/raw/<fuente>/<día>/ y devuelve (ruta, día)."""
     hoy = datetime.date.today().isoformat()
     destino = RAW / fuente / hoy / nombre
-    if destino.exists():
+    if existe(destino):
         return destino, hoy
     for i in range(5):
         try:
@@ -33,14 +60,13 @@ def bajar(fuente, url, nombre="respuesta.json"):
             if i == 4:
                 raise
             time.sleep(10 * 2 ** i)  # el WAF del portal rechaza ráfagas: espera creciente
-    escribir(destino, datos)
-    escribir(destino.with_name(nombre + ".sha256"), hashlib.sha256(datos).hexdigest().encode())
+    guardar_crudo(destino, datos)
     return destino, hoy
 
 
 def ultimo_raw(fuente, nombre="respuesta.json"):
-    """Raw más reciente. El día de la carpeta es la fecha 'probado' del contrato."""
-    carpetas = sorted(p for p in (RAW / fuente).glob("*") if (p / nombre).exists())
+    """Raw más reciente (ruta lógica, sin .gz: se lee con crudo()). El día de la carpeta es la fecha 'probado'."""
+    carpetas = sorted(p for p in (RAW / fuente).glob("*") if existe(p / nombre))
     if not carpetas:
         raise SystemExit(f"No hay raw de {fuente}: corre el script sin --curar")
     return carpetas[-1] / nombre, carpetas[-1].name
@@ -53,9 +79,9 @@ PORTAL = "https://data.buenosaires.gob.ar/km/dataset"
 def contar(ruta):
     """Devuelve (número de registros, nombres de campos) de un GeoJSON, JSON o CSV."""
     ruta = pathlib.Path(ruta)
-    crudo = ruta.read_bytes()
+    datos = crudo(ruta)
     if ruta.suffix.lower() in (".geojson", ".json"):
-        obj = json.loads(crudo.decode("utf-8-sig"))
+        obj = json.loads(datos.decode("utf-8-sig"))
         filas = obj["features"] if isinstance(obj, dict) and "features" in obj else obj
         if not isinstance(filas, list):
             raise SystemExit(f"{ruta}: no es una lista de registros")
@@ -63,9 +89,9 @@ def contar(ruta):
         return len(filas), sorted((primero.get("properties") or primero).keys())
     if ruta.suffix.lower() == ".csv":
         try:
-            texto = crudo.decode("utf-8-sig")
+            texto = datos.decode("utf-8-sig")
         except UnicodeDecodeError:
-            texto = crudo.decode("latin-1")
+            texto = datos.decode("latin-1")
         cabecera = texto.splitlines()[0]
         sep = max(",;\t", key=cabecera.count)
         filas = [f for f in csv.reader(io.StringIO(texto), delimiter=sep) if any(c.strip() for c in f)]
@@ -78,11 +104,11 @@ csv.field_size_limit(10 ** 9)
 
 def leer_csv(ruta):
     """Lista de dicts de un CSV (separador y codificación detectados; filas vacías fuera)."""
-    crudo = pathlib.Path(ruta).read_bytes()
+    datos = crudo(ruta)
     try:
-        texto = crudo.decode("utf-8-sig")
+        texto = datos.decode("utf-8-sig")
     except UnicodeDecodeError:
-        texto = crudo.decode("latin-1")
+        texto = datos.decode("latin-1")
     cab = texto.splitlines()[0]
     sep = max(",;\t", key=cab.count)
     return [f for f in csv.DictReader(io.StringIO(texto), delimiter=sep) if any((v or "").strip() for v in f.values())]
@@ -109,4 +135,4 @@ def paquete(fuente, slug):
     if "--curar" not in sys.argv:
         bajar(fuente, f"{API}/package_show?id={slug}", "package.json")
     ruta, dia = ultimo_raw(fuente, "package.json")
-    return json.loads(ruta.read_text(encoding="utf-8"))["result"], dia
+    return json.loads(crudo(ruta).decode("utf-8"))["result"], dia

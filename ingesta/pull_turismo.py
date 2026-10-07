@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turismo: oferta (alojamientos de BA Data, solo conteos; nada de contactos) y demanda (EOH INDEC/Turismo, CABA)."""
 import json, sys
-from comun import bajar, desglose, escribir_json, fuente_ckan, leer_csv, paquete, ultimo_raw
+from comun import crudo, bajar, desglose, escribir_json, fuente_ckan, leer_csv, paquete, ultimo_raw
 from ckan_tema import elegir
 
 F, SLUG = "ba_alojamientos", "alojamientos-turisticos"
@@ -24,7 +24,7 @@ URL = ("https://apis.datos.gob.ar/series/api/series/?ids=" + ",".join(SERIES)
 if "--curar" not in sys.argv:
     bajar(E, URL, "series.json")
 ruta, dia_e = ultimo_raw(E, "series.json")
-datos = json.loads(ruta.read_text(encoding="utf-8"))["data"]
+datos = json.loads(crudo(ruta).decode("utf-8"))["data"]
 series, cifras = {}, {"alojamientos": {"valor": len(f), "unidad": "alojamientos turísticos", "vigencia": vig, "fuente": F}}
 for i, (clave, unidad, escala) in enumerate(SERIES.values(), 1):
     puntos = [[fila[0][:7], round(fila[i] * escala, 1) if escala != 1 else int(fila[i])]

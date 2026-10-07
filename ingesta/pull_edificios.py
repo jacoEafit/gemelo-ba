@@ -2,9 +2,9 @@
 """Edificios: obras registradas (permisos de obra, no volúmenes) y alturas del Tejido Urbano por parcela y barrio.
 El tejido trae una fila por volumen edificado (altura en m, sin superficie ni barrio): se toma la altura máxima de
 cada parcela (smp) y se cruza con Parcelas (barrio) leyendo el .dbf del SHP con la biblioteca estándar."""
-import collections, io, json, statistics, struct, sys, zipfile
+import collections, csv, datetime, io, json, statistics, struct, sys, zipfile
 from ckan_tema import ejecutar
-from comun import bajar, desglose, escribir_json, fuente_ckan, leer_csv, paquete, ultimo_raw
+from comun import RAW, bajar, desglose, escribir_json, existe, fuente_ckan, guardar_crudo, leer_csv, paquete, ultimo_raw
 
 
 def extra(ruta, fuente, vig):
@@ -26,7 +26,6 @@ pkg_t, dia_t = paquete(*T)
 pkg_p, dia_p = paquete(*P)
 if "--curar" not in sys.argv:
     bajar(T[0], next(r["url"] for r in pkg_t["resources"] if r["url"].endswith(".csv")), "tejido.csv")
-    bajar(P[0], next(r["url"] for r in pkg_p["resources"] if r["url"].endswith("parcelas_catastrales.zip")), "parcelas_shp.zip")
 
 
 def smp(s):
@@ -61,13 +60,27 @@ def dbf(datos, enc):
         yield fila
 
 
-z = zipfile.ZipFile(ultimo_raw(P[0], "parcelas_shp.zip")[0])
-n_dbf = next(n for n in z.namelist() if n.lower().endswith(".dbf"))
-cpg = next((n for n in z.namelist() if n.lower().endswith(".cpg")), None)
-enc = z.read(cpg).decode().strip() if cpg else "latin-1"
-enc = "utf-8" if enc.upper().replace("-", "") == "UTF8" else enc
+# De Parcelas solo se usa smp → barrio: el SHP (77 MB, geometría sin uso) se baja, se extrae esa tabla y se borra.
+# Queda parcelas_shp.zip.sha256 del original para trazabilidad (ver contrato: crudos reducidos).
+EXTRACTO = "parcelas_barrio.csv"
+if "--curar" not in sys.argv and not existe(RAW / P[0] / datetime.date.today().isoformat() / EXTRACTO):
+    ruta_zip, _ = bajar(P[0], next(r["url"] for r in pkg_p["resources"] if r["url"].endswith("parcelas_catastrales.zip")),
+                        "parcelas_shp.zip")
+    z = zipfile.ZipFile(ruta_zip)
+    n_dbf = next(n for n in z.namelist() if n.lower().endswith(".dbf"))
+    cpg = next((n for n in z.namelist() if n.lower().endswith(".cpg")), None)
+    enc = z.read(cpg).decode().strip() if cpg else "latin-1"
+    enc = "utf-8" if enc.upper().replace("-", "") == "UTF8" else enc
+    salida = io.StringIO()
+    w = csv.writer(salida, lineterminator="\n")
+    w.writerow(["smp", "barrio", "comuna"])
+    w.writerows([f.get("smp", ""), f.get("barrio", ""), f.get("comuna", "")] for f in dbf(z.read(n_dbf), enc))
+    guardar_crudo(ruta_zip.with_name(EXTRACTO), salida.getvalue().encode("utf-8"))
+    z.close()
+    ruta_zip.unlink()
+
 barrio_de, manzanas = {}, collections.defaultdict(collections.Counter)
-for f in dbf(z.read(n_dbf), enc):
+for f in leer_csv(ultimo_raw(P[0], EXTRACTO)[0]):
     if f.get("smp") and f.get("barrio"):
         k = smp(f["smp"])
         barrio_de[k] = barrio(f["barrio"])

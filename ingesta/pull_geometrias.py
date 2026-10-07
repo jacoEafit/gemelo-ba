@@ -2,7 +2,7 @@
 """Capas GeoJSON (WGS84) simplificadas: barrios, comunas, estaciones y red de subte -> lago/geo/*.geojson.
 Parte de los crudos de barrios/comunas/subte (los baja si faltan). Douglas-Peucker 0,0001° (~10 m), 5 decimales."""
 import json, pathlib, re, sys
-from comun import bajar, escribir_json, leer_csv, paquete, ultimo_raw
+from comun import crudo, bajar, escribir_json, leer_csv, paquete, ultimo_raw
 from ckan_tema import elegir
 
 TOL, DEC = 0.0001, 5
@@ -83,9 +83,9 @@ for F, slug, archivo, salida, props in [
         ("ba_comunas", "comunas", "datos.json", "comunas", ("id", "comuna", "barrios"))]:
     pkg, _ = paquete(F, slug)
     ruta, dia = ultimo_raw(F, archivo)
-    crudo = json.loads(ruta.read_text(encoding="utf-8-sig"))
+    obj = json.loads(crudo(ruta).decode("utf-8-sig"))
     fs = [{"type": "Feature", "properties": {k: f["properties"][k] for k in props}, "geometry": simplificar(f["geometry"])}
-          for f in crudo["features"]]
+          for f in obj["features"]]
     capa(salida, fs, meta(F, pkg, slug, None, dia))
 
 # --- subte: estaciones (puntos del CSV, WKT) y líneas
@@ -102,7 +102,7 @@ rl = elegir(pkg["resources"], ("json", "geojson"), "Líneas de Subte")
 if "--curar" not in sys.argv:
     bajar(F, rl["url"], "red_subte.geojson")
 ruta, dia_l = ultimo_raw(F, "red_subte.geojson")
-crudo = json.loads(ruta.read_text(encoding="utf-8-sig"))
+obj = json.loads(crudo(ruta).decode("utf-8-sig"))
 fs = [{"type": "Feature", "properties": {k: v for k, v in f["properties"].items() if k.lower() in ("linea", "line", "nombre", "name", "id")},
-       "geometry": simplificar(f["geometry"])} for f in crudo["features"]]
+       "geometry": simplificar(f["geometry"])} for f in obj["features"]]
 capa("subte_lineas", fs, meta(F, pkg, slug, None, dia_l))

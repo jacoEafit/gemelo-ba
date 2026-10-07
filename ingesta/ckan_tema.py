@@ -1,6 +1,6 @@
 """Ingesta genérica de un conjunto de BA Data: descarga el crudo y cura el tema con el contrato."""
 import json, sys
-from comun import API, PORTAL, bajar, contar, escribir_json, ultimo_raw
+from comun import crudo, API, PORTAL, bajar, contar, escribir_json, ultimo_raw
 
 
 def elegir(recursos, formatos, contiene=None):
@@ -14,12 +14,12 @@ def elegir(recursos, formatos, contiene=None):
 def ejecutar(tema, fuente, slug, formatos, unidad, contiene=None, extra=None):
     if "--curar" not in sys.argv:
         ruta, _ = bajar(fuente, f"{API}/package_show?id={slug}", "package.json")
-        pkg = json.loads(ruta.read_text(encoding="utf-8"))["result"]
+        pkg = json.loads(crudo(ruta).decode("utf-8"))["result"]
         r = elegir(pkg["resources"], formatos, contiene)
         bajar(fuente, r["url"], "datos." + r["format"].lower())
 
     ruta, dia = ultimo_raw(fuente, "package.json")
-    pkg = json.loads(ruta.read_text(encoding="utf-8"))["result"]
+    pkg = json.loads(crudo(ruta).decode("utf-8"))["result"]
     r = elegir(pkg["resources"], formatos, contiene)
     n, campos = contar(ruta.with_name("datos." + r["format"].lower()))
 

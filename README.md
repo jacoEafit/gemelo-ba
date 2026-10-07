@@ -2,6 +2,7 @@
 Lago de datos de Buenos Aires.
 - `./actualizar.sh`: descarga, cura y verifica.
 - `./reconstruir.sh`: reconstruye desde `lago/raw` (sin red). `git diff` vacío = reproducible.
+- `lago/raw` (~108 MB, fuera de git): crudos en gzip con el sha256 del original; Parcelas guarda solo smp→barrio (ver contrato).
 - Un `ingesta/pull_<tema>.py` por tema. Añade `--curar` para no descargar.
 - `ingesta/excel_fuentes.py` regenera `fuentes_gemelo_buenos_aires.xlsx` desde el lago (requiere `openpyxl`).
 - 18 temas y 23 fuentes vivas (ver el Excel). Contrato en `contrato/CONTRATO.md`; historial de decisiones en `registro/conversacion.md`.
