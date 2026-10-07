@@ -210,7 +210,7 @@
     ]
    ],
    "fuente": "ba_demografia",
-   "unidad": "habitantes",
+   "unidad": "habitantes (Censo 2010)",
    "vigencia": "2010"
   },
   "poblacion_por_comuna": {
@@ -276,8 +276,8 @@
      196876
     ]
    ],
-   "fuente": "ba_demografia",
-   "unidad": "habitantes",
+   "fuente": "dgeyc_censo2022",
+   "unidad": "habitantes (Censo 2022 definitivo)",
    "vigencia": "2022"
   }
  },
