@@ -457,12 +457,12 @@ BITACORA = [
      "Se transcribió el cuadro C.1 y la suma de las 15 comunas dio el total oficial (3.121.707)", "Correcto", "dgeyc_censo2022",
      "Un PDF sirve si se marca como «declarado» y se verifica contra un total."),
     (S1, "Conseguir población 2022 por barrio", "Propuso los radios censales de BA Data como vía", "Al abrir el conjunto: solo hay radios 2001 y 2010",
-     "Incorrecto", "", "Que exista un conjunto con el nombre correcto no quiere decir que tenga el año que se necesita."),
+     "Incorrecto", "F35", "Que exista un conjunto con el nombre correcto no quiere decir que tenga el año que se necesita."),
     (S1, "Buscar una fuente de edificios en 3D", "Tejido Urbano (alturas), Edificios Públicos 3D (LIDAR) y Área edificable",
      "Se miraron tamaños y campos con descargas parciales: solo el Tejido trae alturas de toda la ciudad", "Correcto", "ba_tejido_urbano",
      "«3D» puede ser alturas, nubes LIDAR o volumen permitido: tres cosas distintas."),
     (S1, "Explicar por qué los sensores en vivo no entraban", "Dijo que la API pedía credenciales",
-     "El 2026-10-06 la ficha del portal dice que las API y GTFS están suspendidas", "Parcial", "",
+     "El 2026-10-06 la ficha del portal dice que las API y GTFS están suspendidas", "Parcial", "F33",
      "La causa de un hueco también se verifica: el motivo anotado era otro."),
     (S2, "Buscar ocupación hotelera de CABA", "No estaba en BA Data; encontró la EOH (INDEC/Turismo) en la API de series de datos.gob.ar",
      "Se bajaron las series: residentes + no residentes = total en cada mes", "Correcto", "eoh_caba",
@@ -521,7 +521,7 @@ for j, (nombre, entidad, tipo, url, fmt, como, lic, personas, cob, periodo, frec
     f1.append([f"F{j:02d}", nombre, entidad, tipo, url, fmt, como, lic, personas, cob, periodo, frec, probado, estado, encontrada, obs])
 
 hojas = {"1. Fuentes": (f1, 16), "2. Diccionario": (filas_dic, 13),
-         "3. Bitácora IA": ([[i, h, enc, resp, comp, res, fid.get(f, ""), apr] for i, (h, enc, resp, comp, res, f, apr) in enumerate(BITACORA, 1)], 8)}
+         "3. Bitácora IA": ([[i, h, enc, resp, comp, res, fid.get(f, f), apr] for i, (h, enc, resp, comp, res, f, apr) in enumerate(BITACORA, 1)], 8)}
 for nombre, (filas, cols) in hojas.items():
     ws = wb[nombre]
     ampliar(ws, cols)
