@@ -70,7 +70,7 @@ for ruta in rutas:
 
 # Capas GeoJSON: WGS84 dentro de CABA, ligeras, con fuente/vigencia declaradas y sin datos personales
 BBOX = (-58.54, -34.72, -58.33, -34.52)  # lon_min, lat_min, lon_max, lat_max de la Ciudad
-ESPERADO = {"barrios": 48, "comunas": 15, "subte_estaciones": 90}
+ESPERADO = {"barrios": 48, "comunas": 15, "subte_estaciones": 90, "subte_pasajeros": 90}
 def coords(c):
     if c and isinstance(c[0], (int, float)):
         yield c
@@ -153,8 +153,14 @@ if glob.glob("lago/subte_molinetes.json"):
     c = {k.rsplit("_", 1)[0]: v["valor"] for k, v in sm["cifras"].items()}
     check("dominio subte_molinetes: 12 meses con datos", c["meses_con_datos"] == 12, c["meses_con_datos"])
     por_linea = {k.rsplit("_", 1)[1]: sum(v for _, v in s["puntos"]) for k, s in sm["series"].items()}
-    est = next(iter(sm["desgloses"]))
+    est = next(k for k in sm["desgloses"] if k.startswith("pasajeros_por_estacion_") and "_geo_" not in k)
     check("coherencia subte_molinetes: estaciones suman las series", tot("subte_molinetes", est) == sum(por_linea.values()))
+    d = sm["desgloses"]
+    pb = next(k for k in d if k.startswith("pasajeros_por_barrio_"))
+    sg = next(k for k in d if k.startswith("sin_estacion_geo_"))
+    check("coherencia subte_molinetes: barrios + sin estación geo = total A-H",
+          tot("subte_molinetes", pb) + tot("subte_molinetes", sg) == c["pasajeros_subte"])
+    check("dominio subte_molinetes: ≥99 % de pasajeros con estación geo", tot("subte_molinetes", sg) <= 0.01 * c["pasajeros_subte"])
     check("coherencia subte_molinetes: total = líneas A-H", c["pasajeros_subte"] == sum(v for l, v in por_linea.items() if l != "PM"))
 
 # Turismo (EOH): residentes + no residentes = total cada mes; ocupación es un porcentaje

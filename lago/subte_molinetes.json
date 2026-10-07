@@ -20,6 +20,93 @@
   }
  },
  "desgloses": {
+  "pasajeros_por_barrio_2025": {
+   "filas": [
+    [
+     "BALVANERA",
+     25405142
+    ],
+    [
+     "SAN NICOLAS",
+     23193753
+    ],
+    [
+     "CONSTITUCION",
+     21803773
+    ],
+    [
+     "PALERMO",
+     15062737
+    ],
+    [
+     "MONSERRAT",
+     14499681
+    ],
+    [
+     "FLORES",
+     14041390
+    ],
+    [
+     "RECOLETA",
+     13383033
+    ],
+    [
+     "ALMAGRO",
+     11300544
+    ],
+    [
+     "BELGRANO",
+     9882299
+    ],
+    [
+     "PARQUE PATRICIOS",
+     8665687
+    ],
+    [
+     "RETIRO",
+     8645151
+    ],
+    [
+     "CABALLITO",
+     8463773
+    ],
+    [
+     "CHACARITA",
+     7661152
+    ],
+    [
+     "VILLA URQUIZA",
+     7136142
+    ],
+    [
+     "SAN CRISTOBAL",
+     4574462
+    ],
+    [
+     "VILLA CRESPO",
+     3046991
+    ],
+    [
+     "PARQUE CHACABUCO",
+     2978878
+    ],
+    [
+     "VILLA ORTUZAR",
+     2973551
+    ],
+    [
+     "COLEGIALES",
+     2449728
+    ],
+    [
+     "BOEDO",
+     1291165
+    ]
+   ],
+   "fuente": "ba_subte_molinetes",
+   "unidad": "pasajeros en el año (estaciones ubicadas en el barrio)",
+   "vigencia": "2025"
+  },
   "pasajeros_por_estacion_2025": {
    "filas": [
     [
@@ -445,6 +532,384 @@
    ],
    "fuente": "ba_subte_molinetes",
    "unidad": "pasajeros en el año (línea · estación, nombre como viene en el crudo)",
+   "vigencia": "2025"
+  },
+  "pasajeros_por_estacion_geo_2025": {
+   "filas": [
+    [
+     "C · Constitucion",
+     16491664
+    ],
+    [
+     "A · San Pedrito",
+     6260126
+    ],
+    [
+     "D · Congreso De Tucuman",
+     6196965
+    ],
+    [
+     "B · Juan Manuel De Rosas - Villa Urquiza",
+     5791079
+    ],
+    [
+     "C · Retiro",
+     5433677
+    ],
+    [
+     "B · Federico Lacroze",
+     5132160
+    ],
+    [
+     "D · Catedral",
+     4343917
+    ],
+    [
+     "B · C. Pellegrini",
+     3902937
+    ],
+    [
+     "D · Juramento",
+     3685334
+    ],
+    [
+     "B · Leandro N. Alem",
+     3541632
+    ],
+    [
+     "B · Callao - Maestro Alfredo Bravo",
+     3537275
+    ],
+    [
+     "A · Plaza De Mayo",
+     3398439
+    ],
+    [
+     "H · Hospitales - Ringo Bonavena",
+     3370834
+    ],
+    [
+     "D · Bulnes",
+     3287577
+    ],
+    [
+     "D · Facultad De Medicina",
+     3216932
+    ],
+    [
+     "B · Almagro - Medrano",
+     3178225
+    ],
+    [
+     "A · Acoyte",
+     3104096
+    ],
+    [
+     "B · Malabia - Osvaldo Pugliese",
+     3046991
+    ],
+    [
+     "D · Palermo",
+     2973416
+    ],
+    [
+     "B · Angel Gallardo",
+     2876383
+    ],
+    [
+     "A · Primera Junta",
+     2775442
+    ],
+    [
+     "H · Once - 30 De Diciembre",
+     2755715
+    ],
+    [
+     "A · Plaza De Miserere",
+     2713095
+    ],
+    [
+     "A · San José De Flores",
+     2684674
+    ],
+    [
+     "D · Callao",
+     2630003
+    ],
+    [
+     "B · Dorrego",
+     2528992
+    ],
+    [
+     "B · Florida",
+     2508797
+    ],
+    [
+     "H · Parque Patricios",
+     2459859
+    ],
+    [
+     "D · Jose Hernandez",
+     2449728
+    ],
+    [
+     "H · Santa Fe - Carlos Jauregui",
+     2413106
+    ],
+    [
+     "D · Ministro Carranza - Miguel Abuelo",
+     2411042
+    ],
+    [
+     "D · Olleros",
+     2405348
+    ],
+    [
+     "B · Pasteur - Amia",
+     2378774
+    ],
+    [
+     "A · Carabobo",
+     2362676
+    ],
+    [
+     "D · Tribunales - Teatro Colón",
+     2310227
+    ],
+    [
+     "D · R.Scalabrini Ortiz",
+     2309601
+    ],
+    [
+     "B · Carlos Gardel",
+     2295242
+    ],
+    [
+     "H · Las Heras",
+     2282630
+    ],
+    [
+     "E · Independencia - Beata Mama Antula",
+     2221977
+    ],
+    [
+     "A · Castro Barros",
+     2216467
+    ],
+    [
+     "E · Bolivar",
+     2156999
+    ],
+    [
+     "E · Plaza De Los Virreyes - Eva Perón",
+     2135236
+    ],
+    [
+     "A · Congreso - Pdte. Dr. Raúl Alfonsín",
+     1993742
+    ],
+    [
+     "A · Saenz Peña",
+     1953644
+    ],
+    [
+     "A · Peru",
+     1924011
+    ],
+    [
+     "B · De Los Incas - Pque. Chas",
+     1831732
+    ],
+    [
+     "A · Rio De Janeiro",
+     1737717
+    ],
+    [
+     "D · Pueyrredon",
+     1712865
+    ],
+    [
+     "H · Venezuela",
+     1706080
+    ],
+    [
+     "B · Uruguay",
+     1705784
+    ],
+    [
+     "B · Pueyrredon",
+     1681932
+    ],
+    [
+     "D · Plaza Italia",
+     1675753
+    ],
+    [
+     "H · Córdoba",
+     1658734
+    ],
+    [
+     "H · Caseros",
+     1603210
+    ],
+    [
+     "A · Puan",
+     1521603
+    ],
+    [
+     "E · Correo Central",
+     1513986
+    ],
+    [
+     "H · Facultad De Derecho - Julieta Lanteri",
+     1478360
+    ],
+    [
+     "A · Piedras",
+     1427533
+    ],
+    [
+     "C · Independencia",
+     1398758
+    ],
+    [
+     "B · Echeverría - Mártires Palotinos",
+     1345063
+    ],
+    [
+     "H · Humberto 1°",
+     1336592
+    ],
+    [
+     "H · Corrientes",
+     1327070
+    ],
+    [
+     "E · Av. La Plata",
+     1311185
+    ],
+    [
+     "C · Lavalle",
+     1310537
+    ],
+    [
+     "A · Loria",
+     1291752
+    ],
+    [
+     "E · Boedo",
+     1291165
+    ],
+    [
+     "H · Inclan - Mezquita Al Ahmad",
+     1231784
+    ],
+    [
+     "D · Agüero",
+     1207335
+    ],
+    [
+     "A · Alberti",
+     1202838
+    ],
+    [
+     "E · Catalinas",
+     1169593
+    ],
+    [
+     "B · Tronador - Villa Ortúzar",
+     1141819
+    ],
+    [
+     "E · Emilio Mitre",
+     1136393
+    ],
+    [
+     "C · Diagonal Norte",
+     1072768
+    ],
+    [
+     "E · Jose Maria Moreno",
+     1062632
+    ],
+    [
+     "C · Moreno",
+     1045250
+    ],
+    [
+     "C · San Martin",
+     1022306
+    ],
+    [
+     "E · Retiro",
+     1019575
+    ],
+    [
+     "C · San Juan",
+     993697
+    ],
+    [
+     "E · Entre Rios - Rodolfo Walsh",
+     986436
+    ],
+    [
+     "D · 9 De Julio",
+     983168
+    ],
+    [
+     "A · Lima",
+     937875
+    ],
+    [
+     "E · Urquiza",
+     907540
+    ],
+    [
+     "E · Belgrano",
+     868821
+    ],
+    [
+     "C · Av. De Mayo",
+     787109
+    ],
+    [
+     "E · Jujuy",
+     702746
+    ],
+    [
+     "E · San Jose",
+     697677
+    ],
+    [
+     "E · Pichincha",
+     641148
+    ],
+    [
+     "E · Varela",
+     598678
+    ],
+    [
+     "A · Pasco",
+     596447
+    ],
+    [
+     "E · Medalla Milagrosa",
+     531300
+    ]
+   ],
+   "fuente": "ba_subte_molinetes",
+   "unidad": "pasajeros en el año (línea · estación como en lago/geo/subte_estaciones)",
+   "vigencia": "2025"
+  },
+  "sin_estacion_geo_2025": {
+   "filas": [
+    [
+     "H · sin dato",
+     9
+    ]
+   ],
+   "fuente": "ba_subte_molinetes",
+   "unidad": "pasajeros en el año (molinetes sin estación en la capa geo)",
    "vigencia": "2025"
   }
  },

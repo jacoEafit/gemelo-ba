@@ -2,8 +2,14 @@
  "cifras": {
   "barrios_comparados": {
    "fuente": "ba_demografia",
-   "unidad": "barrios con todas las variables",
+   "unidad": "barrios con población y área",
    "valor": 48,
+   "vigencia": "2024"
+  },
+  "pares_fuertes": {
+   "fuente": "ba_demografia",
+   "unidad": "pares de indicadores con |Spearman| ≥ 0,5",
+   "valor": 10,
    "vigencia": "2024"
   }
  },
@@ -15,52 +21,231 @@
      0.842
     ],
     [
-     "delitos_2024 por 1000 hab vs densidad",
-     -0.236
-    ],
-    [
      "obras_registradas vs población",
      0.652
-    ],
-    [
-     "obras_registradas por 1000 hab vs densidad",
-     -0.215
     ],
     [
      "espacios_culturales vs población",
      0.609
     ],
     [
-     "espacios_culturales por 1000 hab vs densidad",
+     "densidad (hab/km²) vs delitos 2024 por 1000 hab",
+     -0.236
+    ],
+    [
+     "densidad (hab/km²) vs obras registradas por 1000 hab",
+     -0.215
+    ],
+    [
+     "densidad (hab/km²) vs espacios culturales por 1000 hab",
      0.21
+    ],
+    [
+     "densidad (hab/km²) vs escuelas (ofertas) por 1000 hab",
+     -0.396
+    ],
+    [
+     "densidad (hab/km²) vs verde público m² por hab",
+     -0.567
+    ],
+    [
+     "densidad (hab/km²) vs altura mediana de parcela (m)",
+     0.468
+    ],
+    [
+     "densidad (hab/km²) vs % parcelas > 30 m",
+     0.594
+    ],
+    [
+     "densidad (hab/km²) vs pasajeros de subte por hab",
+     0.523
+    ],
+    [
+     "delitos 2024 por 1000 hab vs obras registradas por 1000 hab",
+     -0.349
+    ],
+    [
+     "delitos 2024 por 1000 hab vs espacios culturales por 1000 hab",
+     0.447
+    ],
+    [
+     "delitos 2024 por 1000 hab vs escuelas (ofertas) por 1000 hab",
+     0.568
+    ],
+    [
+     "delitos 2024 por 1000 hab vs verde público m² por hab",
+     0.39
+    ],
+    [
+     "delitos 2024 por 1000 hab vs altura mediana de parcela (m)",
+     0.324
+    ],
+    [
+     "delitos 2024 por 1000 hab vs % parcelas > 30 m",
+     0.204
+    ],
+    [
+     "delitos 2024 por 1000 hab vs pasajeros de subte por hab",
+     0.286
+    ],
+    [
+     "obras registradas por 1000 hab vs espacios culturales por 1000 hab",
+     -0.136
+    ],
+    [
+     "obras registradas por 1000 hab vs escuelas (ofertas) por 1000 hab",
+     -0.22
+    ],
+    [
+     "obras registradas por 1000 hab vs verde público m² por hab",
+     -0.117
+    ],
+    [
+     "obras registradas por 1000 hab vs altura mediana de parcela (m)",
+     -0.207
+    ],
+    [
+     "obras registradas por 1000 hab vs % parcelas > 30 m",
+     -0.166
+    ],
+    [
+     "obras registradas por 1000 hab vs pasajeros de subte por hab",
+     -0.169
+    ],
+    [
+     "espacios culturales por 1000 hab vs escuelas (ofertas) por 1000 hab",
+     0.201
+    ],
+    [
+     "espacios culturales por 1000 hab vs verde público m² por hab",
+     0.028
+    ],
+    [
+     "espacios culturales por 1000 hab vs altura mediana de parcela (m)",
+     0.68
+    ],
+    [
+     "espacios culturales por 1000 hab vs % parcelas > 30 m",
+     0.747
+    ],
+    [
+     "espacios culturales por 1000 hab vs pasajeros de subte por hab",
+     0.571
+    ],
+    [
+     "escuelas (ofertas) por 1000 hab vs verde público m² por hab",
+     0.301
+    ],
+    [
+     "escuelas (ofertas) por 1000 hab vs altura mediana de parcela (m)",
+     -0.006
+    ],
+    [
+     "escuelas (ofertas) por 1000 hab vs % parcelas > 30 m",
+     -0.129
+    ],
+    [
+     "escuelas (ofertas) por 1000 hab vs pasajeros de subte por hab",
+     -0.041
+    ],
+    [
+     "verde público m² por hab vs altura mediana de parcela (m)",
+     0.038
+    ],
+    [
+     "verde público m² por hab vs % parcelas > 30 m",
+     -0.124
+    ],
+    [
+     "verde público m² por hab vs pasajeros de subte por hab",
+     -0.152
+    ],
+    [
+     "altura mediana de parcela (m) vs % parcelas > 30 m",
+     0.835
+    ],
+    [
+     "altura mediana de parcela (m) vs pasajeros de subte por hab",
+     0.563
+    ],
+    [
+     "% parcelas > 30 m vs pasajeros de subte por hab",
+     0.659
     ]
    ],
    "fuente": "ba_demografia",
-   "unidad": "coeficiente de Spearman (-1 a 1)",
+   "unidad": "coeficiente de Spearman (-1 a 1), n = barrios_comparados",
+   "vigencia": "2024"
+  },
+  "spearman_fuertes": {
+   "filas": [
+    [
+     "altura mediana de parcela (m) vs % parcelas > 30 m",
+     0.835
+    ],
+    [
+     "espacios culturales por 1000 hab vs % parcelas > 30 m",
+     0.747
+    ],
+    [
+     "espacios culturales por 1000 hab vs altura mediana de parcela (m)",
+     0.68
+    ],
+    [
+     "% parcelas > 30 m vs pasajeros de subte por hab",
+     0.659
+    ],
+    [
+     "densidad (hab/km²) vs % parcelas > 30 m",
+     0.594
+    ],
+    [
+     "espacios culturales por 1000 hab vs pasajeros de subte por hab",
+     0.571
+    ],
+    [
+     "delitos 2024 por 1000 hab vs escuelas (ofertas) por 1000 hab",
+     0.568
+    ],
+    [
+     "densidad (hab/km²) vs verde público m² por hab",
+     -0.567
+    ],
+    [
+     "altura mediana de parcela (m) vs pasajeros de subte por hab",
+     0.563
+    ],
+    [
+     "densidad (hab/km²) vs pasajeros de subte por hab",
+     0.523
+    ]
+   ],
+   "fuente": "ba_demografia",
+   "unidad": "coeficiente de Spearman (|r| ≥ 0,5)",
    "vigencia": "2024"
   }
  },
  "fuentes": [
   {
    "estado": "vivo",
+   "id": "ba_barrios",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Barrios",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/barrios"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_espacios_culturales",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Espacios culturales.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-culturales"
+  },
+  {
+   "estado": "vivo",
    "id": "ba_demografia",
    "licencia": "CC-BY-2.5-AR",
    "nombre": "Estructura demográfica",
    "url": "https://data.buenosaires.gob.ar/km/dataset/estructura-demografica"
-  },
-  {
-   "estado": "declarado",
-   "id": "dgeyc_censo2022",
-   "licencia": "sin licencia declarada (publicación oficial; citar fuente)",
-   "nombre": "Censo Nacional 2022, resultados definitivos CABA (INDEC; DGEyC GCBA, informe 1877)",
-   "url": "https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2024/07/ir_2024_1877.pdf"
-  },
-  {
-   "estado": "vivo",
-   "id": "ba_delitos",
-   "licencia": "Creative Commons Attribution",
-   "nombre": "Delitos",
-   "url": "https://data.buenosaires.gob.ar/km/dataset/delitos"
   },
   {
    "estado": "vivo",
@@ -85,20 +270,34 @@
   },
   {
    "estado": "vivo",
-   "id": "ba_espacios_culturales",
+   "id": "ba_establecimientos_educativos",
    "licencia": "CC-BY-2.5-AR",
-   "nombre": "Espacios culturales.",
-   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-culturales"
+   "nombre": "Establecimientos Educativos",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/establecimientos-educativos"
   },
   {
    "estado": "vivo",
-   "id": "ba_barrios",
+   "id": "ba_espacios_verdes",
    "licencia": "CC-BY-2.5-AR",
-   "nombre": "Barrios",
-   "url": "https://data.buenosaires.gob.ar/km/dataset/barrios"
+   "nombre": "Espacios Verdes",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-verdes"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_delitos",
+   "licencia": "Creative Commons Attribution",
+   "nombre": "Delitos",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/delitos"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_subte_molinetes",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Subte: Viajes Molinetes.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/subte-viajes-molinetes"
   }
  ],
- "nota": "Mezcla vigencias distintas: población barrios Censo 2010, delitos 2024, obras/cultura acumulados a 2026. Los delitos y obras de barrios turísticos/comerciales (Palermo, Retiro) se inflan respecto al residente: la tasa por población residente exagera esos barrios. Indicativo, no causal.",
+ "nota": "Mezcla vigencias: población por barrio del Censo 2010, delitos 2024, subte 2025, alturas 2021, obras/cultura/verde/escuelas al día del portal. Las tasas usan población residente: barrios con mucha población flotante (San Nicolás, Monserrat, Retiro, Puerto Madero) quedan inflados en delitos, cultura, escuelas y subte. Barrios sin estaciones cuentan 0 pasajeros. Indicativo, no causal.",
  "probado": "2026-10-06",
  "series": {},
  "tema": "correlaciones"
