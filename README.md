@@ -3,6 +3,7 @@ Lago de datos de Buenos Aires.
 - `./actualizar.sh`: descarga, cura y verifica.
 - `./reconstruir.sh`: reconstruye desde `lago/raw` (sin red). `git diff` vacío = reproducible.
 - `lago/raw` (~108 MB, fuera de git): crudos en gzip con el sha256 del original; Parcelas guarda solo smp→barrio (ver contrato).
+- `python3 verificacion/probar_que_falla.py`: rompe una copia del lago de 6 maneras y exige que el verificador falle en todas.
 - Un `ingesta/pull_<tema>.py` por tema. Añade `--curar` para no descargar.
 - `ingesta/excel_fuentes.py` regenera `fuentes_gemelo_buenos_aires.xlsx` desde el lago (requiere `openpyxl`).
 - Entrega 1 (lago y diccionario): `entrega/Diccionario_de_datos_Buenos_Aires.xlsx`, generado desde el lago con `entrega/generar_entrega1.py`.
