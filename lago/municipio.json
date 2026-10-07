@@ -1,0 +1,304 @@
+{
+ "cifras": {
+  "devengado_2025": {
+   "fuente": "ba_presupuesto_historico",
+   "unidad": "pesos corrientes devengados (año completo)",
+   "valor": 14414804160946,
+   "vigencia": "2025"
+  },
+  "devengado_2026": {
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes devengados (acumulado al T2)",
+   "valor": 7672722979847,
+   "vigencia": "2026-06"
+  },
+  "ejecucion_2026": {
+   "fuente": "ba_presupuesto",
+   "unidad": "% del crédito vigente devengado (acumulado al T2)",
+   "valor": 36.7,
+   "vigencia": "2026-06"
+  },
+  "registros": {
+   "fuente": "ba_presupuesto",
+   "unidad": "filas de presupuesto (2026 T2)",
+   "valor": 38756,
+   "vigencia": "2026-06"
+  },
+  "sancionado_2026": {
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes (crédito sancionado)",
+   "valor": 18189401033591,
+   "vigencia": "2026"
+  },
+  "vigente_2025": {
+   "fuente": "ba_presupuesto_historico",
+   "unidad": "pesos corrientes (crédito vigente al cierre)",
+   "valor": 14752026974205,
+   "vigencia": "2025"
+  },
+  "vigente_2026": {
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes (crédito vigente al T2)",
+   "valor": 20878860043433,
+   "vigencia": "2026-06"
+  }
+ },
+ "desgloses": {
+  "devengado_por_finalidad_2025": {
+   "filas": [
+    [
+     "Servicios Sociales",
+     8537191963552
+    ],
+    [
+     "Servicios De Seguridad",
+     2160903291236
+    ],
+    [
+     "Administración Gubernamental",
+     2010520530520
+    ],
+    [
+     "Servicios Económicos",
+     930269202447
+    ],
+    [
+     "Gastos No Clasificados",
+     663100919179
+    ],
+    [
+     "Deuda Pública - Intereses Y Gastos",
+     112818254012
+    ]
+   ],
+   "fuente": "ba_presupuesto_historico",
+   "unidad": "pesos corrientes devengados (acumulado a 2025-12)",
+   "vigencia": "2025-12"
+  },
+  "devengado_por_finalidad_2026": {
+   "filas": [
+    [
+     "Servicios Sociales",
+     4468014753271
+    ],
+    [
+     "Servicios De Seguridad",
+     1138529449370
+    ],
+    [
+     "Administración Gubernamental",
+     1048792450365
+    ],
+    [
+     "Gastos No Clasificados",
+     568617089078
+    ],
+    [
+     "Servicios Económicos",
+     354693203542
+    ],
+    [
+     "Deuda Pública - Intereses Y Gastos",
+     94076034221
+    ]
+   ],
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes devengados (acumulado a 2026-06)",
+   "vigencia": "2026-06"
+  },
+  "devengado_por_jurisdiccion_2026": {
+   "filas": [
+    [
+     "Ministerio De Educación",
+     1483262844318
+    ],
+    [
+     "Ministerio De Salud",
+     1260447275567
+    ],
+    [
+     "Ministerio De Seguridad",
+     931983738936
+    ],
+    [
+     "Servicio De La Deuda Publica",
+     538193123299
+    ],
+    [
+     "Ministerio De Espacio Publico E Higiene Urbana",
+     485853549048
+    ],
+    [
+     "Jefatura De Gabinete De Ministros",
+     471256897893
+    ],
+    [
+     "Ministerio De Movilidad E Infraestructura",
+     458798039588
+    ],
+    [
+     "Ministerio De Desarrollo Humano Y Hábitat",
+     418448427749
+    ],
+    [
+     "Jefatura De Gobierno",
+     357695258885
+    ],
+    [
+     "Ministerio Publico",
+     264344907959
+    ],
+    [
+     "Obligaciones A Cargo Del Tesoro",
+     206598880143
+    ],
+    [
+     "Consejo De La Magistratura",
+     184681636461
+    ],
+    [
+     "Ministerio De Cultura",
+     154343222752
+    ],
+    [
+     "Ministerio De Hacienda Y Finanzas",
+     136038943825
+    ],
+    [
+     "Ministerio De Justicia",
+     81624347529
+    ],
+    [
+     "Legislatura De La Ciudad De Buenos Aires",
+     70811887300
+    ],
+    [
+     "Ministerio De Desarrollo Económico",
+     61400839154
+    ],
+    [
+     "Defensoria Del Pueblo",
+     34710406458
+    ],
+    [
+     "Auditoria General De La Ciudad De Buenos Aires",
+     24150058356
+    ],
+    [
+     "Procuracion General  De La Ciudad",
+     22937330980
+    ],
+    [
+     "Tribunal Superior De Justicia",
+     21413569470
+    ],
+    [
+     "Sindicatura General De La Ciudad De Buenos Aires",
+     3727794177
+    ]
+   ],
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes devengados (acumulado a 2026-06)",
+   "vigencia": "2026-06"
+  },
+  "devengado_por_ubicacion_2026": {
+   "filas": [
+    [
+     "Comuna 4",
+     2805667144496
+    ],
+    [
+     "Comuna 1",
+     1835433854924
+    ],
+    [
+     "Comuna 8",
+     497354434894
+    ],
+    [
+     "Comuna 3",
+     440120146699
+    ],
+    [
+     "Comuna 9",
+     283351487236
+    ],
+    [
+     "Comuna 7",
+     268222494282
+    ],
+    [
+     "Comuna 14",
+     262432620464
+    ],
+    [
+     "Comuna 12",
+     202786193651
+    ],
+    [
+     "Comuna 6",
+     196099727275
+    ],
+    [
+     "Comuna 15",
+     167281961247
+    ],
+    [
+     "Comuna 13",
+     144573096290
+    ],
+    [
+     "Comuna 11",
+     142299873862
+    ],
+    [
+     "Comuna 2",
+     131519964182
+    ],
+    [
+     "Comuna 10",
+     126083768558
+    ],
+    [
+     "Comuna 5",
+     123627433457
+    ],
+    [
+     "Zona Externa A La Ciudad",
+     45798333401
+    ],
+    [
+     "Distrito Escolar 2",
+     66314186
+    ],
+    [
+     "Distrito Escolar 4",
+     4130743
+    ]
+   ],
+   "fuente": "ba_presupuesto",
+   "unidad": "pesos corrientes devengados (acumulado a 2026-06)",
+   "vigencia": "2026-06"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_presupuesto",
+   "licencia": "Creative Commons Attribution",
+   "nombre": "Presupuesto Ejecutado 2026",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/presupuesto-ejecutado-2026"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_presupuesto_historico",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Presupuesto Ejecutado",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/presupuesto-ejecutado"
+  }
+ ],
+ "nota": "Pesos corrientes, sin ajustar por inflación: 2025 y 2026 no son comparables en términos reales. El trimestre es acumulado desde enero (2026 T2 = enero a 2026-06). «Ubicación» es la geográfica del gasto: incluye comunas, distritos escolares y zona externa. Se concentra en las comunas 4 y 1 porque ahí se imputa gasto central de la administración: no es gasto «en» esos barrios ni sirve para comparar comunas.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "municipio"
+}

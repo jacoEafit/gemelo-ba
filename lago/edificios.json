@@ -1,0 +1,277 @@
+{
+ "campos": [
+  "wkt_1",
+  "wkt_2",
+  "id_registr",
+  "expediente",
+  "fecha",
+  "smp",
+  "ubicacion",
+  "acronimo",
+  "descripcio",
+  "barrio",
+  "comuna"
+ ],
+ "cifras": {
+  "registros": {
+   "fuente": "ba_obras_registradas",
+   "unidad": "obras registradas",
+   "valor": 87784,
+   "vigencia": "2026-09"
+  }
+ },
+ "desgloses": {
+  "por_anio": {
+   "filas": [
+    [
+     "2020",
+     918
+    ],
+    [
+     "2021",
+     10604
+    ],
+    [
+     "2022",
+     13680
+    ],
+    [
+     "2023",
+     16831
+    ],
+    [
+     "2024",
+     16400
+    ],
+    [
+     "2025",
+     16852
+    ],
+    [
+     "2026",
+     12499
+    ]
+   ],
+   "fuente": "ba_obras_registradas",
+   "unidad": "obras registradas",
+   "vigencia": "2026-09"
+  },
+  "por_barrio": {
+   "filas": [
+    [
+     "PALERMO",
+     8985
+    ],
+    [
+     "VILLA URQUIZA",
+     5068
+    ],
+    [
+     "CABALLITO",
+     4568
+    ],
+    [
+     "BELGRANO",
+     4498
+    ],
+    [
+     "VILLA DEVOTO",
+     4382
+    ],
+    [
+     "FLORES",
+     3600
+    ],
+    [
+     "SAAVEDRA",
+     3437
+    ],
+    [
+     "VILLA CRESPO",
+     3237
+    ],
+    [
+     "NUÑEZ",
+     3180
+    ],
+    [
+     "MATADEROS",
+     2698
+    ],
+    [
+     "RECOLETA",
+     2665
+    ],
+    [
+     "ALMAGRO",
+     2652
+    ],
+    [
+     "VILLA DEL PARQUE",
+     2204
+    ],
+    [
+     "BALVANERA",
+     2095
+    ],
+    [
+     "COLEGIALES",
+     2078
+    ],
+    [
+     "LINIERS",
+     1995
+    ],
+    [
+     "VILLA PUEYRREDON",
+     1555
+    ],
+    [
+     "VILLA LURO",
+     1520
+    ],
+    [
+     "CHACARITA",
+     1509
+    ],
+    [
+     "SAN NICOLAS",
+     1427
+    ],
+    [
+     "MONTE CASTRO",
+     1419
+    ],
+    [
+     "VILLA ORTUZAR",
+     1386
+    ],
+    [
+     "BARRACAS",
+     1377
+    ],
+    [
+     "VILLA SANTA RITA",
+     1324
+    ],
+    [
+     "BOEDO",
+     1255
+    ],
+    [
+     "PARQUE CHAS",
+     1210
+    ],
+    [
+     "FLORESTA",
+     1162
+    ],
+    [
+     "PARQUE CHACABUCO",
+     1103
+    ],
+    [
+     "COGHLAN",
+     1069
+    ],
+    [
+     "VILLA LUGANO",
+     1066
+    ],
+    [
+     "MONSERRAT",
+     1062
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     1045
+    ],
+    [
+     "PARQUE PATRICIOS",
+     941
+    ],
+    [
+     "VELEZ SARSFIELD",
+     905
+    ],
+    [
+     "RETIRO",
+     894
+    ],
+    [
+     "SAN CRISTOBAL",
+     859
+    ],
+    [
+     "NUEVA POMPEYA",
+     788
+    ],
+    [
+     "PATERNAL",
+     719
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     703
+    ],
+    [
+     "VERSALLES",
+     636
+    ],
+    [
+     "CONSTITUCION",
+     604
+    ],
+    [
+     "VILLA REAL",
+     573
+    ],
+    [
+     "AGRONOMIA",
+     532
+    ],
+    [
+     "SAN TELMO",
+     465
+    ],
+    [
+     "LA BOCA",
+     410
+    ],
+    [
+     "VILLA RIACHUELO",
+     344
+    ],
+    [
+     "VILLA SOLDATI",
+     323
+    ],
+    [
+     "PUERTO MADERO",
+     257
+    ]
+   ],
+   "fuente": "ba_obras_registradas",
+   "unidad": "obras registradas",
+   "vigencia": "2026-09"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_obras_registradas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Obras Registradas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/obras-registradas"
+  }
+ ],
+ "nota": "vigencia = mes de la última modificación del conjunto en el portal",
+ "probado": "2026-10-06",
+ "recurso": {
+  "formato": "CSV",
+  "nombre": "Obras Registradas",
+  "url": "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/subsecretaria-de-planeamiento/obras-registradas/obrasregistradas-acumulado.csv"
+ },
+ "series": {},
+ "tema": "edificios"
+}

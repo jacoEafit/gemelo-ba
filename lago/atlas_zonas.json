@@ -1,0 +1,105 @@
+{
+ "campos": [
+  "area",
+  "barrios",
+  "comuna",
+  "id",
+  "objeto",
+  "perimetro"
+ ],
+ "cifras": {
+  "registros": {
+   "fuente": "ba_comunas",
+   "unidad": "comunas",
+   "valor": 15,
+   "vigencia": "2026-07"
+  }
+ },
+ "desgloses": {
+  "area_km2_por_comuna": {
+   "filas": [
+    [
+     "Comuna 1",
+     17.8
+    ],
+    [
+     "Comuna 10",
+     12.66
+    ],
+    [
+     "Comuna 11",
+     14.12
+    ],
+    [
+     "Comuna 12",
+     15.57
+    ],
+    [
+     "Comuna 13",
+     14.85
+    ],
+    [
+     "Comuna 14",
+     15.92
+    ],
+    [
+     "Comuna 15",
+     14.32
+    ],
+    [
+     "Comuna 2",
+     6.43
+    ],
+    [
+     "Comuna 3",
+     6.39
+    ],
+    [
+     "Comuna 4",
+     21.69
+    ],
+    [
+     "Comuna 5",
+     6.66
+    ],
+    [
+     "Comuna 6",
+     6.85
+    ],
+    [
+     "Comuna 7",
+     12.42
+    ],
+    [
+     "Comuna 8",
+     22.23
+    ],
+    [
+     "Comuna 9",
+     16.51
+    ]
+   ],
+   "fuente": "ba_comunas",
+   "unidad": "km2",
+   "vigencia": "2026-07"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_comunas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Comunas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/comunas"
+  }
+ ],
+ "nota": "vigencia = mes de la última modificación del conjunto en el portal",
+ "probado": "2026-10-06",
+ "recurso": {
+  "formato": "JSON",
+  "nombre": "Comunas (GeoJSON)",
+  "url": "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/innovacion-transformacion-digital/comunas/comunas.geojson"
+ },
+ "series": {},
+ "tema": "atlas_zonas"
+}

@@ -1,0 +1,91 @@
+{
+ "cifras": {
+  "barrios_comparados": {
+   "fuente": "ba_demografia",
+   "unidad": "barrios con todas las variables",
+   "valor": 48,
+   "vigencia": "2024"
+  }
+ },
+ "desgloses": {
+  "spearman": {
+   "filas": [
+    [
+     "delitos_2024 vs población",
+     0.842
+    ],
+    [
+     "delitos_2024 por 1000 hab vs densidad",
+     -0.236
+    ],
+    [
+     "obras_registradas vs población",
+     0.652
+    ],
+    [
+     "obras_registradas por 1000 hab vs densidad",
+     -0.215
+    ],
+    [
+     "espacios_culturales vs población",
+     0.609
+    ],
+    [
+     "espacios_culturales por 1000 hab vs densidad",
+     0.21
+    ]
+   ],
+   "fuente": "ba_demografia",
+   "unidad": "coeficiente de Spearman (-1 a 1)",
+   "vigencia": "2024"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_demografia",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Estructura demográfica",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/estructura-demografica"
+  },
+  {
+   "estado": "declarado",
+   "id": "dgeyc_censo2022",
+   "licencia": "sin licencia declarada (publicación oficial; citar fuente)",
+   "nombre": "Censo Nacional 2022, resultados definitivos CABA (INDEC; DGEyC GCBA, informe 1877)",
+   "url": "https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2024/07/ir_2024_1877.pdf"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_delitos",
+   "licencia": "Creative Commons Attribution",
+   "nombre": "Delitos",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/delitos"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_obras_registradas",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Obras Registradas",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/obras-registradas"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_espacios_culturales",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Espacios culturales.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-culturales"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_barrios",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Barrios",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/barrios"
+  }
+ ],
+ "nota": "Mezcla vigencias distintas: población barrios Censo 2010, delitos 2024, obras/cultura acumulados a 2026. Los delitos y obras de barrios turísticos/comerciales (Palermo, Retiro) se inflan respecto al residente: la tasa por población residente exagera esos barrios. Indicativo, no causal.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "correlaciones"
+}

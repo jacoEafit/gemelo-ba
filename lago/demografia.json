@@ -1,0 +1,304 @@
+{
+ "cifras": {
+  "poblacion_barrios": {
+   "fuente": "ba_demografia",
+   "unidad": "habitantes (Censo 2010, suma de barrios)",
+   "valor": 2890151,
+   "vigencia": "2010"
+  },
+  "poblacion_comunas": {
+   "fuente": "dgeyc_censo2022",
+   "unidad": "habitantes (Censo 2022 definitivo, suma de comunas)",
+   "valor": 3121707,
+   "vigencia": "2022"
+  }
+ },
+ "desgloses": {
+  "poblacion_por_barrio": {
+   "filas": [
+    [
+     "AGRONOMIA",
+     13912
+    ],
+    [
+     "ALMAGRO",
+     131699
+    ],
+    [
+     "BALVANERA",
+     138926
+    ],
+    [
+     "BARRACAS",
+     89452
+    ],
+    [
+     "BELGRANO",
+     126267
+    ],
+    [
+     "BOCA",
+     45113
+    ],
+    [
+     "BOEDO",
+     47306
+    ],
+    [
+     "CABALLITO",
+     176076
+    ],
+    [
+     "CHACARITA",
+     27761
+    ],
+    [
+     "COGHLAN",
+     18604
+    ],
+    [
+     "COLEGIALES",
+     52551
+    ],
+    [
+     "CONSTITUCION",
+     44107
+    ],
+    [
+     "FLORES",
+     164310
+    ],
+    [
+     "FLORESTA",
+     37575
+    ],
+    [
+     "LINIERS",
+     44132
+    ],
+    [
+     "MATADEROS",
+     64436
+    ],
+    [
+     "MONSERRAT",
+     39914
+    ],
+    [
+     "MONTE CASTRO",
+     33623
+    ],
+    [
+     "NUEVA POMPEYA",
+     42695
+    ],
+    [
+     "NUÑEZ",
+     51949
+    ],
+    [
+     "PALERMO",
+     226534
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     53229
+    ],
+    [
+     "PARQUE CHACABUCO",
+     56281
+    ],
+    [
+     "PARQUE CHAS",
+     17489
+    ],
+    [
+     "PARQUE PATRICIOS",
+     40985
+    ],
+    [
+     "PATERNAL",
+     19717
+    ],
+    [
+     "PUERTO MADERO",
+     6726
+    ],
+    [
+     "RECOLETA",
+     157932
+    ],
+    [
+     "RETIRO",
+     65413
+    ],
+    [
+     "SAAVEDRA",
+     50295
+    ],
+    [
+     "SAN CRISTOBAL",
+     48611
+    ],
+    [
+     "SAN NICOLAS",
+     29273
+    ],
+    [
+     "SAN TELMO",
+     20453
+    ],
+    [
+     "VELEZ SARSFIELD",
+     35081
+    ],
+    [
+     "VERSALLES",
+     13822
+    ],
+    [
+     "VILLA CRESPO",
+     81959
+    ],
+    [
+     "VILLA DEL PARQUE",
+     55273
+    ],
+    [
+     "VILLA DEVOTO",
+     66521
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     34713
+    ],
+    [
+     "VILLA LUGANO",
+     126374
+    ],
+    [
+     "VILLA LURO",
+     32502
+    ],
+    [
+     "VILLA ORTUZAR",
+     21736
+    ],
+    [
+     "VILLA PUEYRREDON",
+     39654
+    ],
+    [
+     "VILLA REAL",
+     13419
+    ],
+    [
+     "VILLA RIACHUELO",
+     14084
+    ],
+    [
+     "VILLA SANTA RITA",
+     33325
+    ],
+    [
+     "VILLA SOLDATI",
+     46779
+    ],
+    [
+     "VILLA URQUIZA",
+     91563
+    ]
+   ],
+   "fuente": "ba_demografia",
+   "unidad": "habitantes",
+   "vigencia": "2010"
+  },
+  "poblacion_por_comuna": {
+   "filas": [
+    [
+     "Comuna 1",
+     223554
+    ],
+    [
+     "Comuna 2",
+     161645
+    ],
+    [
+     "Comuna 3",
+     196240
+    ],
+    [
+     "Comuna 4",
+     229240
+    ],
+    [
+     "Comuna 5",
+     194271
+    ],
+    [
+     "Comuna 6",
+     203043
+    ],
+    [
+     "Comuna 7",
+     215896
+    ],
+    [
+     "Comuna 8",
+     204367
+    ],
+    [
+     "Comuna 9",
+     169063
+    ],
+    [
+     "Comuna 10",
+     173004
+    ],
+    [
+     "Comuna 11",
+     204601
+    ],
+    [
+     "Comuna 12",
+     236887
+    ],
+    [
+     "Comuna 13",
+     264385
+    ],
+    [
+     "Comuna 14",
+     248635
+    ],
+    [
+     "Comuna 15",
+     196876
+    ]
+   ],
+   "fuente": "ba_demografia",
+   "unidad": "habitantes",
+   "vigencia": "2022"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_demografia",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Estructura demográfica",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/estructura-demografica"
+  },
+  {
+   "estado": "declarado",
+   "id": "dgeyc_censo2022",
+   "licencia": "sin licencia declarada (publicación oficial; citar fuente)",
+   "nombre": "Censo Nacional 2022, resultados definitivos CABA (INDEC; DGEyC GCBA, informe 1877)",
+   "url": "https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2024/07/ir_2024_1877.pdf"
+  }
+ ],
+ "nota": "Comunas: Censo 2022 definitivo. Barrios: sigue siendo Censo 2010 (no hay población 2022 por barrio en datos abiertos; las comunas y los barrios NO son comparables entre sí: 3,12 M vs 2,89 M). Vigencia = año de la cifra, no del portal.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "demografia"
+}

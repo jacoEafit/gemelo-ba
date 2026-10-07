@@ -1,0 +1,88 @@
+{
+ "cifras": {
+  "estaciones_ambientales": {
+   "fuente": "ba_calidad_aire",
+   "unidad": "estaciones ambientales",
+   "valor": 4,
+   "vigencia": "2026-10"
+  },
+  "lecturas_horarias": {
+   "fuente": "ba_calidad_aire",
+   "unidad": "filas fecha-hora",
+   "valor": 8422,
+   "vigencia": "2025"
+  }
+ },
+ "desgloses": {
+  "promedio_co_por_estacion": {
+   "filas": [
+    [
+     "centenario",
+     0.47
+    ],
+    [
+     "cordoba",
+     0.59
+    ],
+    [
+     "la_boca",
+     0.3
+    ]
+   ],
+   "fuente": "ba_calidad_aire",
+   "unidad": "ppm (promedio móvil 8 h)",
+   "vigencia": "2025"
+  },
+  "promedio_no2_por_estacion": {
+   "filas": [
+    [
+     "centenario",
+     15.09
+    ],
+    [
+     "cordoba",
+     18.81
+    ],
+    [
+     "la_boca",
+     26.59
+    ]
+   ],
+   "fuente": "ba_calidad_aire",
+   "unidad": "ppb (promedio horario)",
+   "vigencia": "2025"
+  },
+  "promedio_pm10_por_estacion": {
+   "filas": [
+    [
+     "centenario",
+     21.05
+    ],
+    [
+     "cordoba",
+     23.83
+    ],
+    [
+     "la_boca",
+     22.95
+    ]
+   ],
+   "fuente": "ba_calidad_aire",
+   "unidad": "µg/m3 (promedio móvil 24 h)",
+   "vigencia": "2025"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_calidad_aire",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Calidad de Aire",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/calidad-aire"
+  }
+ ],
+ "nota": "Promedio de todas las lecturas válidas del año 2025 (el archivo 2026 existe pero se ignora hasta tener un año cerrado). CO en ppm y NO2 en ppb, según el diccionario contaminantes.csv del portal (no µg/m3). Estaciones con lecturas vacías o 's/d' se promedian solo con las válidas; revisar cobertura antes de comparar estaciones.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "calidad_aire"
+}

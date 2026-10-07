@@ -1,0 +1,297 @@
+{
+ "cifras": {
+  "estaciones_distintas": {
+   "fuente": "ba_subte_estaciones",
+   "unidad": "estaciones (nombres distintos)",
+   "valor": 88,
+   "vigencia": "2026-10"
+  },
+  "estaciones_linea": {
+   "fuente": "ba_subte_estaciones",
+   "unidad": "pares estación-línea",
+   "valor": 90,
+   "vigencia": "2026-10"
+  },
+  "lineas": {
+   "fuente": "ba_subte_estaciones",
+   "unidad": "líneas",
+   "valor": 6,
+   "vigencia": "2026-10"
+  }
+ },
+ "desgloses": {
+  "estaciones_por_linea": {
+   "filas": [
+    [
+     "A",
+     18
+    ],
+    [
+     "E",
+     18
+    ],
+    [
+     "B",
+     17
+    ],
+    [
+     "D",
+     16
+    ],
+    [
+     "H",
+     12
+    ],
+    [
+     "C",
+     9
+    ]
+   ],
+   "fuente": "ba_subte_estaciones",
+   "unidad": "estaciones",
+   "vigencia": "2026-10"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_subte_estaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Subte: Estaciones.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/subte-estaciones"
+  }
+ ],
+ "nota": "Corrige un error previo: el recurso viajes_anual.csv tiene 48 filas (año x línea), NO 48 estaciones. Las estaciones de combinación aparecen una vez por línea. 2020 refleja la pandemia.",
+ "probado": "2026-10-06",
+ "series": {
+  "pasajeros_linea_A": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     26731478
+    ],
+    [
+     "2014",
+     48117121
+    ],
+    [
+     "2015",
+     54011706
+    ],
+    [
+     "2016",
+     58786268
+    ],
+    [
+     "2017",
+     61943401
+    ],
+    [
+     "2018",
+     63590948
+    ],
+    [
+     "2019",
+     63469412
+    ],
+    [
+     "2020",
+     11547922
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  },
+  "pasajeros_linea_B": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     49458167
+    ],
+    [
+     "2014",
+     71550892
+    ],
+    [
+     "2015",
+     80973803
+    ],
+    [
+     "2016",
+     86447290
+    ],
+    [
+     "2017",
+     88723480
+    ],
+    [
+     "2018",
+     92012699
+    ],
+    [
+     "2019",
+     87449121
+    ],
+    [
+     "2020",
+     16221726
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  },
+  "pasajeros_linea_C": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     27839180
+    ],
+    [
+     "2014",
+     41491009
+    ],
+    [
+     "2015",
+     44859132
+    ],
+    [
+     "2016",
+     46713260
+    ],
+    [
+     "2017",
+     48163289
+    ],
+    [
+     "2018",
+     54965093
+    ],
+    [
+     "2019",
+     50661307
+    ],
+    [
+     "2020",
+     7989026
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  },
+  "pasajeros_linea_D": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     45532347
+    ],
+    [
+     "2014",
+     68188583
+    ],
+    [
+     "2015",
+     74073395
+    ],
+    [
+     "2016",
+     83000815
+    ],
+    [
+     "2017",
+     81600202
+    ],
+    [
+     "2018",
+     82042036
+    ],
+    [
+     "2019",
+     80941537
+    ],
+    [
+     "2020",
+     14540456
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  },
+  "pasajeros_linea_E": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     11815541
+    ],
+    [
+     "2014",
+     18368628
+    ],
+    [
+     "2015",
+     19190895
+    ],
+    [
+     "2016",
+     21307077
+    ],
+    [
+     "2017",
+     22085643
+    ],
+    [
+     "2018",
+     22890867
+    ],
+    [
+     "2019",
+     24097320
+    ],
+    [
+     "2020",
+     5270933
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  },
+  "pasajeros_linea_H": {
+   "fuente": "ba_subte_estaciones",
+   "puntos": [
+    [
+     "2013",
+     4377480
+    ],
+    [
+     "2014",
+     7473392
+    ],
+    [
+     "2015",
+     9410189
+    ],
+    [
+     "2016",
+     18163481
+    ],
+    [
+     "2017",
+     26185710
+    ],
+    [
+     "2018",
+     32898471
+    ],
+    [
+     "2019",
+     34721804
+    ],
+    [
+     "2020",
+     6766380
+    ]
+   ],
+   "unidad": "pasajeros por año"
+  }
+ },
+ "tema": "geoinfraestructura"
+}

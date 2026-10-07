@@ -1,0 +1,620 @@
+{
+ "cifras": {
+  "delitos_2024": {
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "valor": 158838,
+   "vigencia": "2024"
+  },
+  "delitos_2025": {
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "valor": 133203,
+   "vigencia": "2025"
+  },
+  "meses_con_datos_2024": {
+   "fuente": "ba_delitos",
+   "unidad": "meses",
+   "valor": 12,
+   "vigencia": "2024"
+  },
+  "meses_con_datos_2025": {
+   "fuente": "ba_delitos",
+   "unidad": "meses",
+   "valor": 12,
+   "vigencia": "2025"
+  }
+ },
+ "desgloses": {
+  "por_barrio_2024": {
+   "filas": [
+    [
+     "PALERMO",
+     12794
+    ],
+    [
+     "BALVANERA",
+     9967
+    ],
+    [
+     "FLORES",
+     8509
+    ],
+    [
+     "CABALLITO",
+     6863
+    ],
+    [
+     "RECOLETA",
+     6690
+    ],
+    [
+     "ALMAGRO",
+     6026
+    ],
+    [
+     "VILLA LUGANO",
+     5861
+    ],
+    [
+     "SAN NICOLAS",
+     5831
+    ],
+    [
+     "BARRACAS",
+     5389
+    ],
+    [
+     "BELGRANO",
+     5043
+    ],
+    [
+     "VILLA CRESPO",
+     4686
+    ],
+    [
+     "CONSTITUCION",
+     4047
+    ],
+    [
+     "MONSERRAT",
+     3997
+    ],
+    [
+     "PARQUE CHACABUCO",
+     3987
+    ],
+    [
+     "RETIRO",
+     3984
+    ],
+    [
+     "NULL",
+     3922
+    ],
+    [
+     "NUEVA POMPEYA",
+     3657
+    ],
+    [
+     "MATADEROS",
+     3366
+    ],
+    [
+     "VILLA SOLDATI",
+     3352
+    ],
+    [
+     "VILLA URQUIZA",
+     3173
+    ],
+    [
+     "VILLA DEVOTO",
+     3060
+    ],
+    [
+     "LINIERS",
+     2963
+    ],
+    [
+     "BOCA",
+     2747
+    ],
+    [
+     "SAN CRISTOBAL",
+     2565
+    ],
+    [
+     "PARQUE PATRICIOS",
+     2446
+    ],
+    [
+     "SAAVEDRA",
+     2406
+    ],
+    [
+     "CHACARITA",
+     2221
+    ],
+    [
+     "SAN TELMO",
+     2211
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     2099
+    ],
+    [
+     "NUÑEZ",
+     2096
+    ],
+    [
+     "COLEGIALES",
+     2036
+    ],
+    [
+     "BOEDO",
+     2003
+    ],
+    [
+     "FLORESTA",
+     1878
+    ],
+    [
+     "VILLA DEL PARQUE",
+     1830
+    ],
+    [
+     "VILLA PUEYRREDON",
+     1598
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     1452
+    ],
+    [
+     "VILLA LURO",
+     1437
+    ],
+    [
+     "VELEZ SARSFIELD",
+     1357
+    ],
+    [
+     "VILLA SANTA RITA",
+     1308
+    ],
+    [
+     "MONTE CASTRO",
+     1177
+    ],
+    [
+     "PATERNAL",
+     980
+    ],
+    [
+     "VILLA ORTUZAR",
+     902
+    ],
+    [
+     "VILLA RIACHUELO",
+     795
+    ],
+    [
+     "VERSALLES",
+     777
+    ],
+    [
+     "PUERTO MADERO",
+     749
+    ],
+    [
+     "VILLA REAL",
+     742
+    ],
+    [
+     "PARQUE CHAS",
+     682
+    ],
+    [
+     "COGHLAN",
+     592
+    ],
+    [
+     "AGRONOMIA",
+     585
+    ]
+   ],
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "vigencia": "2024"
+  },
+  "por_barrio_2025": {
+   "filas": [
+    [
+     "PALERMO",
+     10607
+    ],
+    [
+     "BALVANERA",
+     7782
+    ],
+    [
+     "FLORES",
+     7256
+    ],
+    [
+     "CABALLITO",
+     5953
+    ],
+    [
+     "RECOLETA",
+     5421
+    ],
+    [
+     "ALMAGRO",
+     4908
+    ],
+    [
+     "BARRACAS",
+     4678
+    ],
+    [
+     "SAN NICOLAS",
+     4592
+    ],
+    [
+     "VILLA LUGANO",
+     4549
+    ],
+    [
+     "BELGRANO",
+     4533
+    ],
+    [
+     "RETIRO",
+     3970
+    ],
+    [
+     "CONSTITUCION",
+     3825
+    ],
+    [
+     "MONSERRAT",
+     3724
+    ],
+    [
+     "VILLA CRESPO",
+     3678
+    ],
+    [
+     "VILLA SOLDATI",
+     3149
+    ],
+    [
+     "MATADEROS",
+     2995
+    ],
+    [
+     "PARQUE CHACABUCO",
+     2954
+    ],
+    [
+     "NUEVA POMPEYA",
+     2805
+    ],
+    [
+     "NULL",
+     2785
+    ],
+    [
+     "VILLA URQUIZA",
+     2637
+    ],
+    [
+     "LINIERS",
+     2545
+    ],
+    [
+     "VILLA DEVOTO",
+     2461
+    ],
+    [
+     "BOCA",
+     2416
+    ],
+    [
+     "PARQUE PATRICIOS",
+     2382
+    ],
+    [
+     "SAAVEDRA",
+     2264
+    ],
+    [
+     "SAN CRISTOBAL",
+     2081
+    ],
+    [
+     "SAN TELMO",
+     2021
+    ],
+    [
+     "NUÑEZ",
+     1935
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     1815
+    ],
+    [
+     "BOEDO",
+     1804
+    ],
+    [
+     "CHACARITA",
+     1661
+    ],
+    [
+     "FLORESTA",
+     1619
+    ],
+    [
+     "COLEGIALES",
+     1564
+    ],
+    [
+     "VILLA DEL PARQUE",
+     1413
+    ],
+    [
+     "VILLA PUEYRREDON",
+     1271
+    ],
+    [
+     "VILLA LURO",
+     1230
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     1218
+    ],
+    [
+     "VELEZ SARSFIELD",
+     1169
+    ],
+    [
+     "MONTE CASTRO",
+     1030
+    ],
+    [
+     "VILLA SANTA RITA",
+     985
+    ],
+    [
+     "PATERNAL",
+     890
+    ],
+    [
+     "PUERTO MADERO",
+     774
+    ],
+    [
+     "VILLA RIACHUELO",
+     701
+    ],
+    [
+     "VILLA ORTUZAR",
+     649
+    ],
+    [
+     "VERSALLES",
+     597
+    ],
+    [
+     "VILLA REAL",
+     541
+    ],
+    [
+     "COGHLAN",
+     528
+    ],
+    [
+     "PARQUE CHAS",
+     470
+    ],
+    [
+     "AGRONOMIA",
+     368
+    ]
+   ],
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "vigencia": "2025"
+  },
+  "por_tipo_2024": {
+   "filas": [
+    [
+     "Robo",
+     68392
+    ],
+    [
+     "Hurto",
+     62771
+    ],
+    [
+     "Vialidad",
+     10574
+    ],
+    [
+     "Lesiones",
+     9420
+    ],
+    [
+     "Amenazas",
+     7603
+    ],
+    [
+     "Homicidios",
+     78
+    ]
+   ],
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "vigencia": "2024"
+  },
+  "por_tipo_2025": {
+   "filas": [
+    [
+     "Robo",
+     50069
+    ],
+    [
+     "Hurto",
+     49641
+    ],
+    [
+     "Vialidad",
+     11760
+    ],
+    [
+     "Lesiones",
+     11544
+    ],
+    [
+     "Amenazas",
+     10111
+    ],
+    [
+     "Homicidios",
+     78
+    ]
+   ],
+   "fuente": "ba_delitos",
+   "unidad": "delitos registrados",
+   "vigencia": "2025"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_delitos",
+   "licencia": "Creative Commons Attribution",
+   "nombre": "Delitos",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/delitos"
+  }
+ ],
+ "nota": "Son hechos registrados por el Ministerio de Justicia y Seguridad, no tasas: dividir por población para comparar barrios. Sin latitud/longitud por hecho en el lago. Si un año tiene <12 meses, está incompleto.",
+ "probado": "2026-10-06",
+ "series": {
+  "delitos_mensuales_2024": {
+   "fuente": "ba_delitos",
+   "puntos": [
+    [
+     "2024-01",
+     13626
+    ],
+    [
+     "2024-02",
+     13592
+    ],
+    [
+     "2024-03",
+     13915
+    ],
+    [
+     "2024-04",
+     13518
+    ],
+    [
+     "2024-05",
+     13383
+    ],
+    [
+     "2024-06",
+     12874
+    ],
+    [
+     "2024-07",
+     12968
+    ],
+    [
+     "2024-08",
+     12708
+    ],
+    [
+     "2024-09",
+     12307
+    ],
+    [
+     "2024-10",
+     12941
+    ],
+    [
+     "2024-11",
+     13645
+    ],
+    [
+     "2024-12",
+     13361
+    ]
+   ],
+   "unidad": "delitos registrados"
+  },
+  "delitos_mensuales_2025": {
+   "fuente": "ba_delitos",
+   "puntos": [
+    [
+     "2025-01",
+     11511
+    ],
+    [
+     "2025-02",
+     10740
+    ],
+    [
+     "2025-03",
+     12040
+    ],
+    [
+     "2025-04",
+     11130
+    ],
+    [
+     "2025-05",
+     11448
+    ],
+    [
+     "2025-06",
+     10235
+    ],
+    [
+     "2025-07",
+     11010
+    ],
+    [
+     "2025-08",
+     10681
+    ],
+    [
+     "2025-09",
+     10528
+    ],
+    [
+     "2025-10",
+     11530
+    ],
+    [
+     "2025-11",
+     11281
+    ],
+    [
+     "2025-12",
+     11069
+    ]
+   ],
+   "unidad": "delitos registrados"
+  }
+ },
+ "tema": "seguridad"
+}

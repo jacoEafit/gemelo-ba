@@ -1,0 +1,436 @@
+{
+ "campos": [
+  "area_metro",
+  "comuna",
+  "id",
+  "nombre",
+  "objeto",
+  "perimetro_"
+ ],
+ "cifras": {
+  "registros": {
+   "fuente": "ba_barrios",
+   "unidad": "barrios",
+   "valor": 48,
+   "vigencia": "2026-07"
+  }
+ },
+ "desgloses": {
+  "area_km2_por_barrio": {
+   "filas": [
+    [
+     "Agronomia",
+     2.12
+    ],
+    [
+     "Almagro",
+     4.05
+    ],
+    [
+     "Balvanera",
+     4.34
+    ],
+    [
+     "Barracas",
+     7.96
+    ],
+    [
+     "Belgrano",
+     8.06
+    ],
+    [
+     "Boedo",
+     2.61
+    ],
+    [
+     "Caballito",
+     6.85
+    ],
+    [
+     "Chacarita",
+     3.12
+    ],
+    [
+     "Coghlan",
+     1.28
+    ],
+    [
+     "Colegiales",
+     2.29
+    ],
+    [
+     "Constitucion",
+     2.1
+    ],
+    [
+     "Flores",
+     8.59
+    ],
+    [
+     "Floresta",
+     2.32
+    ],
+    [
+     "La Boca",
+     5.04
+    ],
+    [
+     "Liniers",
+     4.37
+    ],
+    [
+     "Mataderos",
+     7.4
+    ],
+    [
+     "Monserrat",
+     2.2
+    ],
+    [
+     "Monte Castro",
+     2.63
+    ],
+    [
+     "Nueva Pompeya",
+     4.95
+    ],
+    [
+     "Nuñez",
+     4.5
+    ],
+    [
+     "Palermo",
+     15.92
+    ],
+    [
+     "Parque Avellaneda",
+     4.73
+    ],
+    [
+     "Parque Chacabuco",
+     3.83
+    ],
+    [
+     "Parque Chas",
+     1.39
+    ],
+    [
+     "Parque Patricios",
+     3.74
+    ],
+    [
+     "Paternal",
+     2.23
+    ],
+    [
+     "Puerto Madero",
+     5.04
+    ],
+    [
+     "Recoleta",
+     6.43
+    ],
+    [
+     "Retiro",
+     4.51
+    ],
+    [
+     "Saavedra",
+     5.54
+    ],
+    [
+     "San Cristobal",
+     2.04
+    ],
+    [
+     "San Nicolas",
+     2.29
+    ],
+    [
+     "San Telmo",
+     1.23
+    ],
+    [
+     "Velez Sarsfield",
+     2.4
+    ],
+    [
+     "Versalles",
+     1.41
+    ],
+    [
+     "Villa Crespo",
+     3.62
+    ],
+    [
+     "Villa Del Parque",
+     3.4
+    ],
+    [
+     "Villa Devoto",
+     6.4
+    ],
+    [
+     "Villa Gral. Mitre",
+     2.16
+    ],
+    [
+     "Villa Lugano",
+     9.3
+    ],
+    [
+     "Villa Luro",
+     2.57
+    ],
+    [
+     "Villa Ortuzar",
+     1.85
+    ],
+    [
+     "Villa Pueyrredon",
+     3.3
+    ],
+    [
+     "Villa Real",
+     1.33
+    ],
+    [
+     "Villa Riachuelo",
+     4.24
+    ],
+    [
+     "Villa Santa Rita",
+     2.15
+    ],
+    [
+     "Villa Soldati",
+     8.69
+    ],
+    [
+     "Villa Urquiza",
+     5.45
+    ]
+   ],
+   "fuente": "ba_barrios",
+   "unidad": "km2",
+   "vigencia": "2026-07"
+  },
+  "comuna_por_barrio": {
+   "filas": [
+    [
+     "Agronomia",
+     15
+    ],
+    [
+     "Almagro",
+     5
+    ],
+    [
+     "Balvanera",
+     3
+    ],
+    [
+     "Barracas",
+     4
+    ],
+    [
+     "Belgrano",
+     13
+    ],
+    [
+     "Boedo",
+     5
+    ],
+    [
+     "Caballito",
+     6
+    ],
+    [
+     "Chacarita",
+     15
+    ],
+    [
+     "Coghlan",
+     12
+    ],
+    [
+     "Colegiales",
+     13
+    ],
+    [
+     "Constitucion",
+     1
+    ],
+    [
+     "Flores",
+     7
+    ],
+    [
+     "Floresta",
+     10
+    ],
+    [
+     "La Boca",
+     4
+    ],
+    [
+     "Liniers",
+     9
+    ],
+    [
+     "Mataderos",
+     9
+    ],
+    [
+     "Monserrat",
+     1
+    ],
+    [
+     "Monte Castro",
+     10
+    ],
+    [
+     "Nueva Pompeya",
+     4
+    ],
+    [
+     "Nuñez",
+     13
+    ],
+    [
+     "Palermo",
+     14
+    ],
+    [
+     "Parque Avellaneda",
+     9
+    ],
+    [
+     "Parque Chacabuco",
+     7
+    ],
+    [
+     "Parque Chas",
+     15
+    ],
+    [
+     "Parque Patricios",
+     4
+    ],
+    [
+     "Paternal",
+     15
+    ],
+    [
+     "Puerto Madero",
+     1
+    ],
+    [
+     "Recoleta",
+     2
+    ],
+    [
+     "Retiro",
+     1
+    ],
+    [
+     "Saavedra",
+     12
+    ],
+    [
+     "San Cristobal",
+     3
+    ],
+    [
+     "San Nicolas",
+     1
+    ],
+    [
+     "San Telmo",
+     1
+    ],
+    [
+     "Velez Sarsfield",
+     10
+    ],
+    [
+     "Versalles",
+     10
+    ],
+    [
+     "Villa Crespo",
+     15
+    ],
+    [
+     "Villa Del Parque",
+     11
+    ],
+    [
+     "Villa Devoto",
+     11
+    ],
+    [
+     "Villa Gral. Mitre",
+     11
+    ],
+    [
+     "Villa Lugano",
+     8
+    ],
+    [
+     "Villa Luro",
+     10
+    ],
+    [
+     "Villa Ortuzar",
+     15
+    ],
+    [
+     "Villa Pueyrredon",
+     12
+    ],
+    [
+     "Villa Real",
+     10
+    ],
+    [
+     "Villa Riachuelo",
+     8
+    ],
+    [
+     "Villa Santa Rita",
+     11
+    ],
+    [
+     "Villa Soldati",
+     8
+    ],
+    [
+     "Villa Urquiza",
+     12
+    ]
+   ],
+   "fuente": "ba_barrios",
+   "unidad": "número de comuna",
+   "vigencia": "2026-07"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_barrios",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Barrios",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/barrios"
+  }
+ ],
+ "nota": "vigencia = mes de la última modificación del conjunto en el portal",
+ "probado": "2026-10-06",
+ "recurso": {
+  "formato": "GeoJSON",
+  "nombre": "Barrios (GeoJSON)",
+  "url": "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/innovacion-transformacion-digital/barrios/barrios.geojson"
+ },
+ "series": {},
+ "tema": "atlas_distritos"
+}

@@ -1,0 +1,4846 @@
+{
+ "cifras": {
+  "conjuntos": {
+   "fuente": "ba_data_ckan",
+   "unidad": "conjuntos de datos",
+   "valor": 455,
+   "vigencia": "2026-10"
+  }
+ },
+ "conjuntos": [
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "subte-trenes-despachados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Subte: Trenes despachados"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "polideportivos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Polideportivos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "pistas-skate",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Pistas de Skate"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estaciones-saludables",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estaciones Saludables"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "clubes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Clubes"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "paradas-taxis",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Paradas de Taxis."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "KML",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estaciones-ferrocarril",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estaciones de Ferrocarril."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estaciones-bicicletas-publicas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estaciones Bicicletas Públicas."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "ciclovias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ciclovías."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "declaraciones-juradas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Declaraciones Juradas"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "datos-publicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Datos Públicos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "JSON",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "subte-estaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Subte: Estaciones."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "premetro",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Premetro."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "hospitales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Hospitales"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "farmacias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Farmacias"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-salud-accion-comunitaria-cesac",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Salud y Acción Comunitaria (CESAC)"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-medicos-barriales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros Médicos Barriales"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "areas-hospitalarias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Áreas Hospitalarias"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "senderos-escolares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Senderos Escolares"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "geriatricos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Geriatricos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "divisiones-comisarias-vecinales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Divisiones comisarías vecinales"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "deudores-morosos-alimentarios",
+   "licencia": "cc-by",
+   "titulo": "Registro de Deudores Alimentarios Morosos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "dependencias-sedes-ministerio-publico-fiscal",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Dependencias y Sedes del Ministerio Público Fiscal"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cuarteles-destacamentos-bomberos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cuarteles y Destacamentos de Bomberos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "comisarias-policia-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Comisarías Policía de la Ciudad"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "vados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vados"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "relojes-solares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Relojes solares"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "universidades",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Universidades"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "establecimientos-educativos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Establecimientos Educativos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "distritos-escolares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Distritos Escolares."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "hogares-permanentes",
+   "licencia": "CC-BY-4.0",
+   "titulo": "Hogares Permanentes"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-primera-infancia",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Primera Infancia."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-jubilados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Jubilados"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-integrales-mujer",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros Integrales de la Mujer."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-dia",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Día"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-desarrollo-infantil",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Desarrollo Infantil."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-de-accion-familiar",
+   "licencia": "CC-BY-4.0",
+   "titulo": "Centros de Acción Familiar"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "barrios-populares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Barrios Populares"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bibliotecas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bibliotecas."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "embajadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Embajadas"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "consulados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Consulados"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "calles",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Calles"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bus-turistico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bus Turístico"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "alojamientos-turisticos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Alojamientos Turísticos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "nacimientos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Nacimientos."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "denuncias-defensa-consumidor",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Denuncias Defensa del Consumidor"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "cementerios-publicos",
+   "licencia": "cc-by",
+   "titulo": "Cementerios Públicos"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "obras-iniciadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Obras Iniciadas."
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "puntos-verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Gestión de Residuos en Puntos Verdes"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "mapa-ruido",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mapa de Ruido"
+  },
+  {
+   "actualizado": "2026-10-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "calidad-aire",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Calidad de Aire"
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "puestos-de-flores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Puestos de Flores."
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "venta-de-alimentos",
+   "licencia": "cc-by",
+   "titulo": "Permisos para la venta de alimentos en el espacio público."
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "puestos-de-diarios",
+   "licencia": "cc-by",
+   "titulo": "Permisos de uso del espacio público - Puestos de Diarios."
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "calesitas",
+   "licencia": "cc-by",
+   "titulo": "Permisos de uso del espacio público - Calesitas"
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "espacio-publico-decks",
+   "licencia": "cc-by",
+   "titulo": "Permisos de uso del espacio público - DECKS."
+  },
+  {
+   "actualizado": "2026-10-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "permisos-uso-espacio-publico-area-gastronomica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Permisos Uso Espacio Público - Área gastronómica."
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "viajes-etapas-transporte-publico",
+   "licencia": "cc-by",
+   "titulo": "Viajes y etapas en transporte público del Área Metropolitana de Buenos Aires 2019 a 2024."
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mediaciones-ingresadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mediaciones Ingresadas"
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "mediaciones-concluidas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mediaciones Concluidas"
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "contactos-boti-triage-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Contactos BOTI - Triage por COVID-19"
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "informacion-censal-por-radio",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Información Censal por Radio"
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "ingresos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ingresos"
+  },
+  {
+   "actualizado": "2026-09-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "alquileres",
+   "licencia": "cc-by",
+   "titulo": "Alquileres - Informe (IDECBA)"
+  },
+  {
+   "actualizado": "2026-09-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "reporte-epidemiologico-de-dengue",
+   "licencia": "cc-by",
+   "titulo": "Reporte Epidemiológico de Dengue."
+  },
+  {
+   "actualizado": "2026-09-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "reporte-covid",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Reporte COVID-19.."
+  },
+  {
+   "actualizado": "2026-09-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "vacunas-aplicadas-vacunatorios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vacunas aplicadas en los vacunatorios"
+  },
+  {
+   "actualizado": "2026-09-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "vacunas-hpv",
+   "licencia": "cc-by",
+   "titulo": "Vacunas HPV"
+  },
+  {
+   "actualizado": "2026-09-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "autoridades-superiores-funcionarios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Autoridades Superiores y Funcionarios"
+  },
+  {
+   "actualizado": "2026-09-22",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "indicadores-colectivo",
+   "licencia": "cc-by",
+   "titulo": "Indicadores de colectivos"
+  },
+  {
+   "actualizado": "2026-09-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "colectivos-paradas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Colectivos: paradas"
+  },
+  {
+   "actualizado": "2026-09-21",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "colectivos-recorridos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Colectivos: recorridos"
+  },
+  {
+   "actualizado": "2026-09-21",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bicicletas-publicas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bicicletas Públicas."
+  },
+  {
+   "actualizado": "2026-09-17",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "obras-registradas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Obras Registradas"
+  },
+  {
+   "actualizado": "2026-09-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "servicio-informacion-normativa",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Servicio de información normativa."
+  },
+  {
+   "actualizado": "2026-09-15",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX"
+   ],
+   "id": "buenos-aires-compras",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Buenos Aires Compras"
+  },
+  {
+   "actualizado": "2026-09-15",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "grilla-salarial",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Grilla Salarial."
+  },
+  {
+   "actualizado": "2026-09-15",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "sistema-unico-atencion-ciudadana",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sistema Único de Atención Ciudadana / BA Colaborativa"
+  },
+  {
+   "actualizado": "2026-09-14",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "participacion-ciudadana-cercania",
+   "licencia": "cc-by",
+   "titulo": "Cercanía - Programa de Participación Ciudadana."
+  },
+  {
+   "actualizado": "2026-09-14",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "participacion-ciudadana-voluntariado",
+   "licencia": "cc-by",
+   "titulo": "Voluntariado - Programa de Participación ciudadana."
+  },
+  {
+   "actualizado": "2026-09-11",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "indice-calidad-limpieza-icl",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Índice de Calidad de Limpieza (ICL)"
+  },
+  {
+   "actualizado": "2026-09-11",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "participacion-ciudadana-procesos-participativos",
+   "licencia": "cc-by",
+   "titulo": "Procesos participativos - Programa de Participación ciudadana."
+  },
+  {
+   "actualizado": "2026-09-07",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "lotba",
+   "licencia": "cc-by",
+   "titulo": "Juego Ilegal en línea – Sitios web bloqueados"
+  },
+  {
+   "actualizado": "2026-09-07",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "concientizacion-juego",
+   "licencia": "cc-by",
+   "titulo": "Acciones de Concientización y Prevención en Juego Responsable"
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "dictamenes-juridicos-procuracion-general",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Dictámenes Jurídicos de la Procuración General."
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-fabricantes-reparadores-recargadores-extintores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de Fabricantes, Reparadores y Recargadores de Extintores."
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-elevadores-artefactos-termicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de elevadores y artefactos térmicos"
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fiscalizaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fiscalizaciones"
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fachadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fachadas."
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fabric-rep-instal-mant-inst-fijas-contra-incendios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fabricantes, Reparadores, Instaladores y Mantenedores de Instalaciones Fijas contra Incendios."
+  },
+  {
+   "actualizado": "2026-09-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "capacitadores-manipuladores-alimentos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Capacitadores de Manipuladores de Alimentos."
+  },
+  {
+   "actualizado": "2026-09-03",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "subte-viajes-molinetes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Subte: Viajes Molinetes."
+  },
+  {
+   "actualizado": "2026-09-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-integracion-laboral",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Integración Laboral."
+  },
+  {
+   "actualizado": "2026-09-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "uniones-civiles-convivenciales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Uniones civiles convivenciales."
+  },
+  {
+   "actualizado": "2026-09-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "matrimonios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Matrimonios."
+  },
+  {
+   "actualizado": "2026-09-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "recaudacion-impositiva",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Recaudación impositiva."
+  },
+  {
+   "actualizado": "2026-09-02",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "plan-de-vacunacion-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Plan de vacunación COVID-19"
+  },
+  {
+   "actualizado": "2026-09-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "permisos-eventos-masivos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Permisos eventos masivos."
+  },
+  {
+   "actualizado": "2026-08-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "locales-bailables",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Locales Bailables"
+  },
+  {
+   "actualizado": "2026-08-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "estudio-observacional-factores-riesgo-vial",
+   "licencia": "cc-by",
+   "titulo": "Relevamientos Anuales de Factores de Riesgo Vial"
+  },
+  {
+   "actualizado": "2026-08-26",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "organizadores-exposiciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Organizadores de Exposiciones"
+  },
+  {
+   "actualizado": "2026-08-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "presupuesto-ejecutado-2026",
+   "licencia": "cc-by",
+   "titulo": "Presupuesto Ejecutado 2026"
+  },
+  {
+   "actualizado": "2026-08-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "auditorias",
+   "licencia": "cc-by",
+   "titulo": "Registro de auditorías externas AGCBA en GCABA"
+  },
+  {
+   "actualizado": "2026-08-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "requerimientos-recomendaciones-defensoria-pueblo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Requerimientos y Recomendaciones de Defensoría del Pueblo CABA"
+  },
+  {
+   "actualizado": "2026-08-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "acceso-informacion-publica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Acceso a la Información Pública"
+  },
+  {
+   "actualizado": "2026-08-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-precipitaciones-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de precipitaciones"
+  },
+  {
+   "actualizado": "2026-08-21",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "presupuesto-ejecutado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Presupuesto Ejecutado"
+  },
+  {
+   "actualizado": "2026-08-12",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "habilitaciones-aprobadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Habilitaciones Aprobadas."
+  },
+  {
+   "actualizado": "2026-08-05",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "parroquias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Parroquias"
+  },
+  {
+   "actualizado": "2026-08-05",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "iglesias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Iglesias"
+  },
+  {
+   "actualizado": "2026-08-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "noche_templos",
+   "licencia": "cc-by",
+   "titulo": "Noche de los templos"
+  },
+  {
+   "actualizado": "2026-07-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "ba-obras",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "BA Obras"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "perimetro",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Perímetro"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "nombres",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Nombres."
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mobiliario-urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mobiliario Urbano"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "turnos1-para-vacunacion-covid-19",
+   "licencia": "cc-by",
+   "titulo": "Turnos para vacunación COVID-19"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sedes-comunales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sedes Comunales."
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "comunas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Comunas"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "barrios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Barrios"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "adopciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Adopciones"
+  },
+  {
+   "actualizado": "2026-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspectores-apra",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspectores APRA"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cuencas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cuencas"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "certificados-urbanisticos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Certificados Urbanisticos"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "centros-atencion-veterinaria",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Atención Veterinaria"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "casos1-covid-19",
+   "licencia": "cc-by",
+   "titulo": "Casos COVID-19"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sedes-vicarias-episcopales-zonales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sedes de las Vicarías Episcopales Zonales"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "lugares-culto",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Lugares de Culto"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "curia-eclesiastica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Curia Eclesiástica"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "catedrales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Catedrales"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "capillas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Capillas"
+  },
+  {
+   "actualizado": "2026-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "subsecretaria-familia-y-comunidad",
+   "licencia": "cc-by",
+   "titulo": "Estadísticas y efectores de la Subsecretaría de Familia y Comunidad"
+  },
+  {
+   "actualizado": "2026-07-27",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "red-nido",
+   "licencia": "cc-by",
+   "titulo": "Red NIDO – Asesoramientos"
+  },
+  {
+   "actualizado": "2026-07-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "frecuencia-subte",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Frecuencia del subte"
+  },
+  {
+   "actualizado": "2026-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "metas-reduccion-de-emision",
+   "licencia": "cc-by",
+   "titulo": "Metas reducción de emisiones contaminantes para el 2050"
+  },
+  {
+   "actualizado": "2026-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "metas-reduccion-de-emisiones-por-transporte",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Metas de reducción de emisiones por Transporte 2050"
+  },
+  {
+   "actualizado": "2026-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "productoras-eventos-masivos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Productoras de Eventos Masivos"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "flujo-vehicular-por-unidades-de-peaje-ausa",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Flujo Vehicular por Unidades de Peaje AUSA."
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "portales-inclusivos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Núcleo de Inclusión y Desarrollo de Oportunidades"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "empleados-publicos-por-genero",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empleados públicos por género."
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "sueldo-funcionarios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sueldo Funcionarios."
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "partidos-politicos-reconocidos-en-caba",
+   "licencia": "cc-by",
+   "titulo": "Partidos políticos reconocidos en CABA."
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "llamadas-linea-144",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Llamadas linea 144"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "circuitos-electorales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Circuitos Electorales"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "editoriales-independientes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Editoriales Independientes"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-guias-turismo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de Guías de Turismo"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "oferta-establecimientos-gastronomicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Oferta y Establecimientos gastronómicos"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "eventos-turismo-reuniones-eventos-deportivos-internacionales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Eventos de Turismo de reuniones y Eventos deportivos internacionales"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "encuesta-centros-atencion-turistica-cat",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Encuesta en Centros de Atención Turística (CAT)"
+  },
+  {
+   "actualizado": "2026-07-22",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "agencias-viajes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Agencias de Viajes"
+  },
+  {
+   "actualizado": "2026-07-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "eventos-direccion-general-musica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Eventos Dirección General de Música"
+  },
+  {
+   "actualizado": "2026-07-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "reclamos-acceso-informacion-publica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Reclamos y resoluciones de Acceso a la Información Pública."
+  },
+  {
+   "actualizado": "2026-07-21",
+   "formatos": [
+    "DOCX",
+    "PDF"
+   ],
+   "id": "criterios-interpretacion-ley-104-organo-garante",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Criterios de Interpretación de la Ley 104 del Órgano Garante"
+  },
+  {
+   "actualizado": "2026-07-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "concesiones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Concesiones"
+  },
+  {
+   "actualizado": "2026-07-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "pauta-publicitaria",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Pauta Publicitaria"
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "ufus",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Unidades Febriles de Urgencia"
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "visitas-estaciones-saludables",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Visitas a estaciones saludables"
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-para-vida-independiente",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa para la Vida Independiente"
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-ba-elige",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa BA Elige"
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bancos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bancos."
+  },
+  {
+   "actualizado": "2026-07-20",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "ZIP"
+   ],
+   "id": "area-prioridad-peatonal",
+   "licencia": "cc-by",
+   "titulo": "Áreas de prioridad peatonal"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "teatro-colon-visitas-guiadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Teatro Colón: Visitas Guiadas"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "PDF"
+   ],
+   "id": "jurisdiccionales-de-educacion-sexual-integral",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ficha jurisdiccionales de Educación Sexual Integral de la Ciudad de Buenos Aires"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "set-filmaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Set Filmaciones"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "complejo-teatral",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Complejo Teatral"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "centro-experimentacion-teatro-colon-archivo-gerardo-gandini",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centro de Experimentación del Teatro Colón: Archivo Gerardo Gandini"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "catalogo-centralizado-red-bibliotecas-publicas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Catálogo Centralizado de la red de bibliotecas públicas"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bafici",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "BAFICI"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "plan-gobierno",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Plan de Gobierno."
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "vivienda-seguridad-tenencia",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vivienda - Seguridad de la Tenencia"
+  },
+  {
+   "actualizado": "2026-07-17",
+   "formatos": [
+    "PDF"
+   ],
+   "id": "informes-coyuntura-habitacional",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Informes de Coyuntura Habitacional"
+  },
+  {
+   "actualizado": "2026-07-14",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "victimas-siniestros-viales",
+   "licencia": "cc-by",
+   "titulo": "Siniestros viales"
+  },
+  {
+   "actualizado": "2026-07-07",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "parcelas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Parcelas"
+  },
+  {
+   "actualizado": "2026-07-07",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "manzanas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Manzanas"
+  },
+  {
+   "actualizado": "2026-07-06",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "espacios-verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Espacios Verdes"
+  },
+  {
+   "actualizado": "2026-07-06",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sitios-posibles-anegamiento",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sitios Posibles de Anegamiento"
+  },
+  {
+   "actualizado": "2026-07-06",
+   "formatos": [
+    "CSV",
+    "ZIP"
+   ],
+   "id": "locales-en-venta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Locales en Venta"
+  },
+  {
+   "actualizado": "2026-07-06",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "encuesta-joven",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Encuesta Joven"
+  },
+  {
+   "actualizado": "2026-07-06",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "arroyos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Arroyos"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "elecciones-2023",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elecciones 2023"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "PNG"
+   ],
+   "id": "tiles-mapa-interactivo-buenos-aires",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Tiles Mapa Interactivo Buenos Aires"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "PNG"
+   ],
+   "id": "tiles-fotografia-aerea",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Tiles Fotografía Aérea"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "colectivos-gtfs-frequency",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Colectivos: GTFS Frequency"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "colectivos-gtfs",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Colectivos: GTFS"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "subte-gtfs",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Subte: GTFS."
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "trenes-gtfs",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Trenes: GTFS"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "tejido-urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Tejido Urbano"
+  },
+  {
+   "actualizado": "2026-07-01",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "basilicas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Basílicas."
+  },
+  {
+   "actualizado": "2026-06-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "escrituras-ivc",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Escrituras IVC"
+  },
+  {
+   "actualizado": "2026-06-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "disposicion-urbana",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Disposición Urbana"
+  },
+  {
+   "actualizado": "2026-06-30",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "conjuntos-urbanos-cooperativas-ivc",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Conjuntos Urbanos y Cooperativas IVC"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "XLSX"
+   ],
+   "id": "volumen_vehicular",
+   "licencia": "cc-by",
+   "titulo": "Volumen Vehicular"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "vivienda-durable-calidad-constructiva-vivienda",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vivienda durable y calidad constructiva de la vivienda"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "ZIP"
+   ],
+   "id": "viajes-amba-pandemia",
+   "licencia": "cc-by",
+   "titulo": "Orígenes y destinos de los viajes AMBA pre y post pandemia"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "transportes-autorizados-pasajeros",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Transportes autorizados de pasajeros"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "transformadores-pcb",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Transformadores PCB"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "ZIP"
+   ],
+   "id": "tos-covid-19",
+   "licencia": "cc-by",
+   "titulo": "Tos COVID-19"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "tobilleras-electronicas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Tobilleras electrónicas"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "subte-cronograma-servicio",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Subte: Cronograma de servicio."
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "secciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Secciones"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "santuarios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Santuarios"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "personas-buscadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Personas buscadas"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "participacion-ciudadana",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Participación Ciudadana"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "operativos-defensa-civil",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Operativos de Defensa Civil"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "monumentos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Monumentos"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "TXT",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "mapa-oportunidades-comerciales-moc",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mapa de Oportunidades Comerciales (MOC)"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "licencias-conducir",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Licencias de conducir"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "lengua-senas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Lengua de Señas"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "intervenciones-peatonales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Intervenciones Peatonales"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "PDF",
+    "ZIP"
+   ],
+   "id": "indice-calidad-urbana",
+   "licencia": "cc-by",
+   "titulo": "Índice de Calidad Urbana con Perspectiva de Género (ICUPG)"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "donacion-trasplante-organos-tejidos-ciudad-buenos-aires",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Donación y Trasplante de órganos y tejidos en la Ciudad de Buenos Aires."
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLS",
+    "XLSX"
+   ],
+   "id": "defunciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Defunciones"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "codigo-urbanistico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Código Urbanístico"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "boleto-estudiantil",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Boleto Estudiantil."
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "grandes-contribuyentes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Grandes Contribuyentes"
+  },
+  {
+   "actualizado": "2026-06-24",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "alto-riesgo-fiscal",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Alto Riesgo Fiscal"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "trabajo-domestico-no-remunerado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Trabajo doméstico no remunerado"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "seguridad-vial-autopistas-ausa",
+   "licencia": "cc-by",
+   "titulo": "Seguridad Vial Autopistas AUSA"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "resoluciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Resoluciones"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "residuos-patogenicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Residuos Patogénicos"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "redes-sociales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Redes Sociales"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "programas-deportivos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programas Deportivos"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "programa-pasate-a-led",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa Pasate a LED"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "plantas-nativas-reserva-ecologica-costanera-sur",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Plantas Nativas de la Reserva Ecológica Costanera Sur"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "jardin-botanico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Jardín Botánico"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspectores-verificadores-ambiente-espacio-publico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspectores y verificadores de Espacio Público e Higiene Urbana"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspectores-trabajo-industria-comercio",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspectores de Trabajo, Industria y Comercio"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "informacion-meteorologica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Información Meteorológica"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "hogares-paradores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Hogares y Paradores"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "estudio-urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estudio Urbano"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "PDF"
+   ],
+   "id": "elecciones-2019",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elecciones 2019"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "elecciones-2015",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elecciones 2015"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "ciudad-emergente",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ciudad Emergente"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "base-usuaria",
+   "licencia": "cc-by",
+   "titulo": "Base usuaria Matrícula"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "teatro-colon-programacion-historica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Teatro Colón: Programación Histórica"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "ICS",
+    "XLSX"
+   ],
+   "id": "teatro-colon-programacion-actual",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Teatro Colón: Programación Actual"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "medicion-radiaciones-no-ionizantes-rni",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Medición de Radiaciones No Ionizantes (RNI)"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "legado-juegos-olimpicos-de-la-juventud-2018",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Legado - Juegos Olímpicos de la Juventud 2018"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "instituciones-colectividades",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Instituciones de Colectividades"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "infraestructura-acceso-saneamiento-mejorado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Infraestructura y acceso a saneamiento mejorado"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "hogares-situacion-vulnerabilidad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Hogares en situación de vulnerabilidad"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "espacios-distrito-artes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Espacios del Distrito de las Artes"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "visitas-web-gcba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Visitas a la web del GCBA"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "verano-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Verano en la ciudad"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sumideros",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sumideros"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "metrobus",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Metrobus"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspecciones-obras",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspecciones a las Obras"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inscripcion-escolar",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inscripción Escolar."
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fuentes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fuentes"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "ferias-mercados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ferias y Mercados"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "elevacion-terreno",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elevación terreno"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "edificios-publicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Edificios Públicos"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "buenos-aires-danza-contemporanea",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Buenos Aires Danza Contemporánea"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "distritos-economicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Distritos Económicos"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "carteles-luminosos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Carteles Luminosos"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "areas-de-proteccion-familiar-policia-de-la-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Áreas de Protección Familiar Policía de la Ciudad"
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "GPKG",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "actividades-culturales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Actividades Culturales."
+  },
+  {
+   "actualizado": "2026-06-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "velocidad-maxima-del-viento",
+   "licencia": "cc-by",
+   "titulo": "Velocidad máxima del viento"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "seguimiento-obras-adjudicadas-soa",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Seguimiento de Obras Adjudicadas (SOA)."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-civil",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro Civil"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "rampas-accesibilidad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Rampas de accesibilidad"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "puntos-atencion",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Puntos de Atención"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "codigo-planeamiento-urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Código de Planeamiento Urbano"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "cobertura-vegetal",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cobertura Vegetal"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "KML",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "veredas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Veredas."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "uso-tiempo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Uso del tiempo"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "terrenos-valor-oferta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Terrenos: Valor de Oferta"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "servicios-asistencia-victimas-violencia-genero",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Servicios de asistencia a víctimas de violencia de género."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "PDF",
+    "TXT",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "relevamiento-usos-suelo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Relevamiento Usos del Suelo"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-codo-codo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa Codo a Codo."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "observatorio-higiene-urbana-caba-composicion-residuos",
+   "licencia": "cc-by",
+   "titulo": "Composición de residuos de construcción y demolición"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mercado-laboral",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mercado laboral"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "licencias-familiares-gcba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Licencias familiares en GCBA"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "juegotecas-barriales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Juegotecas Barriales."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "hogares-familia",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Hogares y familia"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "empresas-audiovisuales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas Audiovisuales"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "delitos",
+   "licencia": "cc-by",
+   "titulo": "Delitos"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "composicion-residuos-contenedores-residuos-humedos",
+   "licencia": "cc-by",
+   "titulo": "Composición de residuos depositados en contenedores para residuos húmedos"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "unidades-educativas",
+   "licencia": "cc-by",
+   "titulo": "Unidades Educativas"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "test-alerta-sobre-noviazgo-violento",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Test de Alerta sobre un noviazgo violento"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "talento-tech",
+   "licencia": "cc-by",
+   "titulo": "Programa Talento Tech"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sistema-administracion-documentos-electronicos-pase-expedientes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sistema de administración de documentos electrónicos: Pase de Expedientes."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "sensores-transito",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Sensores de Tránsito"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "puntos-wi-fi-publicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Puntos de Wi-Fi Públicos"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "presupuesto-sancionado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Presupuesto Sancionado."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "polideportivos-caba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Polideportivos CABA"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "peajes-porticos-autopistas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Peajes y pórticos de autopistas"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "mapa-techos-verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mapa de Techos Verdes."
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "infraestructura-gestion-residuos",
+   "licencia": "cc-by",
+   "titulo": "Infraestructura de gestión de residuos"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "PDF"
+   ],
+   "id": "informe-salud-sexual-y-reproductiva",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Informe Salud Sexual y Reproductiva (PDF)"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "KMZ",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "icla-bap",
+   "licencia": "cc-by",
+   "titulo": "Índice de Calidad de Limpieza adaptado a barrios vulnerables (ICLa)"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "federaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Federaciones"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLS",
+    "XLSX"
+   ],
+   "id": "estructura-poblacion",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estructura de la Población"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "estructura-demografica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estructura demográfica"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estacionamientos-motos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estacionamientos de Motos"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estacionamientos-concesionados-movilidad-sustentable",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estacionamientos concesionados de movilidad sustentable"
+  },
+  {
+   "actualizado": "2026-06-22",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estacionamiento-en-la-via-publica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estacionamiento en la Vía Pública"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "centros-salud-privados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Centros de Salud Privados"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "casos-sida",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Casos de SIDA"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "casas-ninas-ninos-adolescentes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Casas de Niñas, Niños y Adolescentes."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "carteles-escolares-semaforizados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Carteles Escolares Semaforizados"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "XLSX"
+   ],
+   "id": "calidad-agua",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Calidad del Agua"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cajones-para-estacionamiento-motos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cajones para estacionamiento de motos"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cajones-para-carga-descarga",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cajones para Carga y Descarga"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "brecha-salarial",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Brecha salarial"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bocas-subte",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bocas de Subte"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bicicleteros-via-publica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bicicleteros en Vía Pública."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "bicicleterias",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bicicleterías."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "asistencia-escolar",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Asistencia escolar."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "areas-proteccion-historica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Áreas de Protección Histórica"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "acceso-credenciales-educativas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Acceso a credenciales educativas"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mujeres-accidentes-transito",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mujeres en accidentes de tránsito"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mujeres-puestos-decision",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mujeres en puestos de decisión"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "matricula-escolar",
+   "licencia": "cc-by",
+   "titulo": "Matrícula escolar"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "manifestaciones-donacion-para-trasplantes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Manifestaciones a la donación para trasplantes"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "garajes-comerciales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Garajes Comerciales"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "flujo-vehicular-por-radares-ausa",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Flujo vehicular por radares AUSA."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fideicomisos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fideicomisos"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "femicidios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Femicidios."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "fecundidad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Fecundidad."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estadios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estadios"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "estaciones-servicio",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estaciones de servicio"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "espacios-culturales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Espacios culturales."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "empresas-limpieza-tanques-agua",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas de limpieza de tanques de agua."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "empresas-distrito-tecnologico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas Distrito Tecnológico"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "empresas-distrito-diseno",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas del Distrito del Diseño"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "emprendedores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Emprendedores"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "divorcios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Divorcios"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "departamentos-venta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Departamentos en Venta"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "control-higiene-urbana",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Control de Higiene Urbana"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "cuidado-no-remunerado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cuidado no remunerado"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cruces-semaforizados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cruces Semaforizados"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "conteo-vehicular",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Conteo Vehicular"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "conteos-peatonales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Conteos Peatonales"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "conteo-ciclistas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Conteo Ciclistas"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "ZIP"
+   ],
+   "id": "comercios-con-beneficios-ciclistas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Comercios con beneficios a ciclistas."
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "ciudad-limpia-campana-responsable",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ciudad Limpia - Campaña Responsable"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "cajeros-automaticos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cajeros Automáticos"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "arbolado-publico-lineal",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Arbolado público lineal"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "arbolado-espacios-verdes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Arbolado en espacios verdes"
+  },
+  {
+   "actualizado": "2026-06-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "acceso-recursos-economicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Acceso a recursos económicos."
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "actividades-para-mercado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Actividades para el mercado"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "actividades-estaticas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Estudios actividad estática."
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "acceso-puestos-jerarquicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Acceso a puestos jerárquicos"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "acceso-mujeres-salud",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Acceso de mujeres a la salud"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "seguridad-habitos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Seguridad y Hábitos"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "API"
+   ],
+   "id": "api-consulta-datos-catastrales-caba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Consulta de Datos Catastrales de CABA"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [],
+   "id": "api-geocodificador-direcciones-caba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Geocodificador de Direcciones en CABA"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [],
+   "id": "api-normalizacion-direcciones-amba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Normalización de direcciones en AMBA"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [],
+   "id": "api-consulta-datos-utiles",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Consulta de datos útiles"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [
+    "HTML"
+   ],
+   "id": "api-busqueda-lugares-interes",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Búsqueda Lugares de Interés"
+  },
+  {
+   "actualizado": "2026-06-17",
+   "formatos": [],
+   "id": "api-transporte-publico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "API Transporte Público"
+  },
+  {
+   "actualizado": "2026-06-16",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "cruceros",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cruceros"
+  },
+  {
+   "actualizado": "2026-06-12",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "bandas-por-barrios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Bandas por Barrios"
+  },
+  {
+   "actualizado": "2026-06-12",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "violencia-pareja",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Violencia de pareja."
+  },
+  {
+   "actualizado": "2026-06-11",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "partos-realizados-hospitales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Partos realizados en hospitales."
+  },
+  {
+   "actualizado": "2026-06-11",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mujeres-politica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mujeres en la política"
+  },
+  {
+   "actualizado": "2026-06-10",
+   "formatos": [
+    "CSV",
+    "TXT",
+    "XLSX"
+   ],
+   "id": "casos-penales-contravencionales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Casos penales contravencionales violencia de genero."
+  },
+  {
+   "actualizado": "2026-06-09",
+   "formatos": [
+    "PDF",
+    "RAR",
+    "TXT",
+    "ZIP"
+   ],
+   "id": "planchetas-codigo-planeamiento-urbano",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Planchetas Código de Planeamiento Urbano"
+  },
+  {
+   "actualizado": "2026-06-09",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "mapa-solar",
+   "licencia": "cc-by",
+   "titulo": "Radiación Solar Total anual"
+  },
+  {
+   "actualizado": "2026-05-27",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "educacion-sexual-integral",
+   "licencia": "cc-by",
+   "titulo": "Educación Sexual Integral (ESI)"
+  },
+  {
+   "actualizado": "2026-05-15",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "mapa-techos-solares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mapa de Techos Amarillos"
+  },
+  {
+   "actualizado": "2026-04-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "riesgo-hidrico",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Riesgo Hídrico"
+  },
+  {
+   "actualizado": "2026-04-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "colonias-de-verano",
+   "licencia": "CC-BY-4.0",
+   "titulo": "Colonias de Verano"
+  },
+  {
+   "actualizado": "2026-04-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "encuesta-anual-hogares",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Encuesta anual de hogares."
+  },
+  {
+   "actualizado": "2026-04-21",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "bafici-animado",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "BAFICI Animado"
+  },
+  {
+   "actualizado": "2026-04-21",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "shakespeare-buenos-aires",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Shakespeare Buenos Aires"
+  },
+  {
+   "actualizado": "2026-04-17",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "medios-vecinales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Medios Vecinales"
+  },
+  {
+   "actualizado": "2026-04-16",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-administradores-consorcio",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de Administradores de Consorcio."
+  },
+  {
+   "actualizado": "2026-04-09",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "agricultura-urbana",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Agricultura Urbana"
+  },
+  {
+   "actualizado": "2026-03-13",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "murales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Murales."
+  },
+  {
+   "actualizado": "2026-03-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "impulso-cultural-beneficiarios",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Impulso Cultural Beneficiarios."
+  },
+  {
+   "actualizado": "2026-02-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "recuperacion-residuos",
+   "licencia": "cc-by",
+   "titulo": "Recuperación de residuos"
+  },
+  {
+   "actualizado": "2026-02-25",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "residuos-centros-verdes",
+   "licencia": "cc-by",
+   "titulo": "Composición de residuos que ingresan y se descartan en Centros Verdes"
+  },
+  {
+   "actualizado": "2026-02-20",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "beneficiarios-primera-casa-ba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Beneficiarios Primera Casa BA"
+  },
+  {
+   "actualizado": "2026-02-03",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "indice-reciclabilidad",
+   "licencia": "cc-by",
+   "titulo": "Índice de Reciclabilidad"
+  },
+  {
+   "actualizado": "2026-01-23",
+   "formatos": [
+    "CSV",
+    "PDF",
+    "XLSX"
+   ],
+   "id": "monitor-reciclado",
+   "licencia": "cc-by",
+   "titulo": "Monitor de Reciclado"
+  },
+  {
+   "actualizado": "2026-01-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "competitividad-turistica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Competitividad turística"
+  },
+  {
+   "actualizado": "2026-01-22",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "tasa-mortalidad-fetal",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Tasa de mortalidad fetal por sexo."
+  },
+  {
+   "actualizado": "2025-12-26",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inventario-gases-efecto-invernadero",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inventario de gases de efecto invernadero"
+  },
+  {
+   "actualizado": "2025-11-11",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "jardines-comunitarios",
+   "licencia": "CC-BY-4.0",
+   "titulo": "Jardines Comunitarios."
+  },
+  {
+   "actualizado": "2025-10-29",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "ampliacion-de-veredas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ampliación de veredas"
+  },
+  {
+   "actualizado": "2025-10-29",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "atencion-primaria-salud",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Atención primaria de la salud AMBA"
+  },
+  {
+   "actualizado": "2025-10-27",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "gestion-sanitaria-pandemia",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Gestión sanitaria en pandemia"
+  },
+  {
+   "actualizado": "2025-10-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX"
+   ],
+   "id": "hospitales-con-maternidades",
+   "licencia": "cc-by",
+   "titulo": "Hospitales con Maternidades"
+  },
+  {
+   "actualizado": "2025-10-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "departamentos-comisarias-comunales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Departamentos de Comisarías Comunales"
+  },
+  {
+   "actualizado": "2025-10-21",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "vacunatorios-infantiles",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vacunatorios infantiles"
+  },
+  {
+   "actualizado": "2025-10-21",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "actividades-destinadas-personas-mayores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Actividades destinadas a Personas Mayores"
+  },
+  {
+   "actualizado": "2025-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "verificacion-tecnica-vehicular-vtv",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Verificación Técnica Vehicular (VTV)"
+  },
+  {
+   "actualizado": "2025-10-02",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "operativo-detectar",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Operativo DetectAR"
+  },
+  {
+   "actualizado": "2025-09-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "empresas-seguridad-privada-habilitadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas de Seguridad Privada Habilitadas"
+  },
+  {
+   "actualizado": "2025-09-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "distribucion-insumos-salud-sexual-y-reproductiva",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Distribución insumos salud sexual y reproductiva."
+  },
+  {
+   "actualizado": "2025-09-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "controladores-semaforos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Controladores de semaforos"
+  },
+  {
+   "actualizado": "2025-09-26",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "consultores-profesionales-auditorias-estudios-ambientales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Consultores y profesionales en auditorias y estudios ambientales"
+  },
+  {
+   "actualizado": "2025-09-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "elecciones-2017",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elecciones 2017"
+  },
+  {
+   "actualizado": "2025-09-18",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "violencia-de-genero",
+   "licencia": "cc-by",
+   "titulo": "Violencia de Género"
+  },
+  {
+   "actualizado": "2025-09-09",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "traslados-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Traslados COVID-19"
+  },
+  {
+   "actualizado": "2025-09-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "actuaciones-fiscalizacion",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Actuaciones de fiscalización"
+  },
+  {
+   "actualizado": "2025-09-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "ejecucion-fiscal-morosos-embargos-trabados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ejecución fiscal morosos y embargos trabados"
+  },
+  {
+   "actualizado": "2025-09-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "padron-anuncios-empadronados",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Padrón de Anuncios Empadronados"
+  },
+  {
+   "actualizado": "2025-09-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspectores-agip",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspectores de la AGIP"
+  },
+  {
+   "actualizado": "2025-09-05",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mujeres-en-la-legislatura",
+   "licencia": "cc-by",
+   "titulo": "Participación Política de las Mujeres en la Legislatura"
+  },
+  {
+   "actualizado": "2025-09-01",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "movimiento-hospitalario",
+   "licencia": "cc-by",
+   "titulo": "Movimiento hospitalario."
+  },
+  {
+   "actualizado": "2025-08-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "elecciones-2025",
+   "licencia": "cc-by",
+   "titulo": "Elecciones 2025"
+  },
+  {
+   "actualizado": "2025-08-25",
+   "formatos": [
+    "PBF",
+    "PDF"
+   ],
+   "id": "ruteo-amba",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Ruteo AMBA"
+  },
+  {
+   "actualizado": "2025-08-25",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "elecciones-2013",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Elecciones 2013"
+  },
+  {
+   "actualizado": "2025-08-25",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "vacunatorios-adultos-mayores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vacunatorios Adultos Mayores en Emergencia"
+  },
+  {
+   "actualizado": "2025-08-20",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "alojamiento-de-repatriados-en-hoteles-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Alojamiento de repatriados en hoteles covid-19."
+  },
+  {
+   "actualizado": "2025-08-14",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mercado-inmobiliario",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Mercado inmobiliario"
+  },
+  {
+   "actualizado": "2025-08-11",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "postas-de-vacunacion-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Postas de vacunación COVID-19"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "alumbrado-led",
+   "licencia": "cc-by",
+   "titulo": "Alumbrado LED en calles y avenidas"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "aislamiento-covid-19",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Aislamiento COVID-19."
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "descargas-aplicaciones",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Descargas de Aplicaciones"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "historia-clinica-electronica",
+   "licencia": "cc-by",
+   "titulo": "Historia clínica electrónica"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "147-covid",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Llamados 147 COVID-19."
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "ZIP"
+   ],
+   "id": "calzada-gastronomica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Expansión de calzada gastronómica(decks)"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-segunda-vuelta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa Segunda Vuelta"
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-aprende-programando",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa Aprendé Programando."
+  },
+  {
+   "actualizado": "2025-07-29",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "monitoreo-colaborativo-calidad-aire",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Resultados del programa de Monitoreo Colaborativo de Calidad del Aire"
+  },
+  {
+   "actualizado": "2025-07-28",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "protocolizacion-vida-publica",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Protocolización de la vida pública"
+  },
+  {
+   "actualizado": "2025-07-28",
+   "formatos": [
+    "CSV",
+    "JSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "puntos-de-acceso-a-la-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Puntos de acceso a la Ciudad habilitados por COVID-19"
+  },
+  {
+   "actualizado": "2025-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "semaforos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Semáforos"
+  },
+  {
+   "actualizado": "2025-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "empresas-desinfeccion-desinfestacion",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Empresas de Desinfección y Desinfestación."
+  },
+  {
+   "actualizado": "2025-07-28",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "cantidad-de-dispositivos-antipanico",
+   "licencia": "cc-by",
+   "titulo": "Cantidad de dispositivos antipánico entregados y accionamientos por alertas SOS."
+  },
+  {
+   "actualizado": "2025-07-24",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "llamados-107-covid",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Llamados 107 COVID-19"
+  },
+  {
+   "actualizado": "2025-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "programa-giro-digital",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Programa Giro Digital."
+  },
+  {
+   "actualizado": "2025-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "sube",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Viajes en Transporte Público."
+  },
+  {
+   "actualizado": "2025-07-23",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "camaras-fijas-control-vehicular",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Cámaras fijas de control vehicular"
+  },
+  {
+   "actualizado": "2025-06-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "vigiladores-locales-bailables",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Vigiladores de Locales Bailables"
+  },
+  {
+   "actualizado": "2025-06-30",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "edificios-publicos-3d",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Edificios Públicos en 3D"
+  },
+  {
+   "actualizado": "2025-06-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "flujo-vehicular-anillo-digital",
+   "licencia": "cc-by",
+   "titulo": "Flujo Vehicular"
+  },
+  {
+   "actualizado": "2025-06-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "compuestos-organicos-volatiles",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Compuestos Orgánicos Volátiles"
+  },
+  {
+   "actualizado": "2025-06-27",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "inspectores-verificadores-agc",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Inspectores y Verificadores de la AGC"
+  },
+  {
+   "actualizado": "2025-05-15",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "denuncias-violencia-maltrato-personas-mayores",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Denuncias de violencia y maltrato a personas mayores en la Ciudad"
+  },
+  {
+   "actualizado": "2025-05-13",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "ba-diversa",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "BA Diversa"
+  },
+  {
+   "actualizado": "2025-04-30",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "entrevistas-designaciones-personal-covid",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Entrevistas y designaciones de personal sanitario covid-19."
+  },
+  {
+   "actualizado": "2025-04-10",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "comisarias-con-unidades-genero",
+   "licencia": "cc-by",
+   "titulo": "Comisarías con Unidades de Género."
+  },
+  {
+   "actualizado": "2025-04-03",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "franja-edificable-lineas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Franja Edificable: líneas"
+  },
+  {
+   "actualizado": "2025-04-03",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "registro-temperatura-ciudad",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Registro de temperatura"
+  },
+  {
+   "actualizado": "2025-04-03",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "compras-anticonceptivos",
+   "licencia": "cc-by",
+   "titulo": "Compras de anticonceptivos GCBA."
+  },
+  {
+   "actualizado": "2025-01-20",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "compras-coronavirus",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Compras coronavirus."
+  },
+  {
+   "actualizado": "2025-01-20",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "equipos-medicos",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Equipos médicos."
+  },
+  {
+   "actualizado": "2024-12-04",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "elecciones-2021",
+   "licencia": "cc-by",
+   "titulo": "Elecciones 2021"
+  },
+  {
+   "actualizado": "2024-11-28",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "banda-minima-edificable",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Banda Mínima Edificable"
+  },
+  {
+   "actualizado": "2024-11-21",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "area-edificable-volumen",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Área edificable: volumen"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "testeos-de-covid-19-por-turismo",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Testeos de COVID-19 para turismo"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "superficie-edificable-en-planta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Superficie Edificable en Planta"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "rivolta",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Rivolta"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "parque-automotor",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Parque automotor"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "mapa-violencia-de-mujer",
+   "licencia": "cc-by",
+   "titulo": "Mapa de Violencia de Género - DG de la Mujer"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "XLSX"
+   ],
+   "id": "mapa-violencia-de-genero",
+   "licencia": "cc-by",
+   "titulo": "Mapa de Violencia de Género - DG de Violencia de Género"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "GEOJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "id": "lineas-constructivas-particularizadas",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Líneas Constructivas Particularizadas"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV"
+   ],
+   "id": "linea-oficial",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Linea Oficial"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "PDF",
+    "XLSX"
+   ],
+   "id": "encuesta-movilidad-domiciliaria",
+   "licencia": "cc-by",
+   "titulo": "Encuesta de Movilidad Domiciliaria 2018"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "CSV",
+    "XLSX"
+   ],
+   "id": "conteo-de-viajes-en-bicicleta-por-la-ciudad",
+   "licencia": "CC-BY-4.0",
+   "titulo": "Conteo de viajes en bicicleta por la Ciudad"
+  },
+  {
+   "actualizado": "2024-11-04",
+   "formatos": [
+    "ZIP"
+   ],
+   "id": "conjuntos-habitacionales",
+   "licencia": "CC-BY-2.5-AR",
+   "titulo": "Conjuntos habitacionales"
+  }
+ ],
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_data_ckan",
+   "licencia": "por conjunto (ver licencia de cada uno)",
+   "nombre": "BA Data (CKAN)",
+   "url": "https://data.buenosaires.gob.ar/km/api/3/action/package_search?rows=1000"
+  }
+ ],
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "catalogo"
+}

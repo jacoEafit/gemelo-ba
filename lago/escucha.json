@@ -1,0 +1,109 @@
+{
+ "cifras": {
+  "vistas_ultimo_mes": {
+   "fuente": "wikimedia_pageviews",
+   "unidad": "vistas de personas",
+   "valor": 36339,
+   "vigencia": "2026-08"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "wikimedia_pageviews",
+   "licencia": "CC0",
+   "nombre": "Wikimedia Pageviews API",
+   "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/es.wikipedia/all-access/user/Buenos_Aires/monthly/20250101/20260831"
+  }
+ ],
+ "probado": "2026-10-06",
+ "series": {
+  "vistas_mensuales": {
+   "fuente": "wikimedia_pageviews",
+   "puntos": [
+    [
+     "2025-01",
+     54291
+    ],
+    [
+     "2025-02",
+     53221
+    ],
+    [
+     "2025-03",
+     60583
+    ],
+    [
+     "2025-04",
+     55748
+    ],
+    [
+     "2025-05",
+     59053
+    ],
+    [
+     "2025-06",
+     46207
+    ],
+    [
+     "2025-07",
+     44778
+    ],
+    [
+     "2025-08",
+     50212
+    ],
+    [
+     "2025-09",
+     48460
+    ],
+    [
+     "2025-10",
+     52644
+    ],
+    [
+     "2025-11",
+     45044
+    ],
+    [
+     "2025-12",
+     39672
+    ],
+    [
+     "2026-01",
+     38734
+    ],
+    [
+     "2026-02",
+     34565
+    ],
+    [
+     "2026-03",
+     38355
+    ],
+    [
+     "2026-04",
+     40549
+    ],
+    [
+     "2026-05",
+     39069
+    ],
+    [
+     "2026-06",
+     36964
+    ],
+    [
+     "2026-07",
+     44092
+    ],
+    [
+     "2026-08",
+     36339
+    ]
+   ],
+   "unidad": "vistas de personas"
+  }
+ },
+ "tema": "escucha"
+}

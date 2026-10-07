@@ -1,0 +1,144 @@
+{
+ "cifras": {
+  "ba_sensores_transito": {
+   "fuente": "ba_sensores_transito",
+   "unidad": "sensores de tránsito",
+   "valor": 52,
+   "vigencia": "2026-06"
+  },
+  "ba_tmi": {
+   "fuente": "ba_tmi",
+   "unidad": "torres de monitoreo inteligente",
+   "valor": 16,
+   "vigencia": "2026-06"
+  }
+ },
+ "desgloses": {
+  "ba_sensores_transito_por_comuna": {
+   "filas": [
+    [
+     "1",
+     14
+    ],
+    [
+     "3",
+     13
+    ],
+    [
+     "9",
+     8
+    ],
+    [
+     "2",
+     7
+    ],
+    [
+     "4",
+     3
+    ],
+    [
+     "12",
+     2
+    ],
+    [
+     "14",
+     2
+    ],
+    [
+     "10",
+     1
+    ],
+    [
+     "13",
+     1
+    ],
+    [
+     "5",
+     1
+    ]
+   ],
+   "fuente": "ba_sensores_transito",
+   "unidad": "sensores de tránsito",
+   "vigencia": "2026-06"
+  },
+  "ba_tmi_por_comuna": {
+   "filas": [
+    [
+     "9",
+     3
+    ],
+    [
+     "4",
+     2
+    ],
+    [
+     "1",
+     1
+    ],
+    [
+     "10",
+     1
+    ],
+    [
+     "11",
+     1
+    ],
+    [
+     "12",
+     1
+    ],
+    [
+     "13",
+     1
+    ],
+    [
+     "14",
+     1
+    ],
+    [
+     "2",
+     1
+    ],
+    [
+     "3",
+     1
+    ],
+    [
+     "5",
+     1
+    ],
+    [
+     "6",
+     1
+    ],
+    [
+     "7",
+     1
+    ]
+   ],
+   "fuente": "ba_tmi",
+   "unidad": "torres de monitoreo inteligente",
+   "vigencia": "2026-06"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_sensores_transito",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Sensores de Tránsito",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/sensores-transito"
+  },
+  {
+   "estado": "vivo",
+   "id": "ba_tmi",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Información Meteorológica",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/informacion-meteorologica"
+  }
+ ],
+ "nota": "Inventario estático de dispositivos. Las lecturas en vivo (API de transporte, etc.) requieren credenciales y siguen pendientes. Las estaciones de calidad del aire están en el tema calidad_aire.",
+ "probado": "2026-10-06",
+ "series": {},
+ "tema": "sensores"
+}

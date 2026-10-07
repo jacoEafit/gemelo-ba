@@ -1,0 +1,803 @@
+{
+ "cifras": {
+  "lineas": {
+   "fuente": "ba_subte_molinetes",
+   "unidad": "líneas (incluye Premetro PM)",
+   "valor": 7,
+   "vigencia": "2025"
+  },
+  "meses_con_datos_2025": {
+   "fuente": "ba_subte_molinetes",
+   "unidad": "meses",
+   "valor": 12,
+   "vigencia": "2025"
+  },
+  "pasajeros_subte_2025": {
+   "fuente": "ba_subte_molinetes",
+   "unidad": "pasajeros (validaciones en molinetes, líneas A-H)",
+   "valor": 206459041,
+   "vigencia": "2025"
+  }
+ },
+ "desgloses": {
+  "pasajeros_por_estacion_2025": {
+   "filas": [
+    [
+     "C · Constitucion",
+     16491664
+    ],
+    [
+     "A · San Pedrito",
+     6260126
+    ],
+    [
+     "D · Congreso de Tucuman",
+     6196965
+    ],
+    [
+     "B · Rosas",
+     5791079
+    ],
+    [
+     "B · Federico Lacroze",
+     5132160
+    ],
+    [
+     "C · Retiro",
+     4480196
+    ],
+    [
+     "D · Catedral",
+     4343917
+    ],
+    [
+     "B · Carlos Pellegrini",
+     3902937
+    ],
+    [
+     "D · Juramento",
+     3685334
+    ],
+    [
+     "B · Leandro N. Alem",
+     3541632
+    ],
+    [
+     "B · Callao.B",
+     3537275
+    ],
+    [
+     "A · Plaza de Mayo",
+     3398439
+    ],
+    [
+     "H · Hospitales",
+     3370834
+    ],
+    [
+     "D · Bulnes",
+     3287577
+    ],
+    [
+     "D · Facultad de Medicina",
+     3216932
+    ],
+    [
+     "B · Medrano",
+     3178225
+    ],
+    [
+     "A · Acoyte",
+     3104096
+    ],
+    [
+     "B · Malabia",
+     3046991
+    ],
+    [
+     "D · Palermo",
+     2973416
+    ],
+    [
+     "B · Angel Gallardo",
+     2876383
+    ],
+    [
+     "A · Primera Junta",
+     2775442
+    ],
+    [
+     "H · Once",
+     2755715
+    ],
+    [
+     "A · Plaza Miserere",
+     2713095
+    ],
+    [
+     "A · Flores",
+     2684674
+    ],
+    [
+     "B · Dorrego",
+     2528992
+    ],
+    [
+     "B · Florida",
+     2508797
+    ],
+    [
+     "H · Patricios",
+     2459859
+    ],
+    [
+     "D · Jose Hernandez",
+     2449728
+    ],
+    [
+     "H · Santa Fe",
+     2413106
+    ],
+    [
+     "D · Ministro Carranza",
+     2411042
+    ],
+    [
+     "D · Olleros",
+     2405348
+    ],
+    [
+     "B · Pasteur",
+     2378774
+    ],
+    [
+     "A · Carabobo",
+     2362676
+    ],
+    [
+     "D · Tribunales",
+     2310227
+    ],
+    [
+     "D · Scalabrini Ortiz",
+     2309601
+    ],
+    [
+     "B · Carlos Gardel",
+     2295242
+    ],
+    [
+     "H · Las Heras",
+     2282630
+    ],
+    [
+     "A · Castro Barros",
+     2216467
+    ],
+    [
+     "E · Bolivar",
+     2156999
+    ],
+    [
+     "E · Pza. de los Virreyes",
+     2135236
+    ],
+    [
+     "A · Congreso",
+     1993742
+    ],
+    [
+     "A · Saenz Peña",
+     1953644
+    ],
+    [
+     "A · Peru",
+     1924011
+    ],
+    [
+     "B · Los Incas",
+     1831732
+    ],
+    [
+     "D · Callao",
+     1804077
+    ],
+    [
+     "A · Rio de Janeiro",
+     1737717
+    ],
+    [
+     "D · Pueyrredon.D",
+     1712865
+    ],
+    [
+     "H · Venezuela",
+     1706080
+    ],
+    [
+     "B · Uruguay",
+     1705784
+    ],
+    [
+     "D · Plaza Italia",
+     1675753
+    ],
+    [
+     "H · Cordoba",
+     1658734
+    ],
+    [
+     "H · Caseros",
+     1603210
+    ],
+    [
+     "E · Independencia.H",
+     1522600
+    ],
+    [
+     "A · Puan",
+     1521603
+    ],
+    [
+     "E · Correo Central",
+     1513986
+    ],
+    [
+     "H · Facultad de Derecho",
+     1478360
+    ],
+    [
+     "A · Piedras",
+     1427533
+    ],
+    [
+     "B · Echeverria",
+     1345063
+    ],
+    [
+     "H · Humberto I",
+     1336592
+    ],
+    [
+     "H · Corrientes",
+     1327070
+    ],
+    [
+     "E · Avenida La Plata",
+     1311185
+    ],
+    [
+     "C · Lavalle",
+     1310537
+    ],
+    [
+     "A · Loria",
+     1291672
+    ],
+    [
+     "E · Boedo",
+     1291165
+    ],
+    [
+     "H · Inclan",
+     1231784
+    ],
+    [
+     "B · Pueyrredon",
+     1219655
+    ],
+    [
+     "D · Agüero",
+     1207335
+    ],
+    [
+     "A · Alberti",
+     1202838
+    ],
+    [
+     "E · Catalinas",
+     1169593
+    ],
+    [
+     "B · Tronador",
+     1141819
+    ],
+    [
+     "E · Emilio Mitre",
+     1136393
+    ],
+    [
+     "C · Diagonal Norte",
+     1072768
+    ],
+    [
+     "E · Jose Maria Moreno",
+     1062632
+    ],
+    [
+     "C · Mariano Moreno",
+     1045250
+    ],
+    [
+     "C · General San Martin",
+     1022306
+    ],
+    [
+     "C · Independencia",
+     1005599
+    ],
+    [
+     "C · San Juan",
+     993697
+    ],
+    [
+     "E · Entre Rios",
+     986436
+    ],
+    [
+     "D · 9 de julio",
+     972213
+    ],
+    [
+     "C · Retiro.C",
+     953481
+    ],
+    [
+     "A · Lima",
+     937875
+    ],
+    [
+     "E · Urquiza",
+     907540
+    ],
+    [
+     "E · General Belgrano",
+     868821
+    ],
+    [
+     "D · Callao.D",
+     825926
+    ],
+    [
+     "C · Avenida de Mayo",
+     787109
+    ],
+    [
+     "E · Retiro E",
+     742833
+    ],
+    [
+     "E · Jujuy",
+     702746
+    ],
+    [
+     "E · Independencia.E",
+     699377
+    ],
+    [
+     "E · San Jose",
+     697677
+    ],
+    [
+     "E · Pichincha",
+     641148
+    ],
+    [
+     "E · Varela",
+     598678
+    ],
+    [
+     "A · Pasco",
+     596447
+    ],
+    [
+     "E · Medalla Milagrosa",
+     531300
+    ],
+    [
+     "B · Pueyrredon.B",
+     462277
+    ],
+    [
+     "C · Independencia.C",
+     393159
+    ],
+    [
+     "E · Retiro.E",
+     276742
+    ],
+    [
+     "PM · Saguier",
+     113455
+    ],
+    [
+     "PM · CochePM",
+     43880
+    ],
+    [
+     "D · 9 de Julio",
+     10955
+    ],
+    [
+     "B · Loria",
+     33
+    ],
+    [
+     "H · Loria",
+     18
+    ],
+    [
+     "D · Loria",
+     14
+    ],
+    [
+     "E · Loria",
+     12
+    ],
+    [
+     "H · sin dato",
+     9
+    ],
+    [
+     "C · Loria",
+     3
+    ]
+   ],
+   "fuente": "ba_subte_molinetes",
+   "unidad": "pasajeros en el año (línea · estación, nombre como viene en el crudo)",
+   "vigencia": "2025"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_subte_molinetes",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Subte: Viajes Molinetes.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/subte-viajes-molinetes"
+  }
+ ],
+ "nota": "Cuenta validaciones en molinetes (pagos, pases y franquicias), no personas distintas. Los trasbordos entre líneas no pasan por molinete y no se cuentan. El Premetro (PM) solo aparece en junio y julio y se excluye del total de subte. Los nombres de estación vienen como en el crudo (p. ej. «Loria» figura con pocas validaciones en líneas que no son la A) y no están cruzados con lago/geo/subte_estaciones. Agosto mezcla fechas d/m y m/d: el mes se toma del nombre del archivo. Frente a 2019 (341 M según geoinfraestructura) el total 2025 es ~60 %: no se contrastó con una cifra oficial de SBASE para 2025.",
+ "probado": "2026-10-06",
+ "series": {
+  "pasajeros_linea_A": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     2614441
+    ],
+    [
+     "2025-02",
+     2694868
+    ],
+    [
+     "2025-03",
+     3091352
+    ],
+    [
+     "2025-04",
+     3396739
+    ],
+    [
+     "2025-05",
+     3638417
+    ],
+    [
+     "2025-06",
+     3538186
+    ],
+    [
+     "2025-07",
+     3760471
+    ],
+    [
+     "2025-08",
+     3623381
+    ],
+    [
+     "2025-09",
+     3836184
+    ],
+    [
+     "2025-10",
+     3705851
+    ],
+    [
+     "2025-11",
+     3088160
+    ],
+    [
+     "2025-12",
+     3114047
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_B": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     3061361
+    ],
+    [
+     "2025-02",
+     3133761
+    ],
+    [
+     "2025-03",
+     3576133
+    ],
+    [
+     "2025-04",
+     3947153
+    ],
+    [
+     "2025-05",
+     4395785
+    ],
+    [
+     "2025-06",
+     4347068
+    ],
+    [
+     "2025-07",
+     4813278
+    ],
+    [
+     "2025-08",
+     4529836
+    ],
+    [
+     "2025-09",
+     4504799
+    ],
+    [
+     "2025-10",
+     4354297
+    ],
+    [
+     "2025-11",
+     3931223
+    ],
+    [
+     "2025-12",
+     3830156
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_C": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     2092353
+    ],
+    [
+     "2025-02",
+     2020859
+    ],
+    [
+     "2025-03",
+     2241262
+    ],
+    [
+     "2025-04",
+     2506005
+    ],
+    [
+     "2025-05",
+     2668559
+    ],
+    [
+     "2025-06",
+     2521388
+    ],
+    [
+     "2025-07",
+     2717997
+    ],
+    [
+     "2025-08",
+     2590940
+    ],
+    [
+     "2025-09",
+     2674468
+    ],
+    [
+     "2025-10",
+     2720816
+    ],
+    [
+     "2025-11",
+     2429025
+    ],
+    [
+     "2025-12",
+     2372097
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_D": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     2316094
+    ],
+    [
+     "2025-02",
+     2618502
+    ],
+    [
+     "2025-03",
+     3321482
+    ],
+    [
+     "2025-04",
+     3820463
+    ],
+    [
+     "2025-05",
+     4116549
+    ],
+    [
+     "2025-06",
+     3912091
+    ],
+    [
+     "2025-07",
+     4235300
+    ],
+    [
+     "2025-08",
+     4057085
+    ],
+    [
+     "2025-09",
+     4180175
+    ],
+    [
+     "2025-10",
+     4171503
+    ],
+    [
+     "2025-11",
+     3684377
+    ],
+    [
+     "2025-12",
+     3365604
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_E": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     1223971
+    ],
+    [
+     "2025-02",
+     1284222
+    ],
+    [
+     "2025-03",
+     1621926
+    ],
+    [
+     "2025-04",
+     1809675
+    ],
+    [
+     "2025-05",
+     1944415
+    ],
+    [
+     "2025-06",
+     1884940
+    ],
+    [
+     "2025-07",
+     1834442
+    ],
+    [
+     "2025-08",
+     1922152
+    ],
+    [
+     "2025-09",
+     2055326
+    ],
+    [
+     "2025-10",
+     2043769
+    ],
+    [
+     "2025-11",
+     1769668
+    ],
+    [
+     "2025-12",
+     1558593
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_H": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-01",
+     1264659
+    ],
+    [
+     "2025-02",
+     1300237
+    ],
+    [
+     "2025-03",
+     1696327
+    ],
+    [
+     "2025-04",
+     1920430
+    ],
+    [
+     "2025-05",
+     2176396
+    ],
+    [
+     "2025-06",
+     2094039
+    ],
+    [
+     "2025-07",
+     2244578
+    ],
+    [
+     "2025-08",
+     2204341
+    ],
+    [
+     "2025-09",
+     2364994
+    ],
+    [
+     "2025-10",
+     2381064
+    ],
+    [
+     "2025-11",
+     2051362
+    ],
+    [
+     "2025-12",
+     1925574
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  },
+  "pasajeros_linea_PM": {
+   "fuente": "ba_subte_molinetes",
+   "puntos": [
+    [
+     "2025-06",
+     73375
+    ],
+    [
+     "2025-07",
+     83960
+    ]
+   ],
+   "unidad": "pasajeros por mes (molinetes)"
+  }
+ },
+ "tema": "subte_molinetes"
+}

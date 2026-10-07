@@ -1,0 +1,336 @@
+{
+ "campos": [
+  "fid",
+  "FUNCION_PRINCIPAL",
+  "SUBCATEGORIA",
+  "ESTABLECIMIENTO",
+  "FUNCION_SECUNDARIA",
+  "PROGRAMACION",
+  "SUCURSAL",
+  "SALA",
+  "CALLE",
+  "ALTURA",
+  "BARRIO",
+  "COMUNA",
+  "DIRECCION",
+  "LONGITUD",
+  "LATITUD",
+  "TELEFONO",
+  "MAIL",
+  "WEB",
+  "",
+  "FACEBOOK",
+  "TWITTER",
+  "INSTAGRAM",
+  "CAMARA_1",
+  "CAMARA_2",
+  "REDES",
+  "PUNTO_DE_CULTURA",
+  "OTRAS_REDES",
+  "CANTIDAD_SALAS",
+  "CAPACIDAD_TOTAL",
+  "TAG"
+ ],
+ "cifras": {
+  "registros": {
+   "fuente": "ba_espacios_culturales",
+   "unidad": "espacios culturales",
+   "valor": 3053,
+   "vigencia": "2026-06"
+  }
+ },
+ "desgloses": {
+  "por_barrio": {
+   "filas": [
+    [
+     "SAN NICOLAS",
+     369
+    ],
+    [
+     "RECOLETA",
+     321
+    ],
+    [
+     "PALERMO",
+     295
+    ],
+    [
+     "MONSERRAT",
+     247
+    ],
+    [
+     "BALVANERA",
+     225
+    ],
+    [
+     "RETIRO",
+     156
+    ],
+    [
+     "ALMAGRO",
+     150
+    ],
+    [
+     "SAN TELMO",
+     118
+    ],
+    [
+     "VILLA CRESPO",
+     107
+    ],
+    [
+     "CABALLITO",
+     105
+    ],
+    [
+     "BELGRANO",
+     104
+    ],
+    [
+     "BOCA",
+     69
+    ],
+    [
+     "CHACARITA",
+     66
+    ],
+    [
+     "BARRACAS",
+     55
+    ],
+    [
+     "FLORES",
+     53
+    ],
+    [
+     "BOEDO",
+     50
+    ],
+    [
+     "PARQUE PATRICIOS",
+     40
+    ],
+    [
+     "VILLA URQUIZA",
+     34
+    ],
+    [
+     "NUÑEZ",
+     33
+    ],
+    [
+     "MATADEROS",
+     31
+    ],
+    [
+     "CONSTITUCION",
+     30
+    ],
+    [
+     "SAN CRISTOBAL",
+     28
+    ],
+    [
+     "COLEGIALES",
+     27
+    ],
+    [
+     "SAAVEDRA",
+     27
+    ],
+    [
+     "PARQUE CHACABUCO",
+     22
+    ],
+    [
+     "PATERNAL",
+     22
+    ],
+    [
+     "NUEVA POMPEYA",
+     21
+    ],
+    [
+     "VILLA DEVOTO",
+     21
+    ],
+    [
+     "VILLA GRAL. MITRE",
+     21
+    ],
+    [
+     "PARQUE AVELLANEDA",
+     19
+    ],
+    [
+     "PUERTO MADERO",
+     18
+    ],
+    [
+     "VILLA LUGANO",
+     18
+    ],
+    [
+     "VILLA DEL PARQUE",
+     17
+    ],
+    [
+     "VILLA ORTUZAR",
+     15
+    ],
+    [
+     "FLORESTA",
+     14
+    ],
+    [
+     "LINIERS",
+     14
+    ],
+    [
+     "MONTE CASTRO",
+     12
+    ],
+    [
+     "VELEZ SARSFIELD",
+     11
+    ],
+    [
+     "VILLA PUEYRREDON",
+     10
+    ],
+    [
+     "AGRONOMIA",
+     9
+    ],
+    [
+     "VILLA LURO",
+     9
+    ],
+    [
+     "VILLA SANTA RITA",
+     9
+    ],
+    [
+     "COGHLAN",
+     8
+    ],
+    [
+     "PARQUE CHAS",
+     6
+    ],
+    [
+     "VILLA REAL",
+     5
+    ],
+    [
+     "VILLA SOLDATI",
+     5
+    ],
+    [
+     "VERSALLES",
+     3
+    ],
+    [
+     "VILLA RIACHUELO",
+     3
+    ],
+    [
+     "NA",
+     1
+    ]
+   ],
+   "fuente": "ba_espacios_culturales",
+   "unidad": "espacios culturales",
+   "vigencia": "2026-06"
+  },
+  "por_funcion_principal": {
+   "filas": [
+    [
+     "BIBLIOTECA",
+     619
+    ],
+    [
+     "CENTRO CULTURAL",
+     436
+    ],
+    [
+     "LIBRERIA",
+     371
+    ],
+    [
+     "SALA DE TEATRO",
+     311
+    ],
+    [
+     "MONUMENTOS Y LUGARES HISTORICOS",
+     304
+    ],
+    [
+     "BAR",
+     253
+    ],
+    [
+     "MUSEO",
+     176
+    ],
+    [
+     "ESPACIO DE FORMACION",
+     167
+    ],
+    [
+     "GALERIA DE ARTE",
+     165
+    ],
+    [
+     "DISQUERIA",
+     62
+    ],
+    [
+     "CALESITA",
+     49
+    ],
+    [
+     "CLUB DE MUSICA EN VIVO",
+     48
+    ],
+    [
+     "ESPACIO FERIAL",
+     39
+    ],
+    [
+     "ANFITEATRO",
+     29
+    ],
+    [
+     "SALA DE CINE",
+     22
+    ],
+    [
+     "CLUB DE MUSICA EN VIVO - NUEVO",
+     2
+    ]
+   ],
+   "fuente": "ba_espacios_culturales",
+   "unidad": "espacios culturales",
+   "vigencia": "2026-06"
+  }
+ },
+ "fuentes": [
+  {
+   "estado": "vivo",
+   "id": "ba_espacios_culturales",
+   "licencia": "CC-BY-2.5-AR",
+   "nombre": "Espacios culturales.",
+   "url": "https://data.buenosaires.gob.ar/km/dataset/espacios-culturales"
+  }
+ ],
+ "nota": "vigencia = mes de la última modificación del conjunto en el portal",
+ "probado": "2026-10-06",
+ "recurso": {
+  "formato": "CSV",
+  "nombre": "Espacios culturales (CSV)",
+  "url": "https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-cultura/espacios-culturales/espacios-culturales.csv"
+ },
+ "series": {},
+ "tema": "cultura"
+}
