@@ -5,8 +5,9 @@ import glob, json, re, sys
 fallos = 0
 DIA = re.compile(r"\d{4}-\d{2}-\d{2}")
 MES = re.compile(r"\d{4}(-\d{2})?")
-PII = re.compile(r"[\w.+-]+@[\w-]+\.[a-z]{2,}|(?<!\d)3\d{9}(?!\d)"  # correos y celulares colombianos (plantilla)
-                 r"|(?<!\d)(?:\+?54[\s-]?9[\s-]?|0)?(?:11|15)[\s-]?\d{4}[\s-]?\d{4}(?!\d)")  # celulares argentinos
+PII = re.compile(r"[\w.+-]+@[\w-]+\.[a-z]{2,}"  # correos (también en mayúsculas)
+                 r"|(?<!\d)(?:\+?54[\s-]?9?[\s-]?)?(?:11|15)[\s-]?\d{4}[\s-]?\d{4}(?!\d)"  # celulares argentinos
+                 r"|(?<![\d.-])[4-6]\d{3}[\s-]\d{4}(?!\d)", re.I)  # fijos de 8 dígitos de Buenos Aires: 4982-2106
 CAMPOS_PERSONALES = re.compile(r"cedula|dni|documento_identidad|telefono|celular|correo|email", re.I)
 
 

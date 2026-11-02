@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gemelo digital · Buenos Aires</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2718%27 fill=%27%230b0f17%27/%3E%3Cpath d=%27M20 70V45l20-12v37M45 70V25l22 10v35M72 70V50l10 4v16%27 fill=%27none%27 stroke=%27%235eead4%27 stroke-width=%278%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="estilo.css">
+</head><body>
+<div class="app">
+<aside id="lateral">
+  <div class="marca"><b>Gemelo digital</b><span>Buenos Aires · sistema de información</span></div>
+  <nav id="temas" aria-label="Categorías de datos"></nav>
+  <div id="clima" class="clima" title="Open-Meteo, en vivo">Clima ahora…</div>
+  <div class="autores">Tópicos de Sistemas de Información<br>Jacobo Montes Castaño<br>Carlos Restrepo</div>
+</aside>
+<div class="cuerpo">
+<main>
+  <section id="vista"></section>
+  <aside id="mapa-card" class="card">
+    <div id="map"></div>
+    <div id="ayuda-mapa">Arrastra para mover · rueda para acercar · clic derecho o Ctrl + arrastrar para girar e inclinar</div>
+    <div class="capas">
+      <label class="sw"><input type="checkbox" id="c-bici"><i></i>EcoBici <em class="vivo">EN VIVO</em></label>
+      <label class="sw"><input type="checkbox" id="c-subte"><i></i>Subte</label>
+      <label class="sw"><input type="checkbox" id="c-edif"><i></i>Edificios 3D</label>
+      <label class="sw" title="La API de Transporte (tránsito y subte en tiempo real) exige una clave y responde 401 sin ella. Una clave no puede ir en el JavaScript del navegador: haría falta una función en el servidor."><input type="checkbox" disabled><i></i>Tráfico <em class="nodisp">requiere clave</em></label>
+    </div>
+    <div id="leyenda"></div>
+    <div id="vivo-pie"></div>
+  </aside>
+</main>
+<footer>Datos: lago del proyecto (portales abiertos del GCBA, DGEyC, Open-Meteo). Cada cifra muestra su fuente, vigencia y fecha de prueba.</footer>
+</div>
+</div>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
+<script src="app.js"></script>
+</body></html>

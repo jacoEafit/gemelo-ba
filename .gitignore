@@ -1,5 +1,5 @@
 lago/raw/
 __pycache__/
 
-# Registro literal de sesiones de IA: trae rutas locales con nombres de usuario; queda solo en la máquina
-registro/*.jsonl
+web/*.pmtiles
+web/datos/

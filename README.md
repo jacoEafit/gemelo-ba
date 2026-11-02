@@ -7,7 +7,8 @@ Lago de datos de Buenos Aires.
 - Un `ingesta/pull_<tema>.py` por tema. Añade `--curar` para no descargar.
 - `ingesta/excel_fuentes.py` regenera `fuentes_gemelo_buenos_aires.xlsx` desde el lago (requiere `openpyxl`).
 - Entrega 1 (lago y diccionario): `entrega/Diccionario_de_datos_Buenos_Aires.xlsx` y `entrega/Preguntas_por_que_estos_datos_Buenos_Aires.docx`. Se generaron desde el lago con scripts que siguen en el historial de git (commit 84220ea: `entrega/generar_*.py`).
-- 22 temas y 30 fuentes vivas (ver el Excel). Contrato en `contrato/CONTRATO.md`; historial de decisiones en `registro/conversacion.md`.
+- Página 3D (`web/`): `make serve` (lago + mapa por categoría, EcoBici y clima en vivo); `make tiles` baja el Tejido Urbano (~1 GB) y genera `web/edificios.pmtiles` (requiere tippecanoe).
+- 22 temas y 30 fuentes vivas (ver el Excel). Contrato en `contrato/CONTRATO.md`.
 - Pendientes: sensores en vivo (API de Transporte suspendida por el portal, 2026-10-06), geometrías 3D de edificios (alturas por barrio ya en `edificios`;
   la capa de ~1 GB va a GeoParquet/PMTiles, ver contrato),
   población 2022 por barrio (no hay radios 2022 en datos abiertos), reclamos (los CSV anuales pesan 100-277 MB; candidata: «Solicitudes por barrio», ya agregada, 2,7 MB).
