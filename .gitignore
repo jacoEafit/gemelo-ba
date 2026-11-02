@@ -1,5 +1,4 @@
 lago/raw/
 __pycache__/
 
-web/*.pmtiles
 web/datos/
